@@ -8,12 +8,12 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/love/index.vue?vue&type=template&id=049aeb47&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container left-main\" data-v-049aeb47>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-049aeb47>","</div>",[_vm._ssrNode("<div class=\"main-content\" data-v-049aeb47>","</div>",[_c('topic-list',{attrs:{"topics":_vm.topicsPage.results,"show-ad":true}}),_vm._ssrNode(" "),_c('pagination',{attrs:{"page":_vm.topicsPage.page,"url-prefix":"/love?p="}})],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right-container\" data-v-049aeb47>","</div>",[_c('site-notice'),_vm._ssrNode(" "),_c('tweets-widget',{attrs:{"tweets":_vm.newestTweets}}),_vm._ssrNode(" "),_c('score-rank',{attrs:{"score-rank":_vm.scoreRank}}),_vm._ssrNode(" "),_c('friend-links',{attrs:{"links":_vm.links}})],2)],2)])}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/love/index.vue?vue&type=template&id=0ffb5f30&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container left-main\" data-v-0ffb5f30>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-0ffb5f30>","</div>",[_vm._ssrNode("<div class=\"main-content\" data-v-0ffb5f30>","</div>",[_c('topic-list',{attrs:{"topics":_vm.topicsPage.results,"show-ad":true}}),_vm._ssrNode(" "),_c('pagination',{attrs:{"page":_vm.topicsPage.page,"url-prefix":"/love?p="}})],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right-container\" data-v-0ffb5f30>","</div>",[_c('site-notice'),_vm._ssrNode(" "),_c('tweets-widget',{attrs:{"tweets":_vm.newestTweets}}),_vm._ssrNode(" "),_c('score-rank',{attrs:{"score-rank":_vm.scoreRank}}),_vm._ssrNode(" "),_c('friend-links',{attrs:{"links":_vm.links}})],2)],2)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/love/index.vue?vue&type=template&id=049aeb47&scoped=true&
+// CONCATENATED MODULE: ./pages/love/index.vue?vue&type=template&id=0ffb5f30&scoped=true&
 
 // EXTERNAL MODULE: ./components/SiteNotice.vue + 4 modules
 var SiteNotice = __webpack_require__(42);
@@ -103,7 +103,7 @@ var utils = __webpack_require__(33);
   methods: {
     twitterCreated(data) {
       if (this.topicsPage) {
-        if (this.topicsPage.results && this.topicsPage.results != undefined) {
+        if (this.topicsPage.results) {
           this.topicsPage.results.unshift(data);
         } else {
           this.topicsPage.results = [data];
@@ -151,7 +151,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "049aeb47",
+  "0ffb5f30",
   "f52202c8"
   
 )
