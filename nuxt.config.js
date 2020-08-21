@@ -127,6 +127,7 @@ export default {
    ** Build configuration
    */
   build: {
+    publicPath: '/dist/',
     // publicPath: 'https://file.mlog.club/static/nuxtclient/',
     optimizeCSS: true,
     extractCSS: process.env.NODE_ENV === 'production',
