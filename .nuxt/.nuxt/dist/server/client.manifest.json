@@ -1,12 +1,12 @@
 {
-  "publicPath": "/dist/",
+  "publicPath": "/_nuxt/",
   "all": [
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
     "app/01d99f6b.4c485f9.css",
     "app/01d99f6b.d7ef42c.js",
-    "app/01e7b97c.47ed325.css",
+    "app/01e7b97c.0552916.css",
     "app/01e7b97c.7f66f63.js",
     "app/31ecd969.05246a8.js",
     "app/5f22ffbd.00a4348.js",
@@ -148,13 +148,13 @@
     "pages/user/settings/f075b844.973d9a5.css",
     "pages/user/signin/f075b844.ab2eae9.js",
     "pages/user/signup/f075b844.8d2e410.js",
-    "runtime.f1fbc9f.js"
+    "runtime.5b11e9e.js"
   ],
   "initial": [
-    "runtime.f1fbc9f.js",
+    "runtime.5b11e9e.js",
     "app/f69643ec.6a6aabb.css",
     "app/f69643ec.f728d0c.js",
-    "app/01e7b97c.47ed325.css",
+    "app/01e7b97c.0552916.css",
     "app/01e7b97c.7f66f63.js",
     "app/01d99f6b.4c485f9.css",
     "app/01d99f6b.d7ef42c.js",
@@ -3810,7 +3810,7 @@
       "pages/user/signup/f075b844.8d2e410.js"
     ],
     "6fca0322": [
-      "runtime.f1fbc9f.js"
+      "runtime.5b11e9e.js"
     ]
   }
 }
