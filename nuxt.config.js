@@ -111,7 +111,7 @@ export default {
   },
 
   proxy: {
-    '/api/': 'https://127.0.0.1:8080'
+    '/api/': 'https://sharevideo.cn'
     // '/api/': 'https://mlog.club'
   },
 
