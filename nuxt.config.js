@@ -111,7 +111,7 @@ export default {
   },
 
   proxy: {
-    '/api/': 'http://127.0.0.1:8080'
+    '/api/': 'http://127.0.0.1:8082'
     // '/api/': 'https://mlog.club'
   },
 
