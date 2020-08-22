@@ -52,15 +52,15 @@ export default {
         type: 'application/atom+xml',
         title: '最新开源项目',
         href: '/project_atom.xml'
-      },
-      {
-        rel: 'stylesheet',
-        href: '//cdn.staticfile.org/bulma/0.8.0/css/bulma.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: '//at.alicdn.com/t/font_1142441_bu6x3hdokz.css'
       }
+      // {
+      //   rel: 'stylesheet',
+      //   href: '//cdn.staticfile.org/bulma/0.8.0/css/bulma.min.css'
+      // },
+      // {
+      //   rel: 'stylesheet',
+      //   href: '//at.alicdn.com/t/font_1142441_bu6x3hdokz.css'
+      // }
     ]
   },
   /*
