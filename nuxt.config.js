@@ -7,7 +7,6 @@ export default {
     }
   },
   mode: 'universal',
-  // mode: 'spa',
   /*
    ** Headers of the page
    */
@@ -17,6 +16,9 @@ export default {
     },
     title: '',
     script: [
+      {
+        src: '/js/bulma-steps.js'
+      },
       {
         src: '/js/bulma-steps.min.js'
       }
@@ -142,10 +144,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, { isDev, isClient }) {
-      if (isClient && !isDev) {
-        config.optimization.splitChunks.maxSize = 250000
-      }
-    }
+    extend(config, ctx) {}
   }
 }
