@@ -444,7 +444,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./pages/admin/topics/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var admin_topicsvue_type_script_lang_js_ = (topicsvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/admin/topics/index.vue
 
@@ -466,7 +466,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "7d2f4177",
-  "e249fce4"
+  "25e42dd4"
   
 )
 

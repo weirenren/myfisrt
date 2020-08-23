@@ -110,7 +110,7 @@ var utils = __webpack_require__(33);
 // CONCATENATED MODULE: ./pages/user/qq/callback.vue?vue&type=script&lang=js&
  /* harmony default export */ var qq_callbackvue_type_script_lang_js_ = (callbackvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/user/qq/callback.vue
 
@@ -132,7 +132,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "79adfffc",
-  "746c00f7"
+  "4bc32a7f"
   
 )
 
@@ -215,9 +215,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 

@@ -322,7 +322,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./pages/admin/links/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var admin_linksvue_type_script_lang_js_ = (linksvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/admin/links/index.vue
 
@@ -344,7 +344,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "77d83ef1",
-  "183cbf65"
+  "2bcac6dd"
   
 )
 

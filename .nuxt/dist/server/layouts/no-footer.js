@@ -45,7 +45,7 @@ var external_js_cookie_default = /*#__PURE__*/__webpack_require__.n(external_js_
 var utils = __webpack_require__(33);
 
 // EXTERNAL MODULE: ./common/UserHelper.js
-var UserHelper = __webpack_require__(8);
+var UserHelper = __webpack_require__(9);
 
 // CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/MsgNotice.vue?vue&type=template&id=5f1a43d8&scoped=true&
 var MsgNoticevue_type_template_id_5f1a43d8_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navbar-item dropdown is-hoverable is-right msg-notice"},[_vm._ssrNode("<div class=\"dropdown-trigger\" data-v-5f1a43d8><a href=\"/user/messages\" title=\"消息\""+(_vm._ssrClass("msgicon",{ 'msg-flicker': _vm.msgcount > 0 }))+" data-v-5f1a43d8><i class=\"iconfont icon-bell\" data-v-5f1a43d8></i> "+((_vm.msgcount > 0)?("<sup data-v-5f1a43d8>"+_vm._ssrEscape(_vm._s(_vm.msgcount > 9 ? '9+' : _vm.msgcount))+"</sup>"):"<!---->")+"</a></div> "+((_vm.messages && _vm.messages.length)?("<div class=\"dropdown-menu\" data-v-5f1a43d8><div class=\"dropdown-content msglist-wrapper\" data-v-5f1a43d8><div class=\"msglist\" data-v-5f1a43d8><ul data-v-5f1a43d8>"+(_vm._ssrList((_vm.messages),function(msg){return ("<li class=\"msg-item\" data-v-5f1a43d8><a href=\"/user/messages\" data-v-5f1a43d8>"+_vm._ssrEscape(_vm._s(msg.content))+"</a></li>")}))+"</ul></div> <div class=\"msgfooter\" data-v-5f1a43d8><a href=\"/user/messages\" data-v-5f1a43d8>消息中心&gt;&gt;</a></div></div></div>"):"<!---->"))])}
@@ -118,7 +118,7 @@ var MsgNoticevue_type_template_id_5f1a43d8_scoped_true_staticRenderFns = []
 // CONCATENATED MODULE: ./components/MsgNotice.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_MsgNoticevue_type_script_lang_js_ = (MsgNoticevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/MsgNotice.vue
 
@@ -140,7 +140,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "5f1a43d8",
-  "6b4b4148"
+  "3afe4ae4"
   
 )
 
@@ -374,7 +374,7 @@ var MyNav_component = Object(componentNormalizer["a" /* default */])(
   false,
   MyNav_injectStyles,
   "73041808",
-  "50fb0bfa"
+  "c59c08fc"
   
 )
 
@@ -416,7 +416,7 @@ var MyNav = __webpack_require__(109);
 // CONCATENATED MODULE: ./layouts/no-footer.vue?vue&type=script&lang=js&
  /* harmony default export */ var layouts_no_footervue_type_script_lang_js_ = (no_footervue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./layouts/no-footer.vue
 
@@ -433,7 +433,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5ebf90d5"
+  "cd32db66"
   
 )
 
@@ -516,9 +516,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 

@@ -2,435 +2,435 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/about.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_b6931ac0"
+    "_name": "_597b0012"
   },
   {
     "name": "admin",
     "path": "/admin",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/index.vue",
     "chunkName": "pages/admin/index",
-    "_name": "_7b501665"
+    "_name": "_2b857352"
   },
   {
     "name": "articles",
     "path": "/articles",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/articles/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/articles/index.vue",
     "chunkName": "pages/articles/index",
-    "_name": "_4639d07d"
+    "_name": "_2c0f796a"
   },
   {
     "name": "love",
     "path": "/love",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/love/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/love/index.vue",
     "chunkName": "pages/love/index",
-    "_name": "_70bffc1c"
+    "_name": "_6997e880"
   },
   {
     "name": "redirect",
     "path": "/redirect",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/redirect.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/redirect.vue",
     "chunkName": "pages/redirect",
-    "_name": "_07e50b99"
+    "_name": "_2ced30e7"
   },
   {
     "name": "rents",
     "path": "/rents",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/rents/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/index.vue",
     "chunkName": "pages/rents/index",
-    "_name": "_ff46e4a0"
+    "_name": "_216c84bc"
   },
   {
     "name": "topics",
     "path": "/topics",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/topics/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/index.vue",
     "chunkName": "pages/topics/index",
-    "_name": "_33c79038"
+    "_name": "_54d50632"
   },
   {
     "name": "tweets",
     "path": "/tweets",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/tweets/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tweets/index.vue",
     "chunkName": "pages/tweets/index",
-    "_name": "_6da07d3c"
+    "_name": "_37e88fb0"
   },
   {
     "name": "admin-articles",
     "path": "/admin/articles",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/articles/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/articles/index.vue",
     "chunkName": "pages/admin/articles/index",
-    "_name": "_664a277d"
+    "_name": "_49a2706a"
   },
   {
     "name": "admin-comments",
     "path": "/admin/comments",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/comments/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/comments/index.vue",
     "chunkName": "pages/admin/comments/index",
-    "_name": "_4e0b3a74"
+    "_name": "_7a204a7c"
   },
   {
     "name": "admin-links",
     "path": "/admin/links",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/links/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/links/index.vue",
     "chunkName": "pages/admin/links/index",
-    "_name": "_93d12162"
+    "_name": "_746d3c7e"
   },
   {
     "name": "admin-operate-log",
     "path": "/admin/operate-log",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/operate-log/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/operate-log/index.vue",
     "chunkName": "pages/admin/operate-log/index",
-    "_name": "_bddac75e"
+    "_name": "_cae51d7a"
   },
   {
     "name": "admin-settings",
     "path": "/admin/settings",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/settings/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/settings/index.vue",
     "chunkName": "pages/admin/settings/index",
-    "_name": "_33f569e3"
+    "_name": "_ae4beb9e"
   },
   {
     "name": "admin-tags",
     "path": "/admin/tags",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/tags/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/tags/index.vue",
     "chunkName": "pages/admin/tags/index",
-    "_name": "_2f5e3e4e"
+    "_name": "_d3844fb2"
   },
   {
     "name": "admin-topics",
     "path": "/admin/topics",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/topics/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/topics/index.vue",
     "chunkName": "pages/admin/topics/index",
-    "_name": "_a7536238"
+    "_name": "_da3aaa9c"
   },
   {
     "name": "admin-tweets",
     "path": "/admin/tweets",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/tweets/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/tweets/index.vue",
     "chunkName": "pages/admin/tweets/index",
-    "_name": "_e12c4f3c"
+    "_name": "_75f63430"
   },
   {
     "name": "admin-users",
     "path": "/admin/users",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/users/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/users/index.vue",
     "chunkName": "pages/admin/users/index",
-    "_name": "_f68f5244"
+    "_name": "_d72b6d60"
   },
   {
     "name": "article-create",
     "path": "/article/create",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/article/create.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/article/create.vue",
     "chunkName": "pages/article/create",
-    "_name": "_61bce3b2"
+    "_name": "_057b5680"
   },
   {
     "name": "love-create",
     "path": "/love/create",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/love/create.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/love/create.vue",
     "chunkName": "pages/love/create",
-    "_name": "_5414870c"
+    "_name": "_79fc9204"
   },
   {
     "name": "rent-create",
     "path": "/rent/create",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/rent/create.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rent/create.vue",
     "chunkName": "pages/rent/create",
-    "_name": "_c840be36"
+    "_name": "_0accd0d7"
   },
   {
     "name": "topic-create",
     "path": "/topic/create",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/topic/create.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topic/create.vue",
     "chunkName": "pages/topic/create",
-    "_name": "_019f4b19"
+    "_name": "_70581967"
   },
   {
     "name": "user-favorites",
     "path": "/user/favorites",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/favorites.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/favorites.vue",
     "chunkName": "pages/user/favorites",
-    "_name": "_ca8fece0"
+    "_name": "_3e767c5e"
   },
   {
     "name": "user-messages",
     "path": "/user/messages",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/messages.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/messages.vue",
     "chunkName": "pages/user/messages",
-    "_name": "_15ce35a3"
+    "_name": "_7e2f3115"
   },
   {
     "name": "user-scores",
     "path": "/user/scores",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/scores.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/scores.vue",
     "chunkName": "pages/user/scores",
-    "_name": "_c1298c90"
+    "_name": "_0e5869aa"
   },
   {
     "name": "user-settings",
     "path": "/user/settings",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/settings.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/settings.vue",
     "chunkName": "pages/user/settings",
-    "_name": "_fd76a60c"
+    "_name": "_2cb4af28"
   },
   {
     "name": "user-signin",
     "path": "/user/signin",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/signin.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/signin.vue",
     "chunkName": "pages/user/signin",
-    "_name": "_0cf06cb9"
+    "_name": "_7bdd9cab"
   },
   {
     "name": "user-signup",
     "path": "/user/signup",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/signup.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/signup.vue",
     "chunkName": "pages/user/signup",
-    "_name": "_2186c32f"
+    "_name": "_df1819be"
   },
   {
     "name": "admin-components-UserInfo",
     "path": "/admin/components/UserInfo",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/components/UserInfo.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/components/UserInfo.vue",
     "chunkName": "pages/admin/components/UserInfo",
-    "_name": "_89f70736"
+    "_name": "_411ddcd7"
   },
   {
     "name": "admin-topics-nodes",
     "path": "/admin/topics/nodes",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/topics/nodes.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/topics/nodes.vue",
     "chunkName": "pages/admin/topics/nodes",
-    "_name": "_0d719d7a"
+    "_name": "_4058e5de"
   },
   {
     "name": "admin-users-score",
     "path": "/admin/users/score",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/users/score.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/users/score.vue",
     "chunkName": "pages/admin/users/score",
-    "_name": "_33bf8c9e"
+    "_name": "_43717f10"
   },
   {
     "name": "admin-users-score-log",
     "path": "/admin/users/score-log",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/admin/users/score-log.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/users/score-log.vue",
     "chunkName": "pages/admin/users/score-log",
-    "_name": "_76e25e15"
+    "_name": "_c2dc70f2"
   },
   {
     "name": "rents-node-newest",
     "path": "/rents/node/newest",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/rents/node/newest.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/node/newest.vue",
     "chunkName": "pages/rents/node/newest",
-    "_name": "_0afd4f1e"
+    "_name": "_0a334ae3"
   },
   {
     "name": "rents-node-recommend",
     "path": "/rents/node/recommend",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/rents/node/recommend.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/node/recommend.vue",
     "chunkName": "pages/rents/node/recommend",
-    "_name": "_3325ef81"
+    "_name": "_afeae062"
   },
   {
     "name": "topics-node-newest",
     "path": "/topics/node/newest",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/topics/node/newest.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/node/newest.vue",
     "chunkName": "pages/topics/node/newest",
-    "_name": "_771d8ba5"
+    "_name": "_5da9e773"
   },
   {
     "name": "topics-node-recommend",
     "path": "/topics/node/recommend",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/topics/node/recommend.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/node/recommend.vue",
     "chunkName": "pages/topics/node/recommend",
-    "_name": "_38507fcd"
+    "_name": "_5fffe93f"
   },
   {
     "name": "user-email-verify",
     "path": "/user/email/verify",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/email/verify.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/email/verify.vue",
     "chunkName": "pages/user/email/verify",
-    "_name": "_9ca259ba"
+    "_name": "_7d3e74d6"
   },
   {
     "name": "user-github-callback",
     "path": "/user/github/callback",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/github/callback.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/github/callback.vue",
     "chunkName": "pages/user/github/callback",
-    "_name": "_44a87a6a"
+    "_name": "_8ce5ca90"
   },
   {
     "name": "user-qq-callback",
     "path": "/user/qq/callback",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/qq/callback.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/qq/callback.vue",
     "chunkName": "pages/user/qq/callback",
-    "_name": "_05e6abcd"
+    "_name": "_9858b9ca"
   },
   {
     "name": "article-edit-id",
     "path": "/article/edit/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/article/edit/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/article/edit/_id.vue",
     "chunkName": "pages/article/edit/_id",
-    "_name": "_6cafd22a"
+    "_name": "_77950e39"
   },
   {
     "name": "article-redirect-id",
     "path": "/article/redirect/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/article/redirect/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/article/redirect/_id.vue",
     "chunkName": "pages/article/redirect/_id",
-    "_name": "_87d9a086"
+    "_name": "_30f7d00b"
   },
   {
     "name": "love-edit-id",
     "path": "/love/edit/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/love/edit/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/love/edit/_id.vue",
     "chunkName": "pages/love/edit/_id",
-    "_name": "_f6b76876"
+    "_name": "_25f57192"
   },
   {
     "name": "rent-edit-id",
     "path": "/rent/edit/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/rent/edit/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rent/edit/_id.vue",
     "chunkName": "pages/rent/edit/_id",
-    "_name": "_0610535e"
+    "_name": "_6e714ed0"
   },
   {
     "name": "rents-node-nodeId",
     "path": "/rents/node/:nodeId?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/rents/node/_nodeId.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/node/_nodeId.vue",
     "chunkName": "pages/rents/node/_nodeId",
-    "_name": "_04979c3e"
+    "_name": "_377ee4a2"
   },
   {
     "name": "rents-tag-tagId",
     "path": "/rents/tag/:tagId?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/rents/tag/_tagId.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/tag/_tagId.vue",
     "chunkName": "pages/rents/tag/_tagId",
-    "_name": "_fa6aba06"
+    "_name": "_30b79a4b"
   },
   {
     "name": "topic-edit-id",
     "path": "/topic/edit/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/topic/edit/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topic/edit/_id.vue",
     "chunkName": "pages/topic/edit/_id",
-    "_name": "_0ae37edc"
+    "_name": "_c3669940"
   },
   {
     "name": "topics-node-nodeId",
     "path": "/topics/node/:nodeId?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/topics/node/_nodeId.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/node/_nodeId.vue",
     "chunkName": "pages/topics/node/_nodeId",
-    "_name": "_149e652d"
+    "_name": "_00c4f9c2"
   },
   {
     "name": "topics-tag-tagId",
     "path": "/topics/tag/:tagId?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/topics/tag/_tagId.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/tag/_tagId.vue",
     "chunkName": "pages/topics/tag/_tagId",
-    "_name": "_4d013949"
+    "_name": "_5cb32bbb"
   },
   {
     "name": "article-id",
     "path": "/article/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/article/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/article/_id.vue",
     "chunkName": "pages/article/_id",
-    "_name": "_46712df4"
+    "_name": "_95434434"
   },
   {
     "name": "articles-tagId",
     "path": "/articles/:tagId",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/articles/_tagId.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/articles/_tagId.vue",
     "chunkName": "pages/articles/_tagId",
-    "_name": "_5489d93b"
+    "_name": "_2899c02d"
   },
   {
     "name": "link-id",
     "path": "/link/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/link/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/link/_id.vue",
     "chunkName": "pages/link/_id",
-    "_name": "_7cbcb962"
+    "_name": "_bc7642a0"
   },
   {
     "name": "links-page",
     "path": "/links/:page?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/links/_page.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/links/_page.vue",
     "chunkName": "pages/links/_page",
-    "_name": "_1031aaeb"
+    "_name": "_7f1edadd"
   },
   {
     "name": "love-id",
     "path": "/love/:id",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/love/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/love/_id.vue",
     "chunkName": "pages/love/_id",
-    "_name": "_22c9d8da"
+    "_name": "_47d1fe28"
   },
   {
     "name": "project-id",
     "path": "/project/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/project/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/project/_id.vue",
     "chunkName": "pages/project/_id",
-    "_name": "_2ca5d917"
+    "_name": "_c8d9edee"
   },
   {
     "name": "projects-page",
     "path": "/projects/:page?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/projects/_page.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/projects/_page.vue",
     "chunkName": "pages/projects/_page",
-    "_name": "_0bdb19d4"
+    "_name": "_c45e3438"
   },
   {
     "name": "rent-id",
     "path": "/rent/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/rent/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rent/_id.vue",
     "chunkName": "pages/rent/_id",
-    "_name": "_e48894be"
+    "_name": "_9a784a22"
   },
   {
     "name": "tags-page",
     "path": "/tags/:page?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/tags/_page.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tags/_page.vue",
     "chunkName": "pages/tags/_page",
-    "_name": "_35836316"
+    "_name": "_2e5b4f7a"
   },
   {
     "name": "topic-id",
     "path": "/topic/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/topic/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topic/_id.vue",
     "chunkName": "pages/topic/_id",
-    "_name": "_c7395026"
+    "_name": "_185fdc5f"
   },
   {
     "name": "tweet-id",
     "path": "/tweet/:id?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/tweet/_id.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tweet/_id.vue",
     "chunkName": "pages/tweet/_id",
-    "_name": "_7b826f2f"
+    "_name": "_110218be"
   },
   {
     "name": "user-userId",
     "path": "/user/:userId",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/_userId/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/_userId/index.vue",
     "chunkName": "pages/user/_userId/index",
-    "_name": "_1f42cfe1"
+    "_name": "_05cf2baf"
   },
   {
     "name": "user-userId-articles-page",
     "path": "/user/:userId?/articles/:page?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/_userId/articles/_page.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/_userId/articles/_page.vue",
     "chunkName": "pages/user/_userId/articles/_page",
-    "_name": "_3ca8c3c6"
+    "_name": "_46eeaa0f"
   },
   {
     "name": "user-userId-topics-page",
     "path": "/user/:userId?/topics/:page?",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/user/_userId/topics/_page.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/_userId/topics/_page.vue",
     "chunkName": "pages/user/_userId/topics/_page",
-    "_name": "_f13712f8"
+    "_name": "_0d7dd6f6"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/chao.wei/dev/GitHome/Learn-Pro/BBS/site/pages/index.vue",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_77236536"
+    "_name": "_7932dad7"
   }
 ]

@@ -351,7 +351,7 @@ var PostTweets = __webpack_require__(70);
 // CONCATENATED MODULE: ./pages/rent/create.vue?vue&type=script&lang=js&
  /* harmony default export */ var rent_createvue_type_script_lang_js_ = (createvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/rent/create.vue
 
@@ -371,7 +371,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "3660a717",
-  "d01f8d0a"
+  "5ad18a1a"
   
 )
 
@@ -454,9 +454,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 
@@ -784,7 +784,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/TagInput.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_TagInputvue_type_script_lang_js_ = (TagInputvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/TagInput.vue
 
@@ -806,7 +806,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "cf173526",
-  "663ad9fd"
+  "d9b14516"
   
 )
 
@@ -1121,7 +1121,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/PostTweets.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_PostTweetsvue_type_script_lang_js_ = (PostTweetsvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/PostTweets.vue
 
@@ -1143,7 +1143,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "7c9b27e3",
-  "7940e762"
+  "673911c7"
   
 )
 

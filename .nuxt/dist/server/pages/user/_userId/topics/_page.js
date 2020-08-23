@@ -116,7 +116,7 @@ var UserCenterSidebar = __webpack_require__(64);
 // CONCATENATED MODULE: ./pages/user/_userId/topics/_page.vue?vue&type=script&lang=js&
  /* harmony default export */ var topics_pagevue_type_script_lang_js_ = (_pagevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/user/_userId/topics/_page.vue
 
@@ -136,7 +136,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "708f06ca",
-  "151b509a"
+  "19c66012"
   
 )
 
@@ -219,9 +219,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 
@@ -405,7 +405,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Pagination.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_Paginationvue_type_script_lang_js_ = (Paginationvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/Pagination.vue
 
@@ -427,7 +427,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "a3f55830",
-  "2ec4d9f2"
+  "e711cf02"
   
 )
 
@@ -637,7 +637,7 @@ var utils = __webpack_require__(33);
 // CONCATENATED MODULE: ./components/TopicList.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_TopicListvue_type_script_lang_js_ = (TopicListvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/TopicList.vue
 
@@ -659,7 +659,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "7fc296d3",
-  "1eaee210"
+  "e15a64d0"
   
 )
 
@@ -770,7 +770,7 @@ var PostBtnsvue_type_template_id_2af0916a_scoped_true_staticRenderFns = []
 // CONCATENATED MODULE: ./components/PostBtns.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_PostBtnsvue_type_script_lang_js_ = (PostBtnsvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/PostBtns.vue
 
@@ -792,13 +792,13 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "2af0916a",
-  "98699ef8"
+  "3e909808"
   
 )
 
 /* harmony default export */ var PostBtns = (component.exports);
 // EXTERNAL MODULE: ./common/UserHelper.js
-var UserHelper = __webpack_require__(8);
+var UserHelper = __webpack_require__(9);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/UserCenterSidebar.vue?vue&type=script&lang=js&
 //
@@ -942,7 +942,7 @@ var UserCenterSidebar_component = Object(componentNormalizer["a" /* default */])
   false,
   UserCenterSidebar_injectStyles,
   "3d739100",
-  "2871a85f"
+  "4754e832"
   
 )
 

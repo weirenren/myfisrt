@@ -70,7 +70,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/GithubLogin.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_GithubLoginvue_type_script_lang_js_ = (GithubLoginvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/GithubLogin.vue
 
@@ -90,7 +90,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "60f12e5b",
-  "75e5a4ae"
+  "c737519e"
   
 )
 
@@ -160,7 +160,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/QqLogin.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_QqLoginvue_type_script_lang_js_ = (QqLoginvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/QqLogin.vue
 
@@ -180,7 +180,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "46cf9fdf",
-  "ffd2e4e8"
+  "cb6089d8"
   
 )
 
@@ -412,7 +412,7 @@ var QqLogin = __webpack_require__(111);
 // CONCATENATED MODULE: ./pages/user/signup.vue?vue&type=script&lang=js&
  /* harmony default export */ var user_signupvue_type_script_lang_js_ = (signupvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/user/signup.vue
 
@@ -432,7 +432,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "b364a3c8",
-  "1d975bc5"
+  "583e5d3d"
   
 )
 
@@ -515,9 +515,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 

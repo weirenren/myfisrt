@@ -8,12 +8,12 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/topics/index.vue?vue&type=template&id=3315c0ac&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container left-main\" data-v-3315c0ac>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-3315c0ac>","</div>",[_vm._ssrNode("<div class=\"main-content\" data-v-3315c0ac>","</div>",[_c('topics-nav',{attrs:{"nodes":_vm.nodes}}),_vm._ssrNode(" "),_c('topic-list',{attrs:{"topics":_vm.topicsPage.results,"show-ad":true}}),_vm._ssrNode(" "),_c('pagination',{attrs:{"page":_vm.topicsPage.page,"url-prefix":"/topics?p="}})],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right-container\" data-v-3315c0ac>","</div>",[_c('site-notice'),_vm._ssrNode(" "),_c('tweets-widget',{attrs:{"tweets":_vm.newestTweets}}),_vm._ssrNode(" "),_c('score-rank',{attrs:{"score-rank":_vm.scoreRank}}),_vm._ssrNode(" "),_c('friend-links',{attrs:{"links":_vm.links}})],2)],2)])}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/topics/index.vue?vue&type=template&id=102de8a1&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container left-main\" data-v-102de8a1>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-102de8a1>","</div>",[_vm._ssrNode("<div class=\"main-content\" data-v-102de8a1>","</div>",[_c('topics-nav',{attrs:{"nodes":_vm.nodes}}),_vm._ssrNode(" "),_c('topic-list',{attrs:{"topics":_vm.topicsPage.results,"show-ad":true}}),_vm._ssrNode(" "),_c('pagination',{attrs:{"page":_vm.topicsPage.page,"url-prefix":"/topics?p="}})],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right-container\" data-v-102de8a1>","</div>",[_c('site-notice'),_vm._ssrNode(" "),_c('tweets-widget',{attrs:{"tweets":_vm.newestTweets}}),_vm._ssrNode(" "),_c('score-rank',{attrs:{"score-rank":_vm.scoreRank}}),_vm._ssrNode(" "),_c('friend-links',{attrs:{"links":_vm.links}})],2)],2)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/topics/index.vue?vue&type=template&id=3315c0ac&scoped=true&
+// CONCATENATED MODULE: ./pages/topics/index.vue?vue&type=template&id=102de8a1&scoped=true&
 
 // EXTERNAL MODULE: ./components/SiteNotice.vue + 4 modules
 var SiteNotice = __webpack_require__(42);
@@ -112,7 +112,7 @@ var Pagination = __webpack_require__(43);
 
   head() {
     return {
-      title: this.$siteTitle('话题'),
+      title: this.$siteTitle('90社区——专注于城市白领的社区部落'),
       meta: [{
         hid: 'description',
         name: 'description',
@@ -129,7 +129,7 @@ var Pagination = __webpack_require__(43);
 // CONCATENATED MODULE: ./pages/topics/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var pages_topicsvue_type_script_lang_js_ = (topicsvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/topics/index.vue
 
@@ -148,8 +148,8 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "3315c0ac",
-  "6c1eb20e"
+  "102de8a1",
+  "f35040d4"
   
 )
 
@@ -232,9 +232,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 
@@ -355,7 +355,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/SiteNotice.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_SiteNoticevue_type_script_lang_js_ = (SiteNoticevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/SiteNotice.vue
 
@@ -377,7 +377,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "05bf6a1c",
-  "df4e9c28"
+  "34323764"
   
 )
 
@@ -529,7 +529,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Pagination.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_Paginationvue_type_script_lang_js_ = (Paginationvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/Pagination.vue
 
@@ -551,7 +551,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "a3f55830",
-  "2ec4d9f2"
+  "e711cf02"
   
 )
 
@@ -645,7 +645,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/ScoreRank.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_ScoreRankvue_type_script_lang_js_ = (ScoreRankvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/ScoreRank.vue
 
@@ -667,7 +667,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "1a6c8d5c",
-  "85c135fe"
+  "2dc35089"
   
 )
 
@@ -847,7 +847,7 @@ var utils = __webpack_require__(33);
 // CONCATENATED MODULE: ./components/TopicList.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_TopicListvue_type_script_lang_js_ = (TopicListvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/TopicList.vue
 
@@ -869,7 +869,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "7fc296d3",
-  "1eaee210"
+  "e15a64d0"
   
 )
 
@@ -937,7 +937,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/FriendLinks.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_FriendLinksvue_type_script_lang_js_ = (FriendLinksvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/FriendLinks.vue
 
@@ -957,7 +957,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "38bbb6a6",
-  "3b634cc4"
+  "8cb4f9b4"
   
 )
 
@@ -1031,7 +1031,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/TweetsWidget.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_TweetsWidgetvue_type_script_lang_js_ = (TweetsWidgetvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/TweetsWidget.vue
 
@@ -1053,7 +1053,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "3c588afe",
-  "67725133"
+  "7b0058ab"
   
 )
 
@@ -1134,7 +1134,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/TopicsNav.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_TopicsNavvue_type_script_lang_js_ = (TopicsNavvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/TopicsNav.vue
 
@@ -1156,7 +1156,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "b15b7e98",
-  "3f196c02"
+  "a08550ec"
   
 )
 

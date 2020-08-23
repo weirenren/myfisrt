@@ -224,7 +224,7 @@ external_vue_default.a.use(external_v_viewer_default.a, {
 // CONCATENATED MODULE: ./pages/tweet/_id.vue?vue&type=script&lang=js&
  /* harmony default export */ var tweet_idvue_type_script_lang_js_ = (_idvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/tweet/_id.vue
 
@@ -244,7 +244,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "a1f04134",
-  "aa279576"
+  "7bd534bd"
   
 )
 
@@ -327,9 +327,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 
@@ -402,7 +402,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/SiteNotice.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_SiteNoticevue_type_script_lang_js_ = (SiteNoticevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/SiteNotice.vue
 
@@ -424,7 +424,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "05bf6a1c",
-  "df4e9c28"
+  "34323764"
   
 )
 
@@ -508,7 +508,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/ScoreRank.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_ScoreRankvue_type_script_lang_js_ = (ScoreRankvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/ScoreRank.vue
 
@@ -530,7 +530,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "1a6c8d5c",
-  "85c135fe"
+  "2dc35089"
   
 )
 
@@ -680,7 +680,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/LoadMore.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_LoadMorevue_type_script_lang_js_ = (LoadMorevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/LoadMore.vue
 
@@ -702,7 +702,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "d1c148c2",
-  "d060d4f0"
+  "7687ce00"
   
 )
 
@@ -883,7 +883,7 @@ var utils = __webpack_require__(33);
 // CONCATENATED MODULE: ./components/CommentList.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_CommentListvue_type_script_lang_js_ = (CommentListvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/CommentList.vue
 
@@ -903,7 +903,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "211cc62c",
-  "3e15c700"
+  "8f6773f0"
   
 )
 
@@ -1066,7 +1066,7 @@ var CommentInput_component = Object(componentNormalizer["a" /* default */])(
   false,
   CommentInput_injectStyles,
   "7e0a8a20",
-  "21fa3350"
+  "0290edd0"
   
 )
 
@@ -1226,7 +1226,7 @@ var CommentTextInput_component = Object(componentNormalizer["a" /* default */])(
   false,
   CommentTextInput_injectStyles,
   "1de668c8",
-  "64f04eaa"
+  "595537ba"
   
 )
 
@@ -1325,7 +1325,7 @@ var Comment_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5f222bc2"
+  "795b594a"
   
 )
 

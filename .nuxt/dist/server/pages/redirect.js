@@ -114,7 +114,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./pages/redirect.vue?vue&type=script&lang=js&
  /* harmony default export */ var pages_redirectvue_type_script_lang_js_ = (redirectvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/redirect.vue
 
@@ -136,7 +136,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "076dfcfe",
-  "53bf2ac3"
+  "5a7c5c4b"
   
 )
 

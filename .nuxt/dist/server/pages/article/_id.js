@@ -19,7 +19,7 @@ var staticRenderFns = []
 var utils = __webpack_require__(33);
 
 // EXTERNAL MODULE: ./common/UserHelper.js
-var UserHelper = __webpack_require__(8);
+var UserHelper = __webpack_require__(9);
 
 // EXTERNAL MODULE: ./components/Comment.vue + 19 modules
 var Comment = __webpack_require__(66);
@@ -342,7 +342,7 @@ var Comment = __webpack_require__(66);
 // CONCATENATED MODULE: ./pages/article/_id.vue?vue&type=script&lang=js&
  /* harmony default export */ var article_idvue_type_script_lang_js_ = (_idvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/article/_id.vue
 
@@ -362,7 +362,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "3550928e",
-  "4281c68a"
+  "7d28c802"
   
 )
 
@@ -445,9 +445,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 
@@ -608,7 +608,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/LoadMore.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_LoadMorevue_type_script_lang_js_ = (LoadMorevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/LoadMore.vue
 
@@ -630,7 +630,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "d1c148c2",
-  "d060d4f0"
+  "7687ce00"
   
 )
 
@@ -811,7 +811,7 @@ var utils = __webpack_require__(33);
 // CONCATENATED MODULE: ./components/CommentList.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_CommentListvue_type_script_lang_js_ = (CommentListvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/CommentList.vue
 
@@ -831,7 +831,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "211cc62c",
-  "3e15c700"
+  "8f6773f0"
   
 )
 
@@ -994,7 +994,7 @@ var CommentInput_component = Object(componentNormalizer["a" /* default */])(
   false,
   CommentInput_injectStyles,
   "7e0a8a20",
-  "21fa3350"
+  "0290edd0"
   
 )
 
@@ -1154,7 +1154,7 @@ var CommentTextInput_component = Object(componentNormalizer["a" /* default */])(
   false,
   CommentTextInput_injectStyles,
   "1de668c8",
-  "64f04eaa"
+  "595537ba"
   
 )
 
@@ -1253,7 +1253,7 @@ var Comment_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5f222bc2"
+  "795b594a"
   
 )
 

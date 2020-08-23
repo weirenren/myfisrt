@@ -157,7 +157,7 @@ var utils = __webpack_require__(33);
 // CONCATENATED MODULE: ./components/TweetsList.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_TweetsListvue_type_script_lang_js_ = (TweetsListvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/TweetsList.vue
 
@@ -177,7 +177,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "39a3ad80",
-  "7ee2944d"
+  "22bc19c5"
   
 )
 
@@ -288,7 +288,7 @@ var tweets_component = Object(componentNormalizer["a" /* default */])(
   false,
   tweets_injectStyles,
   "8f2e9984",
-  "4f323b8c"
+  "696b6914"
   
 )
 
@@ -371,9 +371,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 
@@ -446,7 +446,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/SiteNotice.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_SiteNoticevue_type_script_lang_js_ = (SiteNoticevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/SiteNotice.vue
 
@@ -468,7 +468,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "05bf6a1c",
-  "df4e9c28"
+  "34323764"
   
 )
 
@@ -559,7 +559,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/ScoreRank.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_ScoreRankvue_type_script_lang_js_ = (ScoreRankvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/ScoreRank.vue
 
@@ -581,7 +581,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "1a6c8d5c",
-  "85c135fe"
+  "2dc35089"
   
 )
 
@@ -649,7 +649,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/FriendLinks.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_FriendLinksvue_type_script_lang_js_ = (FriendLinksvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/FriendLinks.vue
 
@@ -669,7 +669,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "38bbb6a6",
-  "3b634cc4"
+  "8cb4f9b4"
   
 )
 
@@ -828,7 +828,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/LoadMore.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_LoadMorevue_type_script_lang_js_ = (LoadMorevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/LoadMore.vue
 
@@ -850,7 +850,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "d1c148c2",
-  "d060d4f0"
+  "7687ce00"
   
 )
 
@@ -1165,7 +1165,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/PostTweets.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_PostTweetsvue_type_script_lang_js_ = (PostTweetsvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/PostTweets.vue
 
@@ -1187,7 +1187,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "7c9b27e3",
-  "7940e762"
+  "673911c7"
   
 )
 

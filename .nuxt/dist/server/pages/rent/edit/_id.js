@@ -260,7 +260,7 @@ var jsonConventer = __webpack_require__(89);
 // CONCATENATED MODULE: ./pages/rent/edit/_id.vue?vue&type=script&lang=js&
  /* harmony default export */ var edit_idvue_type_script_lang_js_ = (_idvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/rent/edit/_id.vue
 
@@ -280,7 +280,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "1846d340",
-  "405d1e74"
+  "6d49a1ec"
   
 )
 
@@ -363,9 +363,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 
@@ -702,7 +702,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/TagInput.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_TagInputvue_type_script_lang_js_ = (TagInputvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/TagInput.vue
 
@@ -724,7 +724,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "cf173526",
-  "663ad9fd"
+  "d9b14516"
   
 )
 
@@ -1051,7 +1051,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/PostTweets.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_PostTweetsvue_type_script_lang_js_ = (PostTweetsvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/PostTweets.vue
 
@@ -1073,7 +1073,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "7c9b27e3",
-  "7940e762"
+  "673911c7"
   
 )
 
@@ -1126,7 +1126,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/MarkdownHelp.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_MarkdownHelpvue_type_script_lang_js_ = (MarkdownHelpvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/MarkdownHelp.vue
 
@@ -1148,7 +1148,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "29e12336",
-  "7812dffd"
+  "e8be3116"
   
 )
 
