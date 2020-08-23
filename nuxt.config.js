@@ -18,9 +18,6 @@ export default {
     title: '',
     script: [
       {
-        src: '/js/bulma-steps.js'
-      },
-      {
         src: '/js/bulma-steps.min.js'
       }
     ],

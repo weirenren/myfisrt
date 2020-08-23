@@ -1,7 +1,7 @@
 exports.ids = [66];
 exports.modules = {
 
-/***/ 112:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70,7 +70,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/GithubLogin.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_GithubLoginvue_type_script_lang_js_ = (GithubLoginvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/GithubLogin.vue
 
@@ -90,7 +90,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "60f12e5b",
-  "75e5a4ae"
+  "c737519e"
   
 )
 
@@ -98,7 +98,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 113:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -160,7 +160,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/QqLogin.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_QqLoginvue_type_script_lang_js_ = (QqLoginvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./components/QqLogin.vue
 
@@ -180,7 +180,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "46cf9fdf",
-  "ffd2e4e8"
+  "cb6089d8"
   
 )
 
@@ -188,7 +188,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 173:
+/***/ 171:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -203,13 +203,13 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./pages/user/signup.vue?vue&type=template&id=b364a3c8&scoped=true&
 
 // EXTERNAL MODULE: ./common/utils.js
-var utils = __webpack_require__(35);
+var utils = __webpack_require__(33);
 
 // EXTERNAL MODULE: ./components/GithubLogin.vue + 4 modules
-var GithubLogin = __webpack_require__(112);
+var GithubLogin = __webpack_require__(110);
 
 // EXTERNAL MODULE: ./components/QqLogin.vue + 4 modules
-var QqLogin = __webpack_require__(113);
+var QqLogin = __webpack_require__(111);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/signup.vue?vue&type=script&lang=js&
 //
@@ -412,7 +412,7 @@ var QqLogin = __webpack_require__(113);
 // CONCATENATED MODULE: ./pages/user/signup.vue?vue&type=script&lang=js&
  /* harmony default export */ var user_signupvue_type_script_lang_js_ = (signupvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/user/signup.vue
 
@@ -432,7 +432,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "b364a3c8",
-  "1d975bc5"
+  "583e5d3d"
   
 )
 
@@ -440,11 +440,11 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 35:
+/***/ 33:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(30);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(28);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -515,9 +515,9 @@ class Utils {
 
   isEmpty(content) {
     const str = content;
-    if (str === "" || str === undefined) return true;
-    var regu = "^[ ]+$";
-    var re = new RegExp(regu);
+    if (str === '' || str === undefined) return true;
+    const regu = '^[ ]+$';
+    const re = new RegExp(regu);
     return re.test(str);
   }
 
