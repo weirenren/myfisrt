@@ -3139,6 +3139,9 @@ async function createApp(ssrContext, config = {}) {
         "type": "application\u002Fatom+xml",
         "title": "最新开源项目",
         "href": "\u002Fproject_atom.xml"
+      }, {
+        "rel": "stylesheet",
+        "href": "\u002F\u002Fat.alicdn.com\u002Ft\u002Ffont_1142441_bu6x3hdokz.css"
       }],
       "style": []
     },

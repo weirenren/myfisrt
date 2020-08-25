@@ -74,7 +74,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"htmlAttrs":{"lang":"zh-cmn-Hans"},"title":"","script":[{"src":"\u002Fjs\u002Fbulma-steps.min.js"}],"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"},{"name":"window-target","content":"_top"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新文章","href":"\u002Fatom.xml"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新话题","href":"\u002Ftopic_atom.xml"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新开源项目","href":"\u002Fproject_atom.xml"}],"style":[]},
+    head: {"htmlAttrs":{"lang":"zh-cmn-Hans"},"title":"","script":[{"src":"\u002Fjs\u002Fbulma-steps.min.js"}],"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"},{"name":"window-target","content":"_top"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新文章","href":"\u002Fatom.xml"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新话题","href":"\u002Ftopic_atom.xml"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新开源项目","href":"\u002Fproject_atom.xml"},{"rel":"stylesheet","href":"\u002F\u002Fat.alicdn.com\u002Ft\u002Ffont_1142441_bu6x3hdokz.css"}],"style":[]},
 
     store,
     router,
