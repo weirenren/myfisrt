@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import Vuex from 'vuex'
 import Meta from 'vue-meta'
 import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
@@ -12,10 +13,10 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_cookieuniversalnuxt_f0f7797e from 'nuxt_plugin_cookieuniversalnuxt_f0f7797e' // Source: ./cookie-universal-nuxt.js (mode: 'all')
-import nuxt_plugin_clipboard_57ad6479 from 'nuxt_plugin_clipboard_57ad6479' // Source: ./clipboard.js (mode: 'client')
-import nuxt_plugin_toast_18817b70 from 'nuxt_plugin_toast_18817b70' // Source: ./toast.js (mode: 'client')
-import nuxt_plugin_axios_278ef599 from 'nuxt_plugin_axios_278ef599' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_cookieuniversalnuxt_072e38e2 from 'nuxt_plugin_cookieuniversalnuxt_072e38e2' // Source: ./cookie-universal-nuxt.js (mode: 'all')
+import nuxt_plugin_clipboard_7cb589c7 from 'nuxt_plugin_clipboard_7cb589c7' // Source: ./clipboard.js (mode: 'client')
+import nuxt_plugin_toast_125a3e96 from 'nuxt_plugin_toast_125a3e96' // Source: ./toast.js (mode: 'client')
+import nuxt_plugin_axios_4629f1e7 from 'nuxt_plugin_axios_4629f1e7' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_filters_98405076 from 'nuxt_plugin_filters_98405076' // Source: ../plugins/filters (mode: 'all')
 import nuxt_plugin_axios_3566aa80 from 'nuxt_plugin_axios_3566aa80' // Source: ../plugins/axios (mode: 'all')
 import nuxt_plugin_bbsgo_7669d890 from 'nuxt_plugin_bbsgo_7669d890' // Source: ../plugins/bbs-go (mode: 'all')
@@ -51,6 +52,13 @@ Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n
 
 const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
+const originalRegisterModule = Vuex.Store.prototype.registerModule
+const baseStoreOptions = { preserveState: process.client }
+
+function registerModule (path, rawModule, options = {}) {
+  return originalRegisterModule.call(this, path, rawModule, { ...baseStoreOptions, ...options })
+}
+
 async function createApp(ssrContext, config = {}) {
   const router = await createRouter(ssrContext)
 
@@ -59,15 +67,14 @@ async function createApp(ssrContext, config = {}) {
   store.$router = router
 
   // Fix SSR caveat https://github.com/nuxt/nuxt.js/issues/3757#issuecomment-414689141
-  const registerModule = store.registerModule
-  store.registerModule = (path, rawModule, options) => registerModule.call(store, path, rawModule, Object.assign({ preserveState: process.client }, options))
+  store.registerModule = registerModule
 
   // Create Root instance
 
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"htmlAttrs":{"lang":"zh-cmn-Hans"},"title":"","script":[{"src":"\u002Fjs\u002Fbulma-steps.js"},{"src":"\u002Fjs\u002Fbulma-steps.min.js"}],"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"},{"name":"window-target","content":"_top"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新文章","href":"\u002Fatom.xml"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新话题","href":"\u002Ftopic_atom.xml"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新开源项目","href":"\u002Fproject_atom.xml"}],"style":[]},
+    head: {"htmlAttrs":{"lang":"zh-cmn-Hans"},"title":"","script":[{"src":"\u002Fjs\u002Fbulma-steps.min.js"}],"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"},{"name":"window-target","content":"_top"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新文章","href":"\u002Fatom.xml"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新话题","href":"\u002Ftopic_atom.xml"},{"rel":"alternate","type":"application\u002Fatom+xml","title":"最新开源项目","href":"\u002Fproject_atom.xml"}],"style":[]},
 
     store,
     router,
@@ -196,20 +203,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_cookieuniversalnuxt_f0f7797e === 'function') {
-    await nuxt_plugin_cookieuniversalnuxt_f0f7797e(app.context, inject)
+  if (typeof nuxt_plugin_cookieuniversalnuxt_072e38e2 === 'function') {
+    await nuxt_plugin_cookieuniversalnuxt_072e38e2(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_clipboard_57ad6479 === 'function') {
-    await nuxt_plugin_clipboard_57ad6479(app.context, inject)
+  if (process.client && typeof nuxt_plugin_clipboard_7cb589c7 === 'function') {
+    await nuxt_plugin_clipboard_7cb589c7(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_toast_18817b70 === 'function') {
-    await nuxt_plugin_toast_18817b70(app.context, inject)
+  if (process.client && typeof nuxt_plugin_toast_125a3e96 === 'function') {
+    await nuxt_plugin_toast_125a3e96(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_278ef599 === 'function') {
-    await nuxt_plugin_axios_278ef599(app.context, inject)
+  if (typeof nuxt_plugin_axios_4629f1e7 === 'function') {
+    await nuxt_plugin_axios_4629f1e7(app.context, inject)
   }
 
   if (typeof nuxt_plugin_filters_98405076 === 'function') {
@@ -243,9 +250,9 @@ async function createApp(ssrContext, config = {}) {
   if (process.server && ssrContext && ssrContext.url) {
     await new Promise((resolve, reject) => {
       router.push(ssrContext.url, resolve, (err) => {
-        // https://github.com/vuejs/vue-router/blob/v3.3.4/src/history/errors.js
+        // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
         if (!err._isRouter) return reject(err)
-        if (err.type !== 1 /* NavigationFailureType.redirected */) return resolve()
+        if (err.type !== 2 /* NavigationFailureType.redirected */) return resolve()
 
         // navigated to a different route in router guard
         const unregister = router.afterEach(async (to, from) => {
