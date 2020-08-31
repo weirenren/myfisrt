@@ -170,9 +170,10 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 class Utils {
   getCity() {
+    // Cookies.get('city')
     const city = js_cookie__WEBPACK_IMPORTED_MODULE_0___default.a.get('city');
 
-    if (city) {
+    if (city !== undefined) {
       return city;
     }
 
