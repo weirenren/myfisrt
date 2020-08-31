@@ -369,6 +369,10 @@ class Utils {
     return typeof sources === 'boolean';
   }
 
+  getCityList() {
+    return ['北京', '上海', '深圳', '武汉', '杭州'];
+  }
+
   isEmpty(content) {
     const str = content;
     if (str === '' || str === undefined) return true;
