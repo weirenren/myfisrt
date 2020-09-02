@@ -1,191 +1,23 @@
 exports.ids = [66];
 exports.modules = {
 
-/***/ 143:
+/***/ 172:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/signup.vue?vue&type=template&id=b364a3c8&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container\" data-v-b364a3c8>","</div>",[_vm._ssrNode("<div class=\"main-body\" data-v-b364a3c8>","</div>",[_vm._ssrNode("<div class=\"widget\" data-v-b364a3c8>","</div>",[_vm._ssrNode("<div class=\"widget-header\" data-v-b364a3c8>\n          注册\n        </div> "),_vm._ssrNode("<div class=\"widget-content\" data-v-b364a3c8>","</div>",[_vm._ssrNode("<div class=\"field\" data-v-b364a3c8><label class=\"label\" data-v-b364a3c8>昵称</label> <div class=\"control has-icons-left\" data-v-b364a3c8><input type=\"text\" placeholder=\"请输入昵称\""+(_vm._ssrAttr("value",(_vm.nickname)))+" class=\"input is-success\" data-v-b364a3c8> <span class=\"icon is-small is-left\" data-v-b364a3c8><i class=\"iconfont icon-username\" data-v-b364a3c8></i></span></div></div> <div class=\"field\" data-v-b364a3c8><label class=\"label\" data-v-b364a3c8>邮箱</label> <div class=\"control has-icons-left\" data-v-b364a3c8><input type=\"text\" placeholder=\"请输入邮箱\""+(_vm._ssrAttr("value",(_vm.email)))+" class=\"input is-success\" data-v-b364a3c8> <span class=\"icon is-small is-left\" data-v-b364a3c8><i class=\"iconfont icon-email\" data-v-b364a3c8></i></span></div></div> <div class=\"field\" data-v-b364a3c8><label class=\"label\" data-v-b364a3c8>密码</label> <div class=\"control has-icons-left\" data-v-b364a3c8><input type=\"password\" placeholder=\"请输入密码\""+(_vm._ssrAttr("value",(_vm.password)))+" class=\"input\" data-v-b364a3c8> <span class=\"icon is-small is-left\" data-v-b364a3c8><i class=\"iconfont icon-password\" data-v-b364a3c8></i></span></div></div> <div class=\"field\" data-v-b364a3c8><label class=\"label\" data-v-b364a3c8>确认密码</label> <div class=\"control has-icons-left\" data-v-b364a3c8><input type=\"password\" placeholder=\"请再次输入密码\""+(_vm._ssrAttr("value",(_vm.rePassword)))+" class=\"input\" data-v-b364a3c8> <span class=\"icon is-small is-left\" data-v-b364a3c8><i class=\"iconfont icon-password\" data-v-b364a3c8></i></span></div></div> <div class=\"field\" data-v-b364a3c8><label class=\"label\" data-v-b364a3c8>验证码</label> <div class=\"control has-icons-left\" data-v-b364a3c8><div class=\"field is-horizontal\" data-v-b364a3c8><div class=\"field\" style=\"width:100%;\" data-v-b364a3c8><input type=\"text\" placeholder=\"验证码\""+(_vm._ssrAttr("value",(_vm.captchaCode)))+" class=\"input\" data-v-b364a3c8> <span class=\"icon is-small is-left\" data-v-b364a3c8><i class=\"iconfont icon-captcha\" data-v-b364a3c8></i></span></div> "+((_vm.captchaUrl)?("<div class=\"field\" data-v-b364a3c8><a data-v-b364a3c8><img"+(_vm._ssrAttr("src",_vm.captchaUrl))+" style=\"height: 40px;\" data-v-b364a3c8></a></div>"):"<!---->")+"</div></div></div> "),_vm._ssrNode("<div class=\"field\" data-v-b364a3c8>","</div>",[_vm._ssrNode("<div class=\"control\" data-v-b364a3c8>","</div>",[_vm._ssrNode("<button class=\"button is-success\" data-v-b364a3c8>\n                注册\n              </button> "),_c('github-login',{attrs:{"ref-url":_vm.ref}}),_vm._ssrNode(" "),_c('qq-login',{attrs:{"ref-url":_vm.ref}}),_vm._ssrNode(" "),_c('nuxt-link',{staticClass:"button is-text",attrs:{"to":"/user/signin"}},[_vm._v("\n                已有账号，前往登录>>\n              ")])],2)])],2)],2)])])])}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/signup.vue?vue&type=template&id=9136fa7e&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container\" data-v-9136fa7e>","</div>",[_vm._ssrNode("<div class=\"main-body\" data-v-9136fa7e>","</div>",[_vm._ssrNode("<div class=\"widget\" data-v-9136fa7e>","</div>",[_vm._ssrNode("<div class=\"widget-header\" data-v-9136fa7e>\n          注册\n        </div> "),_vm._ssrNode("<div class=\"widget-content\" data-v-9136fa7e>","</div>",[_vm._ssrNode("<div class=\"field\" data-v-9136fa7e><label class=\"label\" data-v-9136fa7e>昵称</label> <div class=\"control has-icons-left\" data-v-9136fa7e><input type=\"text\" placeholder=\"请输入昵称\""+(_vm._ssrAttr("value",(_vm.nickname)))+" class=\"input is-success\" data-v-9136fa7e> <span class=\"icon is-small is-left\" data-v-9136fa7e><i class=\"iconfont icon-username\" data-v-9136fa7e></i></span></div></div> <div class=\"field\" data-v-9136fa7e><label class=\"label\" data-v-9136fa7e>邮箱</label> <div class=\"control has-icons-left\" data-v-9136fa7e><input type=\"text\" placeholder=\"请输入邮箱\""+(_vm._ssrAttr("value",(_vm.email)))+" class=\"input is-success\" data-v-9136fa7e> <span class=\"icon is-small is-left\" data-v-9136fa7e><i class=\"iconfont icon-email\" data-v-9136fa7e></i></span></div></div> <div class=\"field\" data-v-9136fa7e><label class=\"label\" data-v-9136fa7e>密码</label> <div class=\"control has-icons-left\" data-v-9136fa7e><input type=\"password\" placeholder=\"请输入密码\""+(_vm._ssrAttr("value",(_vm.password)))+" class=\"input\" data-v-9136fa7e> <span class=\"icon is-small is-left\" data-v-9136fa7e><i class=\"iconfont icon-password\" data-v-9136fa7e></i></span></div></div> <div class=\"field\" data-v-9136fa7e><label class=\"label\" data-v-9136fa7e>确认密码</label> <div class=\"control has-icons-left\" data-v-9136fa7e><input type=\"password\" placeholder=\"请再次输入密码\""+(_vm._ssrAttr("value",(_vm.rePassword)))+" class=\"input\" data-v-9136fa7e> <span class=\"icon is-small is-left\" data-v-9136fa7e><i class=\"iconfont icon-password\" data-v-9136fa7e></i></span></div></div> <div class=\"field\" data-v-9136fa7e><label class=\"label\" data-v-9136fa7e>验证码</label> <div class=\"control has-icons-left\" data-v-9136fa7e><div class=\"field is-horizontal\" data-v-9136fa7e><div class=\"field\" style=\"width:100%;\" data-v-9136fa7e><input type=\"text\" placeholder=\"验证码\""+(_vm._ssrAttr("value",(_vm.captchaCode)))+" class=\"input\" data-v-9136fa7e> <span class=\"icon is-small is-left\" data-v-9136fa7e><i class=\"iconfont icon-captcha\" data-v-9136fa7e></i></span></div> "+((_vm.captchaUrl)?("<div class=\"field\" data-v-9136fa7e><a data-v-9136fa7e><img"+(_vm._ssrAttr("src",_vm.captchaUrl))+" style=\"height: 40px;\" data-v-9136fa7e></a></div>"):"<!---->")+"</div></div></div> "),_vm._ssrNode("<div class=\"field\" data-v-9136fa7e>","</div>",[_vm._ssrNode("<div class=\"control\" data-v-9136fa7e>","</div>",[_vm._ssrNode("<button class=\"button is-success\" data-v-9136fa7e>\n                注册\n              </button> "),_c('nuxt-link',{staticClass:"button is-text",attrs:{"to":"/user/signin"}},[_vm._v("\n                已有账号，前往登录>>\n              ")])],2)])],2)],2)])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/user/signup.vue?vue&type=template&id=b364a3c8&scoped=true&
+// CONCATENATED MODULE: ./pages/user/signup.vue?vue&type=template&id=9136fa7e&scoped=true&
 
 // EXTERNAL MODULE: ./common/utils.js
 var utils = __webpack_require__(34);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/GithubLogin.vue?vue&type=template&id=60f12e5b&scoped=true&
-var GithubLoginvue_type_template_id_60f12e5b_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{staticClass:"is-black",class:{ button: _vm.isButton },on:{"click":_vm.githubLogin}},[_vm._ssrNode("<i class=\"iconfont icon-github\" data-v-60f12e5b></i> \n  <strong data-v-60f12e5b>"+_vm._ssrEscape(_vm._s(_vm.title))+"</strong>")])}
-var GithubLoginvue_type_template_id_60f12e5b_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/GithubLogin.vue?vue&type=template&id=60f12e5b&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/GithubLogin.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var GithubLoginvue_type_script_lang_js_ = ({
-  name: 'GithubLogin',
-  props: {
-    title: {
-      type: String,
-      default: 'Github 登录'
-    },
-    refUrl: {
-      // 登录来源地址，控制登录成功之后要跳到该地址
-      type: String,
-      default: ''
-    },
-    isButton: {
-      type: Boolean,
-      default: true
-    }
-  },
-
-  data() {
-    return {
-      refUrlValue: this.refUrl
-    };
-  },
-
-  methods: {
-    async githubLogin() {
-      try {
-        if (!this.refUrlValue && false) {
-          // 如果没配置refUrl，那么取当前地址
-          this.refUrlValue = window.location.pathname;
-        }
-
-        const ret = await this.$axios.get('/api/login/github/authorize', {
-          params: {
-            ref: this.refUrlValue
-          }
-        });
-        window.location = ret.url;
-      } catch (e) {
-        console.error(e);
-        this.$toast.error('登录失败：' + (e.message || e));
-      }
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./components/GithubLogin.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_GithubLoginvue_type_script_lang_js_ = (GithubLoginvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(4);
-
-// CONCATENATED MODULE: ./components/GithubLogin.vue
-
-
-
-function injectStyles (context) {
-  
-  
-}
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  components_GithubLoginvue_type_script_lang_js_,
-  GithubLoginvue_type_template_id_60f12e5b_scoped_true_render,
-  GithubLoginvue_type_template_id_60f12e5b_scoped_true_staticRenderFns,
-  false,
-  injectStyles,
-  "60f12e5b",
-  "c737519e"
-  
-)
-
-/* harmony default export */ var GithubLogin = (component.exports);
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/QqLogin.vue?vue&type=template&id=46cf9fdf&scoped=true&
-var QqLoginvue_type_template_id_46cf9fdf_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{staticClass:"is-info",class:{ button: _vm.isButton },on:{"click":_vm.qqLogin}},[_vm._ssrNode("<i class=\"iconfont icon-qq\" data-v-46cf9fdf></i> \n  <strong data-v-46cf9fdf>"+_vm._ssrEscape(_vm._s(_vm.title))+"</strong>")])}
-var QqLoginvue_type_template_id_46cf9fdf_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/QqLogin.vue?vue&type=template&id=46cf9fdf&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/QqLogin.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var QqLoginvue_type_script_lang_js_ = ({
-  name: 'QQLogin',
-  props: {
-    title: {
-      type: String,
-      default: 'QQ 登录'
-    },
-    refUrl: {
-      // 登录来源地址，控制登录成功之后要跳到该地址
-      type: String,
-      default: ''
-    },
-    isButton: {
-      type: Boolean,
-      default: true
-    }
-  },
-  methods: {
-    async qqLogin() {
-      try {
-        if (!this.refUrlValue && false) {
-          // 如果没配置refUrl，那么取当前地址
-          this.refUrlValue = window.location.pathname;
-        }
-
-        const ret = await this.$axios.get('/api/login/qq/authorize', {
-          params: {
-            ref: this.refUrlValue
-          }
-        });
-        window.location = ret.url;
-      } catch (e) {
-        console.error(e);
-        this.$toast.error('登录失败：' + (e.message || e));
-      }
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./components/QqLogin.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_QqLoginvue_type_script_lang_js_ = (QqLoginvue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./components/QqLogin.vue
-
-
-
-function QqLogin_injectStyles (context) {
-  
-  
-}
-
-/* normalize component */
-
-var QqLogin_component = Object(componentNormalizer["a" /* default */])(
-  components_QqLoginvue_type_script_lang_js_,
-  QqLoginvue_type_template_id_46cf9fdf_scoped_true_render,
-  QqLoginvue_type_template_id_46cf9fdf_scoped_true_staticRenderFns,
-  false,
-  QqLogin_injectStyles,
-  "46cf9fdf",
-  "cb6089d8"
-  
-)
-
-/* harmony default export */ var QqLogin = (QqLogin_component.exports);
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/signup.vue?vue&type=script&lang=js&
 //
 //
@@ -304,13 +136,12 @@ var QqLogin_component = Object(componentNormalizer["a" /* default */])(
 //
 //
 //
-
-
+ // import GithubLogin from '~/components/GithubLogin'
+// import QqLogin from '~/components/QqLogin'
 
 /* harmony default export */ var signupvue_type_script_lang_js_ = ({
-  components: {
-    GithubLogin: GithubLogin,
-    QqLogin: QqLogin
+  components: {// GithubLogin,
+    // QqLogin
   },
 
   asyncData({
@@ -386,29 +217,32 @@ var QqLogin_component = Object(componentNormalizer["a" /* default */])(
 });
 // CONCATENATED MODULE: ./pages/user/signup.vue?vue&type=script&lang=js&
  /* harmony default export */ var user_signupvue_type_script_lang_js_ = (signupvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(4);
+
 // CONCATENATED MODULE: ./pages/user/signup.vue
 
 
 
-function signup_injectStyles (context) {
+function injectStyles (context) {
   
   
 }
 
 /* normalize component */
 
-var signup_component = Object(componentNormalizer["a" /* default */])(
+var component = Object(componentNormalizer["a" /* default */])(
   user_signupvue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
-  signup_injectStyles,
-  "b364a3c8",
+  injectStyles,
+  "9136fa7e",
   "583e5d3d"
   
 )
 
-/* harmony default export */ var signup = __webpack_exports__["default"] = (signup_component.exports);
+/* harmony default export */ var signup = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
