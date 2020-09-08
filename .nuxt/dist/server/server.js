@@ -2600,11 +2600,11 @@ function resolveStoreModules(moduleData, filename) {
 
   if (VUEX_PROPERTIES.includes(moduleName)) {
     const property = moduleName;
-    const storeModule = getStoreModule(store_store, namespaces, {
+    const propertyStoreModule = getStoreModule(store_store, namespaces, {
       isProperty: true
     }); // Replace state since it's a function
 
-    mergeProperty(storeModule, moduleData, property);
+    mergeProperty(propertyStoreModule, moduleData, property);
     return;
   } // If file is foo/index.js, it should be saved as foo
 
@@ -2702,7 +2702,7 @@ const axiosExtra = {
   },
 
   setHeader(name, value, scopes = 'common') {
-    for (let scope of Array.isArray(scopes) ? scopes : [scopes]) {
+    for (const scope of Array.isArray(scopes) ? scopes : [scopes]) {
       if (!value) {
         delete this.defaults.headers[scope][name];
         return;
@@ -2744,14 +2744,14 @@ const axiosExtra = {
 
 }; // Request helpers ($get, $post, ...)
 
-for (let method of ['request', 'delete', 'get', 'head', 'options', 'post', 'put', 'patch']) {
+for (const method of ['request', 'delete', 'get', 'head', 'options', 'post', 'put', 'patch']) {
   axiosExtra['$' + method] = function () {
     return this[method].apply(this, arguments).then(res => res && res.data);
   };
 }
 
 const extendAxiosInstance = axios => {
-  for (let key in axiosExtra) {
+  for (const key in axiosExtra) {
     axios[key] = axiosExtra[key].bind(axios);
   }
 };
@@ -2879,7 +2879,7 @@ const setupProgress = axios => {
     const reqHeaders = { ...ctx.req.headers
     };
 
-    for (let h of ["accept", "host", "cf-ray", "cf-connecting-ip", "content-length", "content-md5", "content-type"]) {
+    for (const h of ["accept", "host", "cf-ray", "cf-connecting-ip", "content-length", "content-md5", "content-type"]) {
       delete reqHeaders[h];
     }
 

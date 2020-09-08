@@ -44,7 +44,7 @@ var Comment = __webpack_require__(67);
 // EXTERNAL MODULE: ./common/utils.js
 var utils = __webpack_require__(34);
 
-// EXTERNAL MODULE: ./node_modules/_viewerjs@1.6.1@viewerjs/dist/viewer.css
+// EXTERNAL MODULE: ./node_modules/_viewerjs@1.6.2@viewerjs/dist/viewer.css
 var viewer = __webpack_require__(139);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/tweet/_id.vue?vue&type=script&lang=js&
