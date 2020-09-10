@@ -6,10 +6,10 @@ exports.modules = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_49186e9d_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(79);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_49186e9d_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_49186e9d_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_49186e9d_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_49186e9d_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_49186e9d_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_88549c70_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(79);
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_88549c70_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_88549c70_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_88549c70_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_88549c70_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_88549c70_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -20,12 +20,12 @@ __webpack_require__.r(__webpack_exports__);
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/love/index.vue?vue&type=template&id=49186e9d&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container left-main\" data-v-49186e9d>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-49186e9d>","</div>",[_vm._ssrNode("<div class=\"main-content\" data-v-49186e9d>","</div>",[_c('carousel',{staticStyle:{"min-height":"50px"},attrs:{"per-page":2,"scroll-per-page":true}},[_c('slide',{staticClass:"img_wrapper"},[_vm._v("专注于互联网白领人群，创造交友圈子，让彼此的我们都能找到合适的伴侣")]),_vm._v(" "),_c('slide',{staticClass:"img_wrapper"},[_vm._v("添加管理员微信1481460329，审核进群，请备注：交友-城市-单位-职业")]),_vm._v(" "),_c('slide',{staticClass:"img_wrapper"},[_vm._v("帮助匹配对象——请按照要求创建个人交友帖子，并发给群主")]),_vm._v(" "),_c('slide',{staticClass:"img_wrapper"},[_vm._v("互联网圈子不大，每一个人都是一个独立品牌，非诚勿扰")])],1),_vm._ssrNode(" <button class=\"button is-primary is-active is-small\" data-v-49186e9d>\n          脱单攻略\n        </button> "),(_vm.topicsPage)?_c('topic-list',{attrs:{"topics":_vm.topicsPage.results,"show-ad":true}}):_vm._e(),_vm._ssrNode(" "),(_vm.topicsPage)?_c('pagination',{attrs:{"page":_vm.topicsPage.page,"url-prefix":"/love?p="}}):_vm._e()],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right-container\" data-v-49186e9d>","</div>",[_c('site-notice'),_vm._ssrNode(" "),_c('tweets-widget',{attrs:{"tweets":_vm.newestTweets}}),_vm._ssrNode(" "),_c('score-rank',{attrs:{"score-rank":_vm.scoreRank}}),_vm._ssrNode(" "),_c('friend-links',{attrs:{"links":_vm.links}})],2)],2)])}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/love/index.vue?vue&type=template&id=88549c70&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_c('client-only',[_c('div',{staticClass:"container main-container left-main"},[_c('div',{staticClass:"left-container"},[_c('div',{staticClass:"main-content"},[_c('carousel',{staticStyle:{"min-height":"50px"},attrs:{"per-page":2,"scroll-per-page":true}},[_c('slide',{staticClass:"img_wrapper"},[_vm._v("专注于互联网白领人群，创造交友圈子，让彼此的我们都能找到合适的伴侣")]),_vm._v(" "),_c('slide',{staticClass:"img_wrapper"},[_vm._v("添加管理员微信1481460329，审核进群，请备注：交友-城市-单位-职业")]),_vm._v(" "),_c('slide',{staticClass:"img_wrapper"},[_vm._v("帮助匹配对象——请按照要求创建个人交友帖子，并发给群主")]),_vm._v(" "),_c('slide',{staticClass:"img_wrapper"},[_vm._v("互联网圈子不大，每一个人都是一个独立品牌，非诚勿扰")])],1),_vm._v(" "),_c('button',{staticClass:"button is-primary is-active is-small",on:{"click":function($event){return _vm.jumpUrl('https://www.jianshu.com/p/c1d5d3c04b8b')}}},[_vm._v("\n            脱单攻略\n          ")]),_vm._v(" "),(_vm.topicsPage)?_c('topic-list',{attrs:{"topics":_vm.topicsPage.results,"show-ad":true}}):_vm._e(),_vm._v(" "),(_vm.topicsPage)?_c('pagination',{attrs:{"page":_vm.topicsPage.page,"url-prefix":"/love?p="}}):_vm._e()],1)]),_vm._v(" "),_c('div',{staticClass:"right-container"},[_c('site-notice'),_vm._v(" "),_c('tweets-widget',{attrs:{"tweets":_vm.newestTweets}}),_vm._v(" "),_c('score-rank',{attrs:{"score-rank":_vm.scoreRank}}),_vm._v(" "),_c('friend-links',{attrs:{"links":_vm.links}})],1)])])],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/love/index.vue?vue&type=template&id=49186e9d&scoped=true&
+// CONCATENATED MODULE: ./pages/love/index.vue?vue&type=template&id=88549c70&scoped=true&
 
 // EXTERNAL MODULE: external "cookie"
 var external_cookie_ = __webpack_require__(29);
@@ -106,6 +106,8 @@ var utils = __webpack_require__(34);
 //
 //
 //
+//
+//
 
 
 
@@ -117,15 +119,15 @@ var utils = __webpack_require__(34);
 
 /* harmony default export */ var lovevue_type_script_lang_js_ = ({
   components: {
+    Carousel: () => Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 33, 7)).then(m => m.Carousel).catch(),
+    Slide: () => Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 33, 7)).then(m => m.Slide).catch(),
     SiteNotice: SiteNotice["a" /* default */],
     ScoreRank: ScoreRank["a" /* default */],
     FriendLinks: FriendLinks["a" /* default */],
     // TopicsNav,
     TopicList: TopicList["a" /* default */],
     TweetsWidget: TweetsWidget["a" /* default */],
-    Pagination: Pagination["a" /* default */],
-    Carousel: () => Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 33, 7)).then(m => m.Carousel).catch(),
-    Slide: () => Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 33, 7)).then(m => m.Slide).catch()
+    Pagination: Pagination["a" /* default */]
   },
 
   async asyncData({
@@ -154,8 +156,8 @@ var utils = __webpack_require__(34);
           nodeId: 1,
           city
         }
-      }), $axios.get('/api/user/score/rank'), $axios.get('/api/link/toplinks'), $axios.get('/api/tweet/newest')]);
-      console.log('topics:' + JSON.stringify(topicsPage));
+      }), $axios.get('/api/user/score/rank'), $axios.get('/api/link/toplinks'), $axios.get('/api/tweet/newest')]); // console.log('topics:' + JSON.stringify(topicsPage))
+
       return {
         nodes,
         topicsPage,
@@ -227,7 +229,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "49186e9d",
+  "88549c70",
   "5cb423b8"
   
 )
