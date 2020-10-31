@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /admin/
+Disallow: /api/topic/search
+Disallow: /rents
+Disallow: /love
