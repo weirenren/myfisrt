@@ -1,3 +1,4 @@
+const newLocal = '~/assets/styles/main.scss'
 export default {
   server: {
     port: 3000,
@@ -127,6 +128,7 @@ export default {
     // publicPath: 'https://file.mlog.club/static/nuxtclient/',
     optimizeCSS: true,
     extractCSS: process.env.NODE_ENV === 'production',
+    css: [{ src: newLocal, lang: 'scss' }],
     splitChunks: {
       layouts: true,
       pages: true,
