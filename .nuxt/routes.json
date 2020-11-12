@@ -28,6 +28,13 @@
     "_name": "_6997e880"
   },
   {
+    "name": "playfun",
+    "path": "/playfun",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/playfun/index.vue",
+    "chunkName": "pages/playfun/index",
+    "_name": "_37162693"
+  },
+  {
     "name": "redirect",
     "path": "/redirect",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/redirect.vue",
@@ -40,6 +47,13 @@
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/index.vue",
     "chunkName": "pages/rents/index",
     "_name": "_216c84bc"
+  },
+  {
+    "name": "resou",
+    "path": "/resou",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/resou/index.vue",
+    "chunkName": "pages/resou/index",
+    "_name": "_c9abee64"
   },
   {
     "name": "topics",

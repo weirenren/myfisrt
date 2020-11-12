@@ -7,8 +7,10 @@ const _597b0012 = () => interopDefault(import('../pages/about.vue' /* webpackChu
 const _2b857352 = () => interopDefault(import('../pages/admin/index.vue' /* webpackChunkName: "pages/admin/index" */))
 const _2c0f796a = () => interopDefault(import('../pages/articles/index.vue' /* webpackChunkName: "pages/articles/index" */))
 const _6997e880 = () => interopDefault(import('../pages/love/index.vue' /* webpackChunkName: "pages/love/index" */))
+const _37162693 = () => interopDefault(import('../pages/playfun/index.vue' /* webpackChunkName: "pages/playfun/index" */))
 const _2ced30e7 = () => interopDefault(import('../pages/redirect.vue' /* webpackChunkName: "pages/redirect" */))
 const _216c84bc = () => interopDefault(import('../pages/rents/index.vue' /* webpackChunkName: "pages/rents/index" */))
+const _c9abee64 = () => interopDefault(import('../pages/resou/index.vue' /* webpackChunkName: "pages/resou/index" */))
 const _54d50632 = () => interopDefault(import('../pages/topics/index.vue' /* webpackChunkName: "pages/topics/index" */))
 const _37e88fb0 = () => interopDefault(import('../pages/tweets/index.vue' /* webpackChunkName: "pages/tweets/index" */))
 const _49a2706a = () => interopDefault(import('../pages/admin/articles/index.vue' /* webpackChunkName: "pages/admin/articles/index" */))
@@ -99,6 +101,10 @@ export const routerOptions = {
     component: _6997e880,
     name: "love"
   }, {
+    path: "/playfun",
+    component: _37162693,
+    name: "playfun"
+  }, {
     path: "/redirect",
     component: _2ced30e7,
     name: "redirect"
@@ -106,6 +112,10 @@ export const routerOptions = {
     path: "/rents",
     component: _216c84bc,
     name: "rents"
+  }, {
+    path: "/resou",
+    component: _c9abee64,
+    name: "resou"
   }, {
     path: "/topics",
     component: _54d50632,

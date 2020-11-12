@@ -1,33 +1,55 @@
-exports.ids = [46];
+exports.ids = [48];
 exports.modules = {
 
-/***/ 175:
+/***/ 179:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/topic/create.vue?vue&type=template&id=245a78a9&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container is-white left-main\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"widget\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"widget-header\" data-v-245a78a9><nav class=\"breadcrumb\" data-v-245a78a9><ul data-v-245a78a9><li data-v-245a78a9><a href=\"/\" data-v-245a78a9>首页</a></li> <li data-v-245a78a9><a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id + '?tab=topics'))+" data-v-245a78a9>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</a></li> <li class=\"is-active\" data-v-245a78a9><a href=\"#\" aria-current=\"page\" data-v-245a78a9>主题</a></li></ul></nav></div> "),_vm._ssrNode("<div class=\"widget-content\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"field is-horizontal\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"field-body\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"field\" style=\"width:100%;\" data-v-245a78a9><input type=\"text\" placeholder=\"请输入标题\""+(_vm._ssrAttr("value",(_vm.postForm.title)))+" class=\"input\" data-v-245a78a9></div> "),_vm._ssrNode("<div class=\"field\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"select\" data-v-245a78a9>","</div>",[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.postForm.nodeId),expression:"postForm.nodeId"}],on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.$set(_vm.postForm, "nodeId", $event.target.multiple ? $$selectedVal : $$selectedVal[0])}}},[_c('option',{attrs:{"value":"0"}},[_vm._v("选择节点")]),_vm._v(" "),_vm._l((_vm.nodes),function(node){return _c('option',{key:node.nodeId,domProps:{"value":node.nodeId}},[_vm._v(_vm._s(node.name)+"\n                    ")])})],2)])])],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"field\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"control\" data-v-245a78a9>","</div>",[_c('markdown-editor',{ref:"mdEditor",attrs:{"editor-id":"topicCreateEditor","placeholder":"可空，将图片复制或拖入编辑器可上传"},model:{value:(_vm.postForm.content),callback:function ($$v) {_vm.$set(_vm.postForm, "content", $$v)},expression:"postForm.content"}})],1)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"field\" data-v-245a78a9>","</div>",[_vm._ssrNode("<div class=\"control\" data-v-245a78a9>","</div>",[_c('tag-input',{model:{value:(_vm.postForm.tags),callback:function ($$v) {_vm.$set(_vm.postForm, "tags", $$v)},expression:"postForm.tags"}})],1)]),_vm._ssrNode(" "+((_vm.captchaUrl)?("<div class=\"field is-horizontal\" data-v-245a78a9><div class=\"field control has-icons-left\" data-v-245a78a9><input type=\"text\" placeholder=\"验证码\""+(_vm._ssrAttr("value",(_vm.captchaCode)))+" class=\"input\" style=\"max-width: 150px; margin-right: 20px;\" data-v-245a78a9> <span class=\"icon is-small is-left\" data-v-245a78a9><i class=\"iconfont icon-captcha\" data-v-245a78a9></i></span></div> <div class=\"field\" data-v-245a78a9><a data-v-245a78a9><img"+(_vm._ssrAttr("src",_vm.captchaUrl))+" style=\"height: 40px;\" data-v-245a78a9></a></div></div>"):"<!---->")+" <div class=\"field is-grouped\" data-v-245a78a9><div class=\"control\" data-v-245a78a9><a"+(_vm._ssrAttr("disabled",_vm.publishing))+(_vm._ssrClass("button is-success",{ 'is-loading': _vm.publishing }))+" data-v-245a78a9>发表话题</a></div></div>")],2)],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right-container\" data-v-245a78a9>","</div>",[_c('markdown-help')],1)],2)])}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/topic/create.vue?vue&type=template&id=be8b851a&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container is-white left-main\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"widget\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"widget-header\" data-v-be8b851a><nav class=\"breadcrumb\" data-v-be8b851a><ul data-v-be8b851a><li data-v-be8b851a><a href=\"/\" data-v-be8b851a>首页</a></li> <li data-v-be8b851a><a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id + '?tab=topics'))+" data-v-be8b851a>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</a></li> <li class=\"is-active\" data-v-be8b851a><a href=\"#\" aria-current=\"page\" data-v-be8b851a>主题</a></li></ul></nav></div> "),_vm._ssrNode("<div class=\"widget-content\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"field is-horizontal\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"field-body\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"field\" style=\"width:100%;\" data-v-be8b851a><input type=\"text\" placeholder=\"请输入标题\""+(_vm._ssrAttr("value",(_vm.postForm.title)))+" class=\"input\" data-v-be8b851a></div> "),_vm._ssrNode("<div class=\"field\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"select\" data-v-be8b851a>","</div>",[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.postForm.nodeId),expression:"postForm.nodeId"}],on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.$set(_vm.postForm, "nodeId", $event.target.multiple ? $$selectedVal : $$selectedVal[0])}}},[_c('option',{attrs:{"value":"0"}},[_vm._v("选择节点")]),_vm._v(" "),_vm._l((_vm.nodes),function(node){return _c('option',{key:node.nodeId,domProps:{"value":node.nodeId}},[_vm._v(_vm._s(node.name)+"\n                    ")])})],2)])])],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"field\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"control\" data-v-be8b851a>","</div>",[_c('markdown-editor',{ref:"mdEditor",attrs:{"editor-id":"topicCreateEditor","placeholder":"可空，将图片复制或拖入编辑器可上传"},model:{value:(_vm.postForm.content),callback:function ($$v) {_vm.$set(_vm.postForm, "content", $$v)},expression:"postForm.content"}})],1)]),_vm._ssrNode(" <div class=\"field\" data-v-be8b851a><div class=\"field\" style=\"width:100%;\" data-v-be8b851a><input type=\"text\" placeholder=\"输入网址链接\""+(_vm._ssrAttr("value",(_vm.postForm.jumphref)))+" class=\"input\" data-v-be8b851a></div></div> <div class=\"field\" data-v-be8b851a><div class=\"field\" style=\"width:100%;\" data-v-be8b851a><input type=\"text\" placeholder=\"新闻热点类型：热、沸、新\""+(_vm._ssrAttr("value",(_vm.postForm.extraData)))+" class=\"input\" data-v-be8b851a></div></div> "),_vm._ssrNode("<div class=\"field\" data-v-be8b851a>","</div>",[_vm._ssrNode("<div class=\"control\" data-v-be8b851a>","</div>",[_c('tag-input',{model:{value:(_vm.postForm.tags),callback:function ($$v) {_vm.$set(_vm.postForm, "tags", $$v)},expression:"postForm.tags"}})],1)]),_vm._ssrNode(" "+((_vm.captchaUrl)?("<div class=\"field is-horizontal\" data-v-be8b851a><div class=\"field control has-icons-left\" data-v-be8b851a><input type=\"text\" placeholder=\"验证码\""+(_vm._ssrAttr("value",(_vm.captchaCode)))+" class=\"input\" style=\"max-width: 150px; margin-right: 20px;\" data-v-be8b851a> <span class=\"icon is-small is-left\" data-v-be8b851a><i class=\"iconfont icon-captcha\" data-v-be8b851a></i></span></div> <div class=\"field\" data-v-be8b851a><a data-v-be8b851a><img"+(_vm._ssrAttr("src",_vm.captchaUrl))+" style=\"height: 40px;\" data-v-be8b851a></a></div></div>"):"<!---->")+" <div class=\"field is-grouped\" data-v-be8b851a><div class=\"control\" data-v-be8b851a><a"+(_vm._ssrAttr("disabled",_vm.publishing))+(_vm._ssrClass("button is-success",{ 'is-loading': _vm.publishing }))+" data-v-be8b851a>发表话题</a></div></div>")],2)],2)]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right-container\" data-v-be8b851a>","</div>",[_c('markdown-help')],1)],2)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/topic/create.vue?vue&type=template&id=245a78a9&scoped=true&
+// CONCATENATED MODULE: ./pages/topic/create.vue?vue&type=template&id=be8b851a&scoped=true&
 
 // EXTERNAL MODULE: ./common/utils.js
-var utils = __webpack_require__(37);
+var utils = __webpack_require__(36);
 
 // EXTERNAL MODULE: ./components/TagInput.vue + 4 modules
-var TagInput = __webpack_require__(73);
+var TagInput = __webpack_require__(72);
 
 // EXTERNAL MODULE: ./components/MarkdownHelp.vue + 4 modules
-var MarkdownHelp = __webpack_require__(77);
+var MarkdownHelp = __webpack_require__(76);
 
 // EXTERNAL MODULE: ./components/MarkdownEditor.vue + 4 modules
 var MarkdownEditor = __webpack_require__(82);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/topic/create.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -184,7 +206,9 @@ var MarkdownEditor = __webpack_require__(82);
         nodeId: 0,
         title: '',
         tags: [],
-        content: ''
+        content: '',
+        extraData: '',
+        jumphref: ''
       }
     };
   },
@@ -223,14 +247,17 @@ var MarkdownEditor = __webpack_require__(82);
       this.publishing = true;
 
       try {
-        const topic = await this.$axios.post('/api/topic/create', {
-          captchaId: this.captchaId,
-          captchaCode: this.captchaCode,
-          nodeId: this.postForm.nodeId,
-          title: this.postForm.title,
-          content: this.postForm.content,
-          tags: this.postForm.tags ? this.postForm.tags.join(',') : ''
-        });
+        let parms = {};
+        const nodeName = this.getNodeName(this.postForm.nodeId);
+        console.log(this.postForm.nodeId + ' nodeName:' + nodeName);
+
+        if (nodeName === '周末玩') {
+          parms = this.playFunParms();
+        } else if (nodeName === '今日热榜') {
+          parms = this.resoParms();
+        }
+
+        const topic = await this.$axios.post('/api/topic/create', parms);
         this.$refs.mdEditor.clearCache();
         this.$toast.success('提交成功', {
           duration: 1000,
@@ -245,6 +272,48 @@ var MarkdownEditor = __webpack_require__(82);
         this.publishing = false;
         this.$toast.error('提交失败：' + (e.message || e));
       }
+    },
+
+    getNodeName(id) {
+      let name = '';
+      console.log('nodes:' + JSON.stringify(this.nodes) + ' ' + id);
+      this.nodes.forEach(element => {
+        if (id === element.nodeId) {
+          name = element.name;
+        }
+      });
+      return name;
+    },
+
+    playFunParms() {
+      return {
+        city: utils["a" /* default */].getCity(),
+        captchaId: this.captchaId,
+        captchaCode: this.captchaCode,
+        nodeId: this.postForm.nodeId,
+        title: this.postForm.title,
+        content: this.postForm.content,
+        tags: this.postForm.tags ? this.postForm.tags.join(',') : '',
+        imageList: '',
+        extraData: ''
+      };
+    },
+
+    resoParms() {
+      const extra = {
+        href: this.postForm.jumphref
+      };
+      return {
+        city: utils["a" /* default */].getCity(),
+        captchaId: this.captchaId,
+        captchaCode: this.captchaCode,
+        nodeId: this.postForm.nodeId,
+        title: this.postForm.title,
+        content: this.postForm.content,
+        tags: this.postForm.tags ? this.postForm.tags.join(',') : '',
+        imageList: '',
+        extraData: JSON.stringify(extra)
+      };
     },
 
     async showCaptcha() {
@@ -294,7 +363,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "245a78a9",
+  "be8b851a",
   "bc4a1a6a"
   
 )
@@ -303,7 +372,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 37:
+/***/ 36:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -395,7 +464,7 @@ class Utils {
 
 /***/ }),
 
-/***/ 60:
+/***/ 58:
 /***/ (function(module, exports) {
 
 // Exports
@@ -413,19 +482,19 @@ module.exports = {};
 
 /***/ }),
 
-/***/ 71:
+/***/ 70:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(60);
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(58);
 /* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
  /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ 73:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -721,7 +790,7 @@ var componentNormalizer = __webpack_require__(4);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(71)
+  var style0 = __webpack_require__(70)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -743,7 +812,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 75:
+/***/ 74:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -755,7 +824,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 77:
+/***/ 76:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -808,7 +877,7 @@ var componentNormalizer = __webpack_require__(4);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(75)
+  var style0 = __webpack_require__(74)
 if (style0.__inject__) style0.__inject__(context)
 
 }
