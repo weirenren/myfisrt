@@ -1,7 +1,7 @@
 exports.ids = [20];
 exports.modules = {
 
-/***/ 220:
+/***/ 221:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22,7 +22,7 @@ var utils = __webpack_require__(39);
 var UserHelper = __webpack_require__(9);
 
 // EXTERNAL MODULE: ./components/Comment.vue + 19 modules
-var Comment = __webpack_require__(74);
+var Comment = __webpack_require__(75);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/article/_id.vue?vue&type=script&lang=js&
 //
@@ -493,7 +493,7 @@ module.exports = {};
 
 /***/ }),
 
-/***/ 67:
+/***/ 68:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -505,7 +505,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 68:
+/***/ 69:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -671,7 +671,7 @@ var componentNormalizer = __webpack_require__(4);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(67)
+  var style0 = __webpack_require__(68)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -693,7 +693,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 74:
+/***/ 75:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -715,7 +715,7 @@ var CommentListvue_type_template_id_c959cf86_scoped_true_staticRenderFns = []
 // CONCATENATED MODULE: ./components/CommentList.vue?vue&type=template&id=c959cf86&scoped=true&
 
 // EXTERNAL MODULE: ./components/LoadMore.vue + 4 modules
-var LoadMore = __webpack_require__(68);
+var LoadMore = __webpack_require__(69);
 
 // EXTERNAL MODULE: ./common/utils.js
 var utils = __webpack_require__(39);

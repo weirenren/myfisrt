@@ -1,7 +1,7 @@
 exports.ids = [60];
 exports.modules = {
 
-/***/ 208:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16,7 +16,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./pages/user/email/verify.vue?vue&type=template&id=bb264aa0&scoped=true&
 
 // EXTERNAL MODULE: ./components/UserCenterSidebar.vue + 9 modules
-var UserCenterSidebar = __webpack_require__(72);
+var UserCenterSidebar = __webpack_require__(73);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/email/verify.vue?vue&type=script&lang=js&
 //
@@ -126,7 +126,7 @@ module.exports = {};
 
 /***/ }),
 
-/***/ 70:
+/***/ 71:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -138,7 +138,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 71:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -150,7 +150,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 72:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -237,7 +237,7 @@ var componentNormalizer = __webpack_require__(4);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(70)
+  var style0 = __webpack_require__(71)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -387,7 +387,7 @@ var UserHelper = __webpack_require__(9);
 
 function UserCenterSidebar_injectStyles (context) {
   
-  var style0 = __webpack_require__(71)
+  var style0 = __webpack_require__(72)
 if (style0.__inject__) style0.__inject__(context)
 
 }
