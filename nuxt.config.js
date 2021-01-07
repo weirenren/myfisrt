@@ -6,6 +6,9 @@ export default {
       total: true
     }
   },
+  router: {
+    middleware: 'axiosMiddle'
+  },
   mode: 'universal',
   // mode: 'spa',
   /*
@@ -93,6 +96,7 @@ export default {
     // '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/proxy',
     '@nuxtjs/eslint-module',
     '@nuxtjs/toast',
     'nuxt-clipboard2',
@@ -108,7 +112,13 @@ export default {
   },
 
   proxy: {
-    '/api/': 'http://127.0.0.1:8082'
+    '/api/': 'http://127.0.0.1:8082',
+    '/v3/geocode/geo': {
+      target: 'https://restapi.amap.com',
+      pathRewrite: {
+        '^/v3/geocode/geo': '/v3/geocode/geo'
+      }
+    }
     // '/api/': 'https://mlog.club'
   },
 

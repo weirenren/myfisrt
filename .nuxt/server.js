@@ -145,7 +145,7 @@ export default async (ssrContext) => {
   /*
   ** Call global middleware (nuxt.config.js)
   */
-  let midd = []
+  let midd = ["axiosMiddle"]
   midd = midd.map((name) => {
     if (typeof name === 'function') {
       return name

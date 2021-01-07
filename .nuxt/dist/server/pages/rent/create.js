@@ -1,31 +1,141 @@
 exports.ids = [38];
 exports.modules = {
 
-/***/ 178:
+/***/ 109:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// content_type : 0 == home data; 1 == love data
+class JsonConventer {
+  //     let username = req.body['username'];
+  // let from_type = req.body['from_type']; //
+  // let city = req.body['city'];
+  // let from = req.body['from'];
+  // let title = req.body['title'];
+  // let content = req.body['content'];
+  // let imgurl_list = req.body['imgurl_list'];
+  // let address = req.body['address'];
+  // let address_geo = req.body['address_geo'];
+  // from_type == 0 本地创建；from_type == 1 豆瓣租房
+  homeItemToJsonString(city, address) {
+    return {
+      content_type: 0,
+      from_type: 0,
+      city,
+      address,
+      address_geo: address
+    };
+  } // local_address: { type: String, default: "" },
+  // local_gender: { type: Number, default: 0 },// 0: boy; 1: girl
+  // local_hometown: { type: String, default: "" }, // 入职地点
+  // local_age: { type: String, default: 0 },
+  // local_height: { type: String, default: 0.0 },
+  // local_edu: { type: String, default: "" },
+  // local_workyears: { type: String, default: "" },
+  // local_job: { type: String, default: "" },
+  // local_wechat: { type: String, default: "" },
+  // local_otherinfor: { type: String, default: "" },
+  // local_imgurl_list: { type: String, default: '' }, // 个人照片
+  // condi_gender: { type: Number, default: 1 },
+  // condi_age: { type: String, default: 0 },
+  // condi_height: { type: String, default: 0 },
+  // condi_edu: { type: String, default: "" },
+  // condi_hometown: { type: String, default: "" },
+  // condi_otherinfor: { type: String, default: "" },
+
+
+  loveItemToJsonString() {
+    return {};
+  }
+
+  linkTo(path) {
+    window.location = path; // 这里使用$router.push会导致跳转页面之后window.vditor对象undefined，原因未知
+    // window.$nuxt.$router.push(path)
+  }
+
+  toSignin(ref) {
+    if (!ref && false) {
+      // 如果没配置refUrl，那么取当前地址
+      ref = window.location.pathname;
+    }
+
+    this.linkTo('/user/signin?ref=' + encodeURIComponent(ref));
+  }
+
+  isSigninUrl(ref) {
+    return ref === '/user/signin';
+  }
+
+  isArray(sources) {
+    return Object.prototype.toString.call(sources) === '[object Array]';
+  }
+
+  isDate(sources) {
+    return {}.toString.call(sources) === '[object Date]' && sources.toString() !== 'Invalid Date' && !isNaN(sources);
+  }
+
+  isElement(sources) {
+    return !!(sources && sources.nodeName && sources.nodeType === 1);
+  }
+
+  isFunction(sources) {
+    return Object.prototype.toString.call(sources) === '[object Function]';
+  }
+
+  isNumber(sources) {
+    return Object.prototype.toString.call(sources) === '[object Number]' && isFinite(sources);
+  }
+
+  isObject(sources) {
+    return Object.prototype.toString.call(sources) === '[object Object]';
+  }
+
+  isString(sources) {
+    return Object.prototype.toString.call(sources) === '[object String]';
+  }
+
+  isBoolean(sources) {
+    return typeof sources === 'boolean';
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (new JsonConventer());
+
+/***/ }),
+
+/***/ 194:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/rent/create.vue?vue&type=template&id=72fa4464&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container is-white left-main\" data-v-72fa4464>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-72fa4464>","</div>",[_vm._ssrNode("<div class=\"widget\" data-v-72fa4464>","</div>",[_vm._ssrNode("<div class=\"widget-header\" data-v-72fa4464><nav class=\"breadcrumb\" data-v-72fa4464><ul data-v-72fa4464><li data-v-72fa4464><a href=\"/\" data-v-72fa4464>首页</a></li> <li data-v-72fa4464><a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id + '?tab=topics'))+" data-v-72fa4464>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</a></li> <li class=\"is-active\" data-v-72fa4464><a href=\"#\" aria-current=\"page\" data-v-72fa4464>租房</a></li></ul></nav></div> "),_vm._ssrNode("<div class=\"widget-content\" data-v-72fa4464>","</div>",[_vm._ssrNode("<div class=\"field\" data-v-72fa4464><label class=\"label\" data-v-72fa4464>标题:</label> <div class=\"control\" data-v-72fa4464><input type=\"text\" placeholder=\"请输入租房标题\""+(_vm._ssrAttr("value",(_vm.postForm.title)))+" class=\"input\" data-v-72fa4464></div></div> <div class=\"field\" data-v-72fa4464><label class=\"label\" data-v-72fa4464>详情:</label> <div class=\"control\" data-v-72fa4464><textarea placeholder=\"详情内容\" class=\"textarea\" data-v-72fa4464>"+_vm._ssrEscape(_vm._s(_vm.postForm.content))+"</textarea></div></div> "),_vm._ssrNode("<div class=\"field\" data-v-72fa4464>","</div>",[_vm._ssrNode("<div class=\"control\" data-v-72fa4464>","</div>",[_c('post-tweets',{attrs:{"on-image-upload-call-back":_vm.onImageUpload}})],1)]),_vm._ssrNode(" <div class=\"field\" data-v-72fa4464><label class=\"label\" data-v-72fa4464>地址:</label> <div class=\"control\" data-v-72fa4464><input type=\"text\" placeholder=\"西二旗地铁、回龙观\""+(_vm._ssrAttr("value",(_vm.postForm.address)))+" class=\"input\" data-v-72fa4464></div></div> "),_vm._ssrNode("<div class=\"field\" data-v-72fa4464>","</div>",[_vm._ssrNode("<div class=\"control\" data-v-72fa4464>","</div>",[_c('tag-input',{model:{value:(_vm.postForm.tags),callback:function ($$v) {_vm.$set(_vm.postForm, "tags", $$v)},expression:"postForm.tags"}})],1)]),_vm._ssrNode(" "+((_vm.captchaUrl)?("<div class=\"field is-horizontal\" data-v-72fa4464><div class=\"field control has-icons-left\" data-v-72fa4464><input type=\"text\" placeholder=\"验证码\""+(_vm._ssrAttr("value",(_vm.captchaCode)))+" class=\"input\" style=\"max-width: 150px; margin-right: 20px;\" data-v-72fa4464> <span class=\"icon is-small is-left\" data-v-72fa4464><i class=\"iconfont icon-captcha\" data-v-72fa4464></i></span></div> <div class=\"field\" data-v-72fa4464><a data-v-72fa4464><img"+(_vm._ssrAttr("src",_vm.captchaUrl))+" style=\"height: 40px;\" data-v-72fa4464></a></div></div>"):"<!---->")+" <div class=\"field is-grouped\" data-v-72fa4464><div class=\"control\" data-v-72fa4464><a"+(_vm._ssrAttr("disabled",_vm.publishing))+(_vm._ssrClass("button is-success",{ 'is-loading': _vm.publishing }))+" data-v-72fa4464>发表</a></div></div>")],2)],2)]),_vm._ssrNode(" <div class=\"right-container\" data-v-72fa4464></div>")],2)])}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/rent/create.vue?vue&type=template&id=07734187&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container is-white left-main\" data-v-07734187>","</div>",[_c('client-only',[_c('div',{staticClass:"left-container"},[_c('div',{staticClass:"widget"},[_c('div',{staticClass:"widget-header"},[_c('nav',{staticClass:"breadcrumb"},[_c('ul',[_c('li',[_c('a',{attrs:{"href":"/"}},[_vm._v("首页")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":'/user/' + _vm.user.id + '?tab=topics'}},[_vm._v(_vm._s(_vm.user.nickname))])]),_vm._v(" "),_c('li',{staticClass:"is-active"},[_c('a',{attrs:{"href":"#","aria-current":"page"}},[_vm._v("租房")])])])])]),_vm._v(" "),_c('div',{staticClass:"widget-content"},[_c('div',{staticClass:"field"},[_c('label',{staticClass:"label"},[_vm._v("标题:")]),_vm._v(" "),_c('div',{staticClass:"control"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.postForm.title),expression:"postForm.title"}],staticClass:"input is-small",attrs:{"type":"text","placeholder":"格式：[转租/直租/求租/找室友]出租xx区xx地x室xx元，[紧邻地铁站]"},domProps:{"value":(_vm.postForm.title)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.postForm, "title", $event.target.value)}}})])]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('label',{staticClass:"label"},[_vm._v("详情:")]),_vm._v(" "),_c('div',{staticClass:"control"},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.postForm.content),expression:"postForm.content"}],staticClass:"textarea is-small",attrs:{"placeholder":"详情内容建议包含：个人是否为租客、是否个人房源、房租位置、大小、户型、房客情况、价格、租期可否续租，联系方式等等"},domProps:{"value":(_vm.postForm.content)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.postForm, "content", $event.target.value)}}})])]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('post-tweets',{attrs:{"on-image-upload-call-back":_vm.onImageUpload}})],1)]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('label',{staticClass:"label"},[_vm._v("地址标签:")]),_vm._v(" "),_c('div',{staticClass:"control"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.postForm.address),expression:"postForm.address"}],staticClass:"input is-small",attrs:{"type":"text","placeholder":"小区名称或标志性地点（请写正确，方便距离计算，搜索匹配）"},domProps:{"value":(_vm.postForm.address)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.postForm, "address", $event.target.value)}}})])]),_vm._v(" "),_c('div',{staticStyle:{"position":"relative","z-index":"100","margin-top":"20px","margin-bottom":"20px","width":"60%"}},[(_vm.showMetraSelectDiv())?_c('vue-cascader-select',{staticClass:"is-small",attrs:{"options":_vm.options,"placeholder":"选择就近地铁站","value":_vm.value},on:{"clear":_vm.onClearSubway,"select":_vm.onSelectSubway}}):_vm._e()],1),_vm._v(" "),(_vm.captchaUrl)?_c('div',{staticClass:"field is-horizontal"},[_c('div',{staticClass:"field control has-icons-left"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.captchaCode),expression:"captchaCode"}],staticClass:"input",staticStyle:{"max-width":"150px","margin-right":"20px"},attrs:{"type":"text","placeholder":"验证码"},domProps:{"value":(_vm.captchaCode)},on:{"input":function($event){if($event.target.composing){ return; }_vm.captchaCode=$event.target.value}}}),_vm._v(" "),_c('span',{staticClass:"icon is-small is-left"},[_c('i',{staticClass:"iconfont icon-captcha"})])]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('a',{on:{"click":_vm.showCaptcha}},[_c('img',{staticStyle:{"height":"40px"},attrs:{"src":_vm.captchaUrl}})])])]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"field is-grouped"},[_c('div',{staticClass:"control"},[_c('a',{staticClass:"button is-success",class:{ 'is-loading': _vm.publishing },attrs:{"disabled":_vm.publishing},on:{"click":_vm.submitCreate}},[_vm._v("发表")])])])])])]),_vm._v(" "),_c('div',{staticClass:"right-container"})])],1)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/rent/create.vue?vue&type=template&id=72fa4464&scoped=true&
+// CONCATENATED MODULE: ./pages/rent/create.vue?vue&type=template&id=07734187&scoped=true&
+
+// EXTERNAL MODULE: external "vue-cascader-select"
+var external_vue_cascader_select_ = __webpack_require__(36);
+var external_vue_cascader_select_default = /*#__PURE__*/__webpack_require__.n(external_vue_cascader_select_);
 
 // EXTERNAL MODULE: ./common/jsonConventer.js
-var jsonConventer = __webpack_require__(99);
+var jsonConventer = __webpack_require__(109);
 
 // EXTERNAL MODULE: ./common/utils.js
-var utils = __webpack_require__(36);
+var utils = __webpack_require__(39);
 
-// EXTERNAL MODULE: ./components/TagInput.vue + 4 modules
-var TagInput = __webpack_require__(72);
+// EXTERNAL MODULE: ./common/GeoUtil.js
+var GeoUtil = __webpack_require__(95);
 
 // EXTERNAL MODULE: ./components/PostTweets.vue + 4 modules
-var PostTweets = __webpack_require__(75);
+var PostTweets = __webpack_require__(85);
+
+// EXTERNAL MODULE: ./common/StorageUtil.js
+var StorageUtil = __webpack_require__(92);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/rent/create.vue?vue&type=script&lang=js&
 //
@@ -189,16 +299,47 @@ var PostTweets = __webpack_require__(75);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
- // import MarkdownHelp from '~/components/MarkdownHelp'
+
+ // import TagInput from '~/components/TagInput'
+// import MarkdownHelp from '~/components/MarkdownHelp'
+
 
  // import MarkdownEditor from '~/components/MarkdownEditor'
 
 /* harmony default export */ var createvue_type_script_lang_js_ = ({
   middleware: 'authenticated',
   components: {
-    TagInput: TagInput["a" /* default */],
+    VueCascaderSelect: external_vue_cascader_select_default.a,
+    // TagInput,
     PostTweets: PostTweets["a" /* default */] // MarkdownHelp
 
   },
@@ -242,7 +383,41 @@ var PostTweets = __webpack_require__(75);
         tags: [],
         content: '',
         address: ''
-      }
+      },
+      subwaysAndRegions: [],
+      value: '',
+      geoStationId: -1,
+      // 地铁站对应的id
+      options: [{
+        label: 'Frontend',
+        disabled: true,
+        // selectable: true,
+        options: [{
+          label: 'Vue',
+          value: 'Vue'
+        }, {
+          label: 'React',
+          value: 'React'
+        }, {
+          label: 'Svelte',
+          value: 'Svelte'
+        }]
+      }, {
+        label: 'Backend',
+        value: 'Backend',
+        disabled: true,
+        // selectable: true,
+        options: [{
+          label: 'Ruby on Rails',
+          value: 'Ruby on Rails'
+        }, {
+          label: 'NodeJS',
+          value: 'NodeJS'
+        }, {
+          label: 'Elixir',
+          value: 'Elixir'
+        }]
+      }]
     };
   },
 
@@ -259,48 +434,83 @@ var PostTweets = __webpack_require__(75);
 
   mounted() {
     this.showCaptcha();
+    this.checkConfig();
   },
 
   methods: {
+    async checkConfig() {
+      const city = utils["a" /* default */].getCity();
+      const subways = StorageUtil["a" /* default */].getSubwayAndRegion(city); // console.log('subways get :' + JSON.stringify(subways))
+
+      if (!subways) {
+        const [subwaysRegions] = await Promise.all([this.$axios.get('/api/topic/subway', {
+          params: {
+            city
+          }
+        })]); // console.log(
+        //   'subwaysAndRegions get remote:' + JSON.stringify(subwaysRegions)
+        // )
+
+        this.subwaysAndRegions = subwaysRegions;
+
+        if (subwaysRegions && subwaysRegions.length > 0) {
+          StorageUtil["a" /* default */].setSubwayAndRegion(city, subwaysRegions);
+        }
+      } else {
+        // console.log('subwaysAndRegions get cache:' + JSON.stringify(subways))
+        this.subwaysAndRegions = subways;
+      }
+
+      this.checkSubwayStationData();
+      this.formatSubwaySelectData();
+    },
+
+    showMetraSelectDiv() {
+      return utils["a" /* default */].getCity() === '北京' || utils["a" /* default */].getCity() === '武汉';
+    },
+
     onImageUpload(imageList) {
       this.imageList = imageList;
     },
 
-    async submitCreate() {
-      if (this.publishing) {
+    checkRentAddress(succCallback, errorCallback) {
+      const address = this.postForm.address;
+
+      if (address === '') {
         return;
       }
 
-      if (!this.postForm.title) {
-        this.$toast.error('请输入标题');
-        return;
-      }
+      GeoUtil["a" /* default */].requestAmapGeo(this.$axios, this.postForm.address, geoObject => {
+        const result = GeoUtil["a" /* default */].getLatlonFromGeoRequest(geoObject); // console.log('requestAmapGeo:' + JSON.stringify(result))
 
-      this.publishing = true;
+        if (result.geohash === '' || result.latlon === '') {
+          if (errorCallback) {
+            errorCallback();
+          }
+        } else if (succCallback) {
+          succCallback(result.latlon, result.geohash, result.district);
+        }
+      });
+    },
 
+    async submitTopic(latlon, geoHash, district) {
       try {
-        const transferContent = jsonConventer["a" /* default */].homeItemToJsonString('北京', this.postForm.address); // console.log(
-        //   'content:' +
-        //     JSON.stringify({
-        //       captchaId: this.captchaId,
-        //       captchaCode: this.captchaCode,
-        //       nodeId: this.postForm.nodeId,
-        //       title: this.postForm.title,
-        //       content: this.postForm.content,
-        //       tags: this.postForm.tags ? this.postForm.tags.join(',') : ''
-        //     })
-        // )
-
-        const topic = await this.$axios.post('/api/topic/create', {
+        const transferContent = jsonConventer["a" /* default */].homeItemToJsonString('北京', this.postForm.address);
+        const tags = this.value !== '' ? [this.value] : [];
+        const topic = await this.$axios.post('/api/topic/rent/create', {
           city: utils["a" /* default */].getCity(),
           captchaId: this.captchaId,
           captchaCode: this.captchaCode,
           nodeId: this.postForm.nodeId,
           title: this.postForm.title,
           content: this.postForm.content,
-          tags: this.postForm.tags ? this.postForm.tags.join(',') : '',
+          tags: tags.join(','),
           imageList: this.imageList.toString(),
-          extraData: JSON.stringify(transferContent)
+          extraData: JSON.stringify(transferContent),
+          latlon,
+          geoHash,
+          district,
+          geoStationId: this.geoStationId
         }); // this.$refs.mdEditor.clearCache()
 
         this.$toast.success('提交成功', {
@@ -319,6 +529,96 @@ var PostTweets = __webpack_require__(75);
       }
     },
 
+    submitCreate() {
+      if (this.publishing) {
+        this.$toast.error('正在提交中');
+        return;
+      }
+
+      if (!this.postForm.title) {
+        this.$toast.error('请输入标题');
+        return;
+      }
+
+      if (!this.postForm.address) {
+        this.$toast.error('请输入地点');
+        return;
+      }
+
+      this.publishing = true;
+      this.checkRentAddress((latlon, geohash, district) => {
+        let distrctName = '';
+
+        if (district.includes('区') && district.length > 2) {
+          distrctName = district.substring(0, district.length - 1);
+        } else {
+          distrctName = district;
+        } // console.log(
+        //   'checkRentAddress success:' +
+        //     latlon +
+        //     ' ' +
+        //     geohash +
+        //     ' ' +
+        //     distrctName
+        // )
+
+
+        this.submitTopic(latlon, geohash, distrctName);
+      }, () => {
+        this.publishing = false;
+        this.$toast.error('提交失败，请输入有效地址。例如：[西二旗地铁站] 或者 [兰园小区]');
+        console.log('checkRentAddress error:' + this.postForm.address);
+      });
+    },
+
+    checkSubwayStationData() {
+      const city = utils["a" /* default */].getCity();
+      const subways = StorageUtil["a" /* default */].getSubwayAndRegion(city); // console.log('checkSubwayStationData:' + JSON.stringify(subways))
+
+      if (subways) {
+        const subwayDtype = 0;
+        const ids = [];
+        subways.forEach(item => {
+          // 地铁
+          if (item.dtype === subwayDtype) {
+            const res = StorageUtil["a" /* default */].getStationList(city, subwayDtype, item.dataId);
+
+            if (res) {} else {
+              ids.push(item.dataId);
+            }
+          }
+        });
+
+        if (ids.length > 0) {
+          this.requestStationList(subwayDtype, ids, city);
+        }
+      }
+    },
+
+    requestStationList(dtype, ids, city) {
+      const params = {
+        dtype,
+        dataIds: ids.toString(),
+        city
+      };
+      this.$axios.get('/api/topic/stationlist2', {
+        params
+      }).then(res => {
+        if (res && res.length > 0) {
+          // console.log('requestStationList:' + JSON.stringify(res))
+          res.forEach(item => {
+            if (item.stationlist) {
+              StorageUtil["a" /* default */].setStationList(city, dtype, item.dataId, item.stationlist);
+            }
+          }); // StorageUtil.setStationList(city, dtype, dataId, res)
+
+          this.formatSubwaySelectData();
+        }
+      }).catch(e => {
+        console.log('create page, requestStationList error:' + JSON.stringify(e));
+      });
+    },
+
     async showCaptcha() {
       if (this.config.topicCaptcha) {
         try {
@@ -333,6 +633,56 @@ var PostTweets = __webpack_require__(75);
           this.$toast.error(e.message || e);
         }
       }
+    },
+
+    onClearSubway(value) {
+      this.value = '';
+      this.geoStationId = -1;
+    },
+
+    onSelectSubway(value) {
+      // console.log('select:' + JSON.stringify(value))
+      if (value.value) {
+        const arr = value.value.split('-');
+
+        if (arr.length === 3) {
+          this.geoStationId = arr[0];
+          this.value = arr[1] + '-' + arr[2];
+        }
+      }
+    },
+
+    formatSubwaySelectData() {
+      const result = [];
+      const city = utils["a" /* default */].getCity();
+      const arr = this.subwaysAndRegions;
+
+      if (arr) {
+        arr.forEach(item => {
+          if (item.dtype === 0) {
+            const options = [];
+            const subwayStations = StorageUtil["a" /* default */].getStationList(city, 0, item.dataId);
+
+            if (subwayStations) {
+              subwayStations.forEach(station => {
+                options.push({
+                  label: station.name,
+                  value: station.geoStationId + '-' + item.name + '-' + station.name
+                });
+              });
+              result.push({
+                label: item.name,
+                value: item.name,
+                disabled: true,
+                options
+              });
+            }
+          }
+        });
+      } // console.log('formatSubwaySelectData :' + JSON.stringify(result))
+
+
+      this.options = result;
     },
 
     tweetsCreated(item) {
@@ -370,7 +720,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "72fa4464",
+  "07734187",
   "5ad18a1a"
   
 )
@@ -379,11 +729,11 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 36:
+/***/ 39:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(28);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(29);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -437,6 +787,12 @@ class Utils {
     return Object.prototype.toString.call(sources) === '[object Function]';
   }
 
+  unique(arr) {
+    return arr.filter((item, index, arr) => {
+      return arr.indexOf(item, 0) === index;
+    });
+  }
+
   isNumber(sources) {
     return Object.prototype.toString.call(sources) === '[object Number]' && isFinite(sources);
   }
@@ -465,13 +821,29 @@ class Utils {
     return re.test(str);
   }
 
+  getTopText(topType) {
+    if (topType === 1) {
+      return '顶';
+    }
+
+    if (topType === 2) {
+      return '火';
+    }
+
+    if (topType === 3) {
+      return '精华';
+    }
+
+    return '';
+  }
+
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (new Utils());
 
 /***/ }),
 
-/***/ 58:
+/***/ 69:
 /***/ (function(module, exports) {
 
 // Exports
@@ -480,368 +852,29 @@ module.exports = {};
 
 /***/ }),
 
-/***/ 63:
-/***/ (function(module, exports) {
-
-// Exports
-module.exports = {};
-
-
-/***/ }),
-
-/***/ 70:
+/***/ 79:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(58);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_TagInput_vue_vue_type_style_index_0_id_cf173526_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_6f836c08_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(69);
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_6f836c08_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_6f836c08_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_6f836c08_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_6f836c08_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_6f836c08_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ 72:
+/***/ 85:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/TagInput.vue?vue&type=template&id=cf173526&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"select-tags"},[_vm._ssrNode("<input id=\"tags\" name=\"tags\" type=\"hidden\""+(_vm._ssrAttr("value",(_vm.tags)))+" data-v-cf173526> <div class=\"tags-selected\" data-v-cf173526>"+(_vm._ssrList((_vm.tags),function(tag){return ("<span class=\"tag-item\" data-v-cf173526><span class=\"text\" data-v-cf173526>"+_vm._ssrEscape(_vm._s(tag))+"<i"+(_vm._ssrAttr("data-name",tag))+" class=\"iconfont icon-close\" data-v-cf173526></i></span></span>")}))+"</div> <input"+(_vm._ssrAttr("placeholder",'标签（请用逗号分隔每个标签，最多' +
-        _vm.maxTagCount +
-        '个，每个最长15字符）'))+" type=\"text\""+(_vm._ssrAttr("value",(_vm.inputTag)))+" class=\"input\" data-v-cf173526> "+((_vm.autocompleteTags.length > 0)?("<div class=\"autocomplete-tags\" data-v-cf173526><div class=\"tags-container\" data-v-cf173526><section class=\"tag-section\" data-v-cf173526>"+(_vm._ssrList((_vm.autocompleteTags),function(item,index){return ("<div"+(_vm._ssrClass("tag-item",{ active: index === _vm.selectIndex }))+" data-v-cf173526>"+_vm._ssrEscape(_vm._s(item))+"</div>")}))+"</section></div></div>"):"<!---->")+" "+((_vm.showRecommendTags)?("<div class=\"recommend-tags\" data-v-cf173526><div class=\"tags-container\" data-v-cf173526><div class=\"header\" data-v-cf173526><span data-v-cf173526>推荐标签</span> <span class=\"close-recommend\" data-v-cf173526><i class=\"iconfont icon-close\" data-v-cf173526></i></span></div> "+(_vm._ssrList((_vm.recommendTags),function(tag){return ("<a class=\"tag-item\" data-v-cf173526>"+_vm._ssrEscape(_vm._s(tag))+"</a>")}))+"</div></div>"):"<!---->"))])}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/PostTweets.vue?vue&type=template&id=6f836c08&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"post-tweets-wrapper"},[_vm._ssrNode("<div class=\"tweets-box\" data-v-6f836c08><div class=\"box-footer\" data-v-6f836c08><div class=\"bui-left\" data-v-6f836c08><span class=\"action-btn\" data-v-6f836c08><i class=\"iconfont icon-image\" data-v-6f836c08></i> <span data-v-6f836c08>本地图片上传</span></span></div></div> <div class=\"uploader-popup\""+(_vm._ssrStyle(null,null, { display: (_vm.showUploader) ? '' : 'none' }))+" data-v-6f836c08><div class=\"imgUploadBox\" data-v-6f836c08><p class=\"uploader-title\" data-v-6f836c08>本地上传</p> <p class=\"uploader-meta\" data-v-6f836c08>"+_vm._ssrEscape("\n          共 "+_vm._s(_vm.imageCount)+" 张，还能上传 "+_vm._s(_vm.maxImageCount - _vm.imageCount)+" 张\n        ")+"</p> <i class=\"close-popup iconfont icon-close\" data-v-6f836c08></i> <div class=\"upload-box\" data-v-6f836c08><form style=\"display: none;\" data-v-6f836c08><input type=\"file\" accept=\"image/*\" multiple=\"multiple\" data-v-6f836c08></form> <ul class=\"upload-img-list\" data-v-6f836c08>"+(_vm._ssrList((_vm.images),function(image,i){return ("<li class=\"upload-img-item\" data-v-6f836c08><img"+(_vm._ssrAttr("src",image))+" data-v-6f836c08> <i class=\"iconfont icon-close remove\" data-v-6f836c08></i></li>")}))+" "+((_vm.imageCount < _vm.maxImageCount)?("<li class=\"upload-img-item upload-img-add\" data-v-6f836c08><i class=\"iconfont icon-add\" data-v-6f836c08></i></li>"):"<!---->")+"</ul></div></div></div></div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/TagInput.vue?vue&type=template&id=cf173526&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/TagInput.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var TagInputvue_type_script_lang_js_ = ({
-  props: {
-    value: {
-      type: Array,
-
-      default() {
-        return [];
-      }
-
-    }
-  },
-
-  data() {
-    return {
-      tags: this.value || [],
-      maxTagCount: 3,
-      // 最多可以选择的标签数量
-      maxWordCount: 15,
-      // 每个标签最大字数
-      showRecommendTags: false,
-      // 是否显示推荐
-      inputTag: '',
-      autocompleteTags: [],
-      selectIndex: -1
-    };
-  },
-
-  computed: {
-    // 推荐标签
-    recommendTags() {
-      return this.$store.state.config.config.recommendTags;
-    }
-
-  },
-  methods: {
-    removeTag(event, tag) {
-      const selectionStart = this.$refs.tagInput.selectionStart;
-
-      if (!this.inputTag || selectionStart === 0) {
-        // input框没内容，或者光标在首位的时候就删除最后一个标签
-        this.tags.splice(this.tags.length - 1, 1);
-        this.$emit('input', this.tags);
-      }
-    },
-
-    clickRemoveTag(event) {
-      const tag = event.target.dataset.name;
-
-      if (tag) {
-        const index = this.tags.indexOf(tag);
-
-        if (index !== -1) {
-          this.tags.splice(index, 1);
-          this.$emit('input', this.tags);
-        }
-      }
-    },
-
-    /**
-     * 手动点击选择标签
-     * @param index
-     */
-    selectTag(index) {
-      this.selectIndex = index;
-      this.addTag();
-    },
-
-    /**
-     * 添加标签
-     * @param event
-     */
-    addTag(event) {
-      if (event) {
-        event.stopPropagation();
-        event.preventDefault();
-      }
-
-      if (this.selectIndex >= 0 && this.autocompleteTags.length > this.selectIndex) {
-        this.addTagName(this.autocompleteTags[this.selectIndex]);
-      } else {
-        this.addTagName(this.inputTag);
-      }
-
-      this.autocompleteTags = [];
-      this.selectIndex = -1;
-    },
-
-    /**
-     * 添加推荐标签
-     * @param tagName
-     */
-    addRecommendTag(tagName) {
-      this.addTagName(tagName);
-      this.closeRecommendTags();
-    },
-
-    /**
-     * 添加标签
-     * @param tagName 标签名称
-     * @returns {boolean} 是否成功
-     */
-    addTagName(tagName) {
-      if (!tagName) {
-        return false;
-      } // 最多四个标签
-
-
-      if (this.tags && this.tags.length >= this.maxTagCount) {
-        return false;
-      } // 每个标签最多15个字符
-
-
-      if (tagName.length > this.maxWordCount) {
-        return false;
-      } // 标签已经存在
-
-
-      if (this.tags && this.tags.includes(tagName)) {
-        return false;
-      }
-
-      this.tags.push(tagName);
-      this.inputTag = '';
-      this.$emit('input', this.tags);
-      return true;
-    },
-
-    async autocomplete() {
-      this.closeRecommendTags();
-      this.selectIndex = -1;
-
-      if (!this.inputTag) {
-        this.autocompleteTags = [];
-      } else {
-        const ret = await this.$axios.post('/api/tag/autocomplete', {
-          input: this.inputTag
-        });
-        this.autocompleteTags = [];
-
-        if (ret.length > 0) {
-          for (let i = 0; i < ret.length; i++) {
-            this.autocompleteTags.push(ret[i].name);
-          }
-        }
-      }
-    },
-
-    selectUp(event) {
-      event.stopPropagation();
-      event.preventDefault();
-      const curIndex = this.selectIndex;
-      const maxIndex = this.autocompleteTags.length - 1;
-
-      if (maxIndex < 0 || curIndex < 0) {
-        // 已经在最顶部
-        return;
-      }
-
-      this.selectIndex--;
-    },
-
-    selectDown(event) {
-      event.stopPropagation();
-      event.preventDefault();
-      const curIndex = this.selectIndex;
-      const maxIndex = this.autocompleteTags.length - 1;
-
-      if (maxIndex < 0 || curIndex >= maxIndex) {
-        // 已经在最底部
-        return;
-      }
-
-      this.selectIndex++;
-    },
-
-    // 关闭推荐
-    openRecommendTags() {
-      this.showRecommendTags = true;
-    },
-
-    // 开启推荐
-    closeRecommendTags() {
-      setTimeout(() => {
-        this.showRecommendTags = false;
-      }, 300);
-    },
-
-    // 关闭自动补全
-    close() {
-      if (this.autocompleteTags && this.autocompleteTags.length > 0) {
-        this.autocompleteTags = [];
-        this.selectIndex = -1;
-      }
-
-      this.closeRecommendTags();
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./components/TagInput.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_TagInputvue_type_script_lang_js_ = (TagInputvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(4);
-
-// CONCATENATED MODULE: ./components/TagInput.vue
-
-
-
-function injectStyles (context) {
-  
-  var style0 = __webpack_require__(70)
-if (style0.__inject__) style0.__inject__(context)
-
-}
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  components_TagInputvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  injectStyles,
-  "cf173526",
-  "d9b14516"
-  
-)
-
-/* harmony default export */ var TagInput = __webpack_exports__["a"] = (component.exports);
-
-/***/ }),
-
-/***/ 73:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_21e004e5_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(63);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_21e004e5_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_21e004e5_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_21e004e5_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_21e004e5_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_PostTweets_vue_vue_type_style_index_0_id_21e004e5_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ 75:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/PostTweets.vue?vue&type=template&id=21e004e5&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"post-tweets-wrapper"},[_vm._ssrNode("<div class=\"tweets-box\" data-v-21e004e5><div class=\"box-footer\" data-v-21e004e5><div class=\"bui-left\" data-v-21e004e5><span class=\"action-btn\" data-v-21e004e5><i class=\"iconfont icon-image\" data-v-21e004e5></i> <span data-v-21e004e5>本地图片上传</span></span></div></div> <div class=\"uploader-popup\""+(_vm._ssrStyle(null,null, { display: (_vm.showUploader) ? '' : 'none' }))+" data-v-21e004e5><div class=\"imgUploadBox\" data-v-21e004e5><p class=\"uploader-title\" data-v-21e004e5>本地上传</p> <p class=\"uploader-meta\" data-v-21e004e5>"+_vm._ssrEscape("\n          共 "+_vm._s(_vm.imageCount)+" 张，还能上传 "+_vm._s(_vm.maxImageCount - _vm.imageCount)+" 张\n        ")+"</p> <i class=\"close-popup iconfont icon-close\" data-v-21e004e5></i> <div class=\"upload-box\" data-v-21e004e5><form style=\"display: none;\" data-v-21e004e5><input type=\"file\" accept=\"image/*\" multiple=\"multiple\" data-v-21e004e5></form> <ul class=\"upload-img-list\" data-v-21e004e5>"+(_vm._ssrList((_vm.images),function(image,i){return ("<li class=\"upload-img-item\" data-v-21e004e5><img"+(_vm._ssrAttr("src",image))+" data-v-21e004e5> <i class=\"iconfont icon-close remove\" data-v-21e004e5></i></li>")}))+" "+((_vm.imageCount < _vm.maxImageCount)?("<li class=\"upload-img-item upload-img-add\" data-v-21e004e5><i class=\"iconfont icon-add\" data-v-21e004e5></i></li>"):"<!---->")+"</ul></div></div></div></div>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/PostTweets.vue?vue&type=template&id=21e004e5&scoped=true&
+// CONCATENATED MODULE: ./components/PostTweets.vue?vue&type=template&id=6f836c08&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/PostTweets.vue?vue&type=script&lang=js&
 //
@@ -954,7 +987,7 @@ var staticRenderFns = []
       message: '',
       maxWordCount: 1000,
       showUploader: false,
-      maxImageCount: 9
+      maxImageCount: 6
     };
   },
 
@@ -1133,7 +1166,7 @@ var componentNormalizer = __webpack_require__(4);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(73)
+  var style0 = __webpack_require__(79)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -1146,7 +1179,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "21e004e5",
+  "6f836c08",
   "673911c7"
   
 )
@@ -1155,106 +1188,172 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 99:
+/***/ 92:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-// content_type : 0 == home data; 1 == love data
-class JsonConventer {
-  //     let username = req.body['username'];
-  // let from_type = req.body['from_type']; //
-  // let city = req.body['city'];
-  // let from = req.body['from'];
-  // let title = req.body['title'];
-  // let content = req.body['content'];
-  // let imgurl_list = req.body['imgurl_list'];
-  // let address = req.body['address'];
-  // let address_geo = req.body['address_geo'];
-  // from_type == 0 本地创建；from_type == 1 豆瓣租房
-  homeItemToJsonString(city, address) {
-    return {
-      content_type: 0,
-      from_type: 0,
-      city,
-      address,
-      address_geo: address
-    };
-  } // local_address: { type: String, default: "" },
-  // local_gender: { type: Number, default: 0 },// 0: boy; 1: girl
-  // local_hometown: { type: String, default: "" }, // 入职地点
-  // local_age: { type: String, default: 0 },
-  // local_height: { type: String, default: 0.0 },
-  // local_edu: { type: String, default: "" },
-  // local_workyears: { type: String, default: "" },
-  // local_job: { type: String, default: "" },
-  // local_wechat: { type: String, default: "" },
-  // local_otherinfor: { type: String, default: "" },
-  // local_imgurl_list: { type: String, default: '' }, // 个人照片
-  // condi_gender: { type: Number, default: 1 },
-  // condi_age: { type: String, default: 0 },
-  // condi_height: { type: String, default: 0 },
-  // condi_edu: { type: String, default: "" },
-  // condi_hometown: { type: String, default: "" },
-  // condi_otherinfor: { type: String, default: "" },
+/* harmony import */ var _common_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(39);
+ // import TagInput from '~/components/TagInput'
+// import MarkdownHelp from '~/components/MarkdownHelp'
 
-
-  loveItemToJsonString() {
-    return {};
+class StorageUtil {
+  getStorage() {
+    return window.localStorage;
   }
 
-  linkTo(path) {
-    window.location = path; // 这里使用$router.push会导致跳转页面之后window.vditor对象undefined，原因未知
-    // window.$nuxt.$router.push(path)
+  setConfigVersion(versionCode) {
+    this.setItem('vcode', versionCode);
   }
 
-  toSignin(ref) {
-    if (!ref && false) {
-      // 如果没配置refUrl，那么取当前地址
-      ref = window.location.pathname;
+  getConfigVersion() {
+    return this.getItem('vcode');
+  }
+
+  getCurrentCity() {
+    return this.getItem('city');
+  }
+
+  setCurrentCity(city) {
+    this.setItem('city', city);
+  }
+
+  setSubwayAndRegion(city, json) {
+    this.setItem(city + '_subway_region', json);
+  }
+
+  getSubwayAndRegion(city) {
+    return this.getItem(city + '_subway_region');
+  }
+
+  getStationList(city, dtype, dataId) {
+    return this.getItem(city + '_' + dtype + '_' + dataId);
+  }
+
+  setStationList(city, dtype, dataId, json) {
+    this.setItem(city + '_' + dtype + '_' + dataId, json);
+  }
+
+  getItem(key) {
+    const storage = this.getStorage();
+
+    try {
+      return JSON.parse(storage.getItem(key));
+    } catch (err) {
+      return null;
     }
-
-    this.linkTo('/user/signin?ref=' + encodeURIComponent(ref));
   }
 
-  isSigninUrl(ref) {
-    return ref === '/user/signin';
+  setItem(key, val) {
+    this.getStorage().setItem(key, JSON.stringify(val));
   }
 
-  isArray(sources) {
-    return Object.prototype.toString.call(sources) === '[object Array]';
+  removeItem(key) {
+    this.getStorage().removeItem(key);
   }
 
-  isDate(sources) {
-    return {}.toString.call(sources) === '[object Date]' && sources.toString() !== 'Invalid Date' && !isNaN(sources);
-  }
-
-  isElement(sources) {
-    return !!(sources && sources.nodeName && sources.nodeType === 1);
-  }
-
-  isFunction(sources) {
-    return Object.prototype.toString.call(sources) === '[object Function]';
-  }
-
-  isNumber(sources) {
-    return Object.prototype.toString.call(sources) === '[object Number]' && isFinite(sources);
-  }
-
-  isObject(sources) {
-    return Object.prototype.toString.call(sources) === '[object Object]';
-  }
-
-  isString(sources) {
-    return Object.prototype.toString.call(sources) === '[object String]';
-  }
-
-  isBoolean(sources) {
-    return typeof sources === 'boolean';
+  clear() {
+    const storage = this.getStorage();
+    storage.clear();
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (new JsonConventer());
+/* harmony default export */ __webpack_exports__["a"] = (new StorageUtil());
+
+/***/ }),
+
+/***/ 95:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _common_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(39);
+ // import TagInput from '~/components/TagInput'
+// import MarkdownHelp from '~/components/MarkdownHelp'
+
+const Geohash = __webpack_require__(34);
+
+class GeoUtil {
+  convertLatlonToGeohash(latlon) {
+    return Geohash.encode(latlon[0], latlon[1], 11);
+  }
+
+  getLatlonFromGeoRequest(geoObject) {
+    let geohashStr = '';
+    let latlonStr = '';
+    let district = '';
+
+    if (geoObject.geocodes.length > 0) {
+      const geocode = geoObject.geocodes[0]; // console.log('geocode:' + JSON.stringify(geocode))
+
+      if (geocode.location !== undefined) {
+        district = geocode.district;
+        const latlon = geocode.location.split(',');
+        geohashStr = this.convertLatlonToGeohash(latlon);
+        latlonStr = geocode.location; // resultList.push({
+        //   name: address,
+        //   latlon: lotlon_str,
+        //   geohash: geohash_str
+        // })
+        // console.log('result:' + geohashStr)
+      }
+    }
+
+    return {
+      geohash: geohashStr,
+      latlon: latlonStr,
+      district
+    };
+  }
+
+  requestAmapGeo(axios, address, callback) {
+    const amapapi = '/v3/geocode/geo?key=06a39860cdf741c5dc5ba1242112ab72&city=' + _common_utils__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"].getCity() + '&address=' + address;
+    axios.get(amapapi).then(function (response) {// console.log('result:' + response)
+    }).catch(function (reponse) {
+      if (callback) {
+        callback(reponse);
+      }
+    });
+  }
+
+  hasRole(user, role) {
+    if (!user || !user.roles || !user.roles.length) {
+      return false;
+    }
+
+    for (let i = 0; i < user.roles.length; i++) {
+      if (user.roles[i] === role) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  hasAnyRole(user, ...roles) {
+    if (!roles || !roles.length) {
+      return false;
+    }
+
+    for (let i = 0; i < roles.length; i++) {
+      if (this.hasRole(user, roles[i])) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  isOwner(user) {
+    return this.hasRole(user, 'owner');
+  }
+
+  isAdmin(user) {
+    return this.hasRole(user, 'admin');
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (new GeoUtil());
 
 /***/ })
 
