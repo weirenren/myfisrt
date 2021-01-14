@@ -24,6 +24,7 @@
     "@nuxtjs/toast": "^3.2.1",
     "area-linkage-vue": "^5.1.2",
     "async-validator": "^3.4.0",
+    "base64toblob": "^0.0.2",
     "bulma": "^0.9.0",
     "cookie-universal-nuxt": "^2.0.18",
     "element-ui": "^2.13.0",
