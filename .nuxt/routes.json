@@ -168,11 +168,25 @@
     "_name": "_3e767c5e"
   },
   {
+    "name": "user-forget",
+    "path": "/user/forget",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/forget.vue",
+    "chunkName": "pages/user/forget",
+    "_name": "_e8c01d14"
+  },
+  {
     "name": "user-messages",
     "path": "/user/messages",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/messages.vue",
     "chunkName": "pages/user/messages",
     "_name": "_7e2f3115"
+  },
+  {
+    "name": "user-resign",
+    "path": "/user/resign",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/resign.vue",
+    "chunkName": "pages/user/resign",
+    "_name": "_0927b079"
   },
   {
     "name": "user-scores",
@@ -257,6 +271,13 @@
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/node/recommend.vue",
     "chunkName": "pages/topics/node/recommend",
     "_name": "_5fffe93f"
+  },
+  {
+    "name": "user-email-reset",
+    "path": "/user/email/reset",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/email/reset.vue",
+    "chunkName": "pages/user/email/reset",
+    "_name": "_577f30e3"
   },
   {
     "name": "user-email-verify",

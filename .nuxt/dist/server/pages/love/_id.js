@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 227:
+/***/ 230:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -695,7 +695,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 70:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -905,7 +905,7 @@ var CommentListvue_type_template_id_c959cf86_scoped_true_staticRenderFns = []
 // CONCATENATED MODULE: ./components/CommentList.vue?vue&type=template&id=c959cf86&scoped=true&
 
 // EXTERNAL MODULE: ./components/LoadMore.vue + 4 modules
-var LoadMore = __webpack_require__(70);
+var LoadMore = __webpack_require__(73);
 
 // EXTERNAL MODULE: ./common/utils.js
 var utils = __webpack_require__(40);
@@ -1090,12 +1090,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var CommentList = (component.exports);
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/CommentInput.vue?vue&type=template&id=7e0a8a20&scoped=true&
-var CommentInputvue_type_template_id_7e0a8a20_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"comment-form"},[_vm._ssrNode(((_vm.isLogin)?("<div class=\"comment-create\" data-v-7e0a8a20><div class=\"comment-input-wrapper\" data-v-7e0a8a20>"+((_vm.quote)?("<div class=\"comment-quote-info\" data-v-7e0a8a20>\n        回复：\n        <label data-v-7e0a8a20>"+_vm._ssrEscape(_vm._s(_vm.quote.user.nickname))+"</label> <i alt=\"取消回复\" class=\"iconfont icon-close\" data-v-7e0a8a20></i></div>"):"<!---->")+" <textarea editor-id=\"createEditor\" height=\"200px\" placeholder=\"请发表你的观点...\" class=\"textarea is-large\" data-v-7e0a8a20>"+_vm._ssrEscape(_vm._s(_vm.content))+"</textarea></div> <div class=\"comment-button-wrapper\" data-v-7e0a8a20><span data-v-7e0a8a20>Ctrl or ⌘ + Enter</span> <button class=\"button is-small is-success\" data-v-7e0a8a20>"+_vm._ssrEscape(_vm._s(_vm.btnName))+"</button></div></div>"):("<div class=\"comment-not-login\" data-v-7e0a8a20><div class=\"comment-login-div\" data-v-7e0a8a20>\n      请\n      <a style=\"font-weight: 700;\" data-v-7e0a8a20>登录</a>后发表观点\n    </div></div>")))])}
-var CommentInputvue_type_template_id_7e0a8a20_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/CommentInput.vue?vue&type=template&id=9d69d410&scoped=true&
+var CommentInputvue_type_template_id_9d69d410_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"comment-form"},[_vm._ssrNode(((_vm.isLogin)?("<div class=\"comment-create\" data-v-9d69d410><div class=\"comment-input-wrapper\" data-v-9d69d410>"+((_vm.quote)?("<div class=\"comment-quote-info\" data-v-9d69d410>\n        回复：\n        <label data-v-9d69d410>"+_vm._ssrEscape(_vm._s(_vm.quote.user.nickname))+"</label> <i alt=\"取消回复\" class=\"iconfont icon-close\" data-v-9d69d410></i></div>"):"<!---->")+" <textarea editor-id=\"createEditor\" height=\"200px\" placeholder=\"请发表你的观点...\" class=\"textarea\" data-v-9d69d410>"+_vm._ssrEscape(_vm._s(_vm.content))+"</textarea></div> <div class=\"comment-button-wrapper\" data-v-9d69d410><span data-v-9d69d410>Ctrl or ⌘ + Enter</span> <button class=\"button is-small is-success\" data-v-9d69d410>"+_vm._ssrEscape(_vm._s(_vm.btnName))+"</button></div></div>"):("<div class=\"comment-not-login\" data-v-9d69d410><div class=\"comment-login-div\" data-v-9d69d410>\n      请\n      <a style=\"font-weight: 700;\" data-v-9d69d410>登录</a>后发表观点\n    </div></div>")))])}
+var CommentInputvue_type_template_id_9d69d410_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/CommentInput.vue?vue&type=template&id=7e0a8a20&scoped=true&
+// CONCATENATED MODULE: ./components/CommentInput.vue?vue&type=template&id=9d69d410&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/CommentInput.vue?vue&type=script&lang=js&
 //
@@ -1243,11 +1243,11 @@ function CommentInput_injectStyles (context) {
 
 var CommentInput_component = Object(componentNormalizer["a" /* default */])(
   components_CommentInputvue_type_script_lang_js_,
-  CommentInputvue_type_template_id_7e0a8a20_scoped_true_render,
-  CommentInputvue_type_template_id_7e0a8a20_scoped_true_staticRenderFns,
+  CommentInputvue_type_template_id_9d69d410_scoped_true_render,
+  CommentInputvue_type_template_id_9d69d410_scoped_true_staticRenderFns,
   false,
   CommentInput_injectStyles,
-  "7e0a8a20",
+  "9d69d410",
   "0290edd0"
   
 )

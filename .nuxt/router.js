@@ -27,7 +27,9 @@ const _79fc9204 = () => interopDefault(import('../pages/love/create.vue' /* webp
 const _0accd0d7 = () => interopDefault(import('../pages/rent/create.vue' /* webpackChunkName: "pages/rent/create" */))
 const _70581967 = () => interopDefault(import('../pages/topic/create.vue' /* webpackChunkName: "pages/topic/create" */))
 const _3e767c5e = () => interopDefault(import('../pages/user/favorites.vue' /* webpackChunkName: "pages/user/favorites" */))
+const _e8c01d14 = () => interopDefault(import('../pages/user/forget.vue' /* webpackChunkName: "pages/user/forget" */))
 const _7e2f3115 = () => interopDefault(import('../pages/user/messages.vue' /* webpackChunkName: "pages/user/messages" */))
+const _0927b079 = () => interopDefault(import('../pages/user/resign.vue' /* webpackChunkName: "pages/user/resign" */))
 const _0e5869aa = () => interopDefault(import('../pages/user/scores.vue' /* webpackChunkName: "pages/user/scores" */))
 const _2cb4af28 = () => interopDefault(import('../pages/user/settings.vue' /* webpackChunkName: "pages/user/settings" */))
 const _7bdd9cab = () => interopDefault(import('../pages/user/signin.vue' /* webpackChunkName: "pages/user/signin" */))
@@ -40,6 +42,7 @@ const _0a334ae3 = () => interopDefault(import('../pages/rents/node/newest.vue' /
 const _afeae062 = () => interopDefault(import('../pages/rents/node/recommend.vue' /* webpackChunkName: "pages/rents/node/recommend" */))
 const _5da9e773 = () => interopDefault(import('../pages/topics/node/newest.vue' /* webpackChunkName: "pages/topics/node/newest" */))
 const _5fffe93f = () => interopDefault(import('../pages/topics/node/recommend.vue' /* webpackChunkName: "pages/topics/node/recommend" */))
+const _577f30e3 = () => interopDefault(import('../pages/user/email/reset.vue' /* webpackChunkName: "pages/user/email/reset" */))
 const _7d3e74d6 = () => interopDefault(import('../pages/user/email/verify.vue' /* webpackChunkName: "pages/user/email/verify" */))
 const _8ce5ca90 = () => interopDefault(import('../pages/user/github/callback.vue' /* webpackChunkName: "pages/user/github/callback" */))
 const _9858b9ca = () => interopDefault(import('../pages/user/qq/callback.vue' /* webpackChunkName: "pages/user/qq/callback" */))
@@ -181,9 +184,17 @@ export const routerOptions = {
     component: _3e767c5e,
     name: "user-favorites"
   }, {
+    path: "/user/forget",
+    component: _e8c01d14,
+    name: "user-forget"
+  }, {
     path: "/user/messages",
     component: _7e2f3115,
     name: "user-messages"
+  }, {
+    path: "/user/resign",
+    component: _0927b079,
+    name: "user-resign"
   }, {
     path: "/user/scores",
     component: _0e5869aa,
@@ -232,6 +243,10 @@ export const routerOptions = {
     path: "/topics/node/recommend",
     component: _5fffe93f,
     name: "topics-node-recommend"
+  }, {
+    path: "/user/email/reset",
+    component: _577f30e3,
+    name: "user-email-reset"
   }, {
     path: "/user/email/verify",
     component: _7d3e74d6,

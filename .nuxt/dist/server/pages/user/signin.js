@@ -1,24 +1,27 @@
-exports.ids = [67];
+exports.ids = [70];
 exports.modules = {
 
-/***/ 203:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/signin.vue?vue&type=template&id=b8bf7606&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container\">","</div>",[_vm._ssrNode("<div class=\"main-body\">","</div>",[_vm._ssrNode("<div class=\"widget\">","</div>",[_vm._ssrNode("<div class=\"widget-header\">\n          登录\n        </div> "),_vm._ssrNode("<div class=\"widget-content\">","</div>",[_vm._ssrNode("<div class=\"field\"><label class=\"label\">用户名/邮箱</label> <div class=\"control has-icons-left\"><input type=\"text\" placeholder=\"请输入用户名或邮箱\""+(_vm._ssrAttr("value",(_vm.username)))+" class=\"input is-success\"> <span class=\"icon is-small is-left\"><i class=\"iconfont icon-username\"></i></span></div></div> <div class=\"field\"><label class=\"label\">密码</label> <div class=\"control has-icons-left\"><input type=\"password\" placeholder=\"请输入密码\""+(_vm._ssrAttr("value",(_vm.password)))+" class=\"input\"> <span class=\"icon is-small is-left\"><i class=\"iconfont icon-password\"></i></span></div></div> <div class=\"field\"><label class=\"label\">验证码</label> <div class=\"control has-icons-left\"><div class=\"field is-horizontal\"><div class=\"field\"><input type=\"text\" placeholder=\"验证码\""+(_vm._ssrAttr("value",(_vm.captchaCode)))+" class=\"input\" style=\"max-width: 150px; margin-right: 20px;\"> <span class=\"icon is-small is-left\"><i class=\"iconfont icon-captcha\"></i></span></div> "+((_vm.captchaUrl)?("<div class=\"field\"><a><img"+(_vm._ssrAttr("src",_vm.captchaUrl))+" style=\"height: 40px;\"></a></div>"):"<!---->")+"</div></div></div> "),_vm._ssrNode("<div class=\"field\">","</div>",[_vm._ssrNode("<div class=\"control\">","</div>",[_vm._ssrNode("<button class=\"button is-success\">\n                登录\n              </button> "),_c('nuxt-link',{staticClass:"button is-text",attrs:{"to":"/user/signup"}},[_vm._v("\n                没有账号？点击这里去注册>>\n              ")])],2)])],2)],2)])])])}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/signin.vue?vue&type=template&id=022a97ec&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container\">","</div>",[_vm._ssrNode("<div class=\"main-body\">","</div>",[_vm._ssrNode("<div class=\"widget\">","</div>",[_vm._ssrNode("<div class=\"widget-header\">\n          登录\n        </div> "),_vm._ssrNode("<div class=\"widget-content\">","</div>",[_vm._ssrNode("<div class=\"field\"><label class=\"label\">用户名/邮箱</label> <div class=\"control has-icons-left\"><input type=\"text\" placeholder=\"请输入用户名或邮箱\""+(_vm._ssrAttr("value",(_vm.username)))+" class=\"input is-success\"> <span class=\"icon is-small is-left\"><i class=\"iconfont icon-username\"></i></span></div></div> <div class=\"field\"><label class=\"label\">密码</label> <div class=\"control has-icons-left\"><input type=\"password\" placeholder=\"请输入密码\""+(_vm._ssrAttr("value",(_vm.password)))+" class=\"input\"> <span class=\"icon is-small is-left\"><i class=\"iconfont icon-password\"></i></span></div></div> <div class=\"field\"><label class=\"label\">验证码</label> <div class=\"control has-icons-left\"><div class=\"field is-horizontal\"><div class=\"field\"><input type=\"text\" placeholder=\"验证码\""+(_vm._ssrAttr("value",(_vm.captchaCode)))+" class=\"input\" style=\"max-width: 150px; margin-right: 20px;\"> <span class=\"icon is-small is-left\"><i class=\"iconfont icon-captcha\"></i></span></div> "+((_vm.captchaUrl)?("<div class=\"field\"><a><img"+(_vm._ssrAttr("src",_vm.captchaUrl))+" style=\"height: 40px;\"></a></div>"):"<!---->")+"</div></div></div> "),_vm._ssrNode("<div class=\"field\">","</div>",[_vm._ssrNode("<div class=\"control\">","</div>",[_vm._ssrNode("<button class=\"button is-success\">\n                登录\n              </button> "),_c('nuxt-link',{staticClass:"button is-text",attrs:{"to":"/user/signup"}},[_vm._v("\n                注册>>\n              ")]),_vm._ssrNode(" "),_c('nuxt-link',{staticClass:"button is-text",attrs:{"to":"/user/forget"}},[_vm._v("\n                找回密码>>\n              ")])],2)])],2)],2)])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/user/signin.vue?vue&type=template&id=b8bf7606&
+// CONCATENATED MODULE: ./pages/user/signin.vue?vue&type=template&id=022a97ec&
 
 // EXTERNAL MODULE: ./common/utils.js
 var utils = __webpack_require__(40);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/signin.vue?vue&type=script&lang=js&
+//
+//
+//
 //
 //
 //
