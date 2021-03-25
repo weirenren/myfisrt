@@ -182,6 +182,13 @@
     "_name": "_7e2f3115"
   },
   {
+    "name": "user-profile",
+    "path": "/user/profile",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/profile.vue",
+    "chunkName": "pages/user/profile",
+    "_name": "_3a539270"
+  },
+  {
     "name": "user-resign",
     "path": "/user/resign",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/resign.vue",
