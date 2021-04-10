@@ -1,7 +1,7 @@
 exports.ids = [60];
 exports.modules = {
 
-/***/ 216:
+/***/ 217:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16,7 +16,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./pages/user/email/reset.vue?vue&type=template&id=73fca6ca&scoped=true&
 
 // EXTERNAL MODULE: ./components/UserCenterSidebar.vue + 9 modules
-var UserCenterSidebar = __webpack_require__(71);
+var UserCenterSidebar = __webpack_require__(72);
 
 // EXTERNAL MODULE: ./common/utils.js
 var utils = __webpack_require__(40);
@@ -390,7 +390,7 @@ module.exports = {};
 
 /***/ }),
 
-/***/ 69:
+/***/ 70:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -402,7 +402,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 70:
+/***/ 71:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -414,7 +414,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 71:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -501,7 +501,7 @@ var componentNormalizer = __webpack_require__(4);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(69)
+  var style0 = __webpack_require__(70)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -651,7 +651,7 @@ var UserHelper = __webpack_require__(9);
 
 function UserCenterSidebar_injectStyles (context) {
   
-  var style0 = __webpack_require__(70)
+  var style0 = __webpack_require__(71)
 if (style0.__inject__) style0.__inject__(context)
 
 }
