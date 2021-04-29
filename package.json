@@ -11,7 +11,7 @@
     "dev": "nuxt",
     "debug": "node --inspect ./node_modules/.bin/nuxt",
     "build": "nuxt build",
-    "start": "PORT=3000 nuxt start",
+    "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {

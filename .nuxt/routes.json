@@ -3,476 +3,408 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_597b0012"
+    "chunkName": "pages/about"
   },
   {
     "name": "admin",
     "path": "/admin",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/index.vue",
-    "chunkName": "pages/admin/index",
-    "_name": "_2b857352"
+    "chunkName": "pages/admin/index"
   },
   {
     "name": "articles",
     "path": "/articles",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/articles/index.vue",
-    "chunkName": "pages/articles/index",
-    "_name": "_2c0f796a"
+    "chunkName": "pages/articles/index"
   },
   {
     "name": "love",
     "path": "/love",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/love/index.vue",
-    "chunkName": "pages/love/index",
-    "_name": "_6997e880"
+    "chunkName": "pages/love/index"
   },
   {
     "name": "playfun",
     "path": "/playfun",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/playfun/index.vue",
-    "chunkName": "pages/playfun/index",
-    "_name": "_37162693"
+    "chunkName": "pages/playfun/index"
   },
   {
     "name": "redirect",
     "path": "/redirect",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/redirect.vue",
-    "chunkName": "pages/redirect",
-    "_name": "_2ced30e7"
+    "chunkName": "pages/redirect"
   },
   {
     "name": "rents",
     "path": "/rents",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/index.vue",
-    "chunkName": "pages/rents/index",
-    "_name": "_216c84bc"
+    "chunkName": "pages/rents/index"
   },
   {
     "name": "resou",
     "path": "/resou",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/resou/index.vue",
-    "chunkName": "pages/resou/index",
-    "_name": "_c9abee64"
+    "chunkName": "pages/resou/index"
   },
   {
     "name": "topics",
     "path": "/topics",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/index.vue",
-    "chunkName": "pages/topics/index",
-    "_name": "_54d50632"
+    "chunkName": "pages/topics/index"
   },
   {
     "name": "tweets",
     "path": "/tweets",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tweets/index.vue",
-    "chunkName": "pages/tweets/index",
-    "_name": "_37e88fb0"
+    "chunkName": "pages/tweets/index"
   },
   {
     "name": "admin-articles",
     "path": "/admin/articles",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/articles/index.vue",
-    "chunkName": "pages/admin/articles/index",
-    "_name": "_49a2706a"
+    "chunkName": "pages/admin/articles/index"
   },
   {
     "name": "admin-comments",
     "path": "/admin/comments",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/comments/index.vue",
-    "chunkName": "pages/admin/comments/index",
-    "_name": "_7a204a7c"
+    "chunkName": "pages/admin/comments/index"
   },
   {
     "name": "admin-links",
     "path": "/admin/links",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/links/index.vue",
-    "chunkName": "pages/admin/links/index",
-    "_name": "_746d3c7e"
+    "chunkName": "pages/admin/links/index"
   },
   {
     "name": "admin-operate-log",
     "path": "/admin/operate-log",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/operate-log/index.vue",
-    "chunkName": "pages/admin/operate-log/index",
-    "_name": "_cae51d7a"
+    "chunkName": "pages/admin/operate-log/index"
   },
   {
     "name": "admin-settings",
     "path": "/admin/settings",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/settings/index.vue",
-    "chunkName": "pages/admin/settings/index",
-    "_name": "_ae4beb9e"
+    "chunkName": "pages/admin/settings/index"
   },
   {
     "name": "admin-tags",
     "path": "/admin/tags",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/tags/index.vue",
-    "chunkName": "pages/admin/tags/index",
-    "_name": "_d3844fb2"
+    "chunkName": "pages/admin/tags/index"
   },
   {
     "name": "admin-topics",
     "path": "/admin/topics",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/topics/index.vue",
-    "chunkName": "pages/admin/topics/index",
-    "_name": "_da3aaa9c"
+    "chunkName": "pages/admin/topics/index"
   },
   {
     "name": "admin-tweets",
     "path": "/admin/tweets",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/tweets/index.vue",
-    "chunkName": "pages/admin/tweets/index",
-    "_name": "_75f63430"
+    "chunkName": "pages/admin/tweets/index"
   },
   {
     "name": "admin-users",
     "path": "/admin/users",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/users/index.vue",
-    "chunkName": "pages/admin/users/index",
-    "_name": "_d72b6d60"
+    "chunkName": "pages/admin/users/index"
   },
   {
     "name": "article-create",
     "path": "/article/create",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/article/create.vue",
-    "chunkName": "pages/article/create",
-    "_name": "_057b5680"
+    "chunkName": "pages/article/create"
   },
   {
     "name": "love-create",
     "path": "/love/create",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/love/create.vue",
-    "chunkName": "pages/love/create",
-    "_name": "_79fc9204"
+    "chunkName": "pages/love/create"
   },
   {
     "name": "rent-create",
     "path": "/rent/create",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rent/create.vue",
-    "chunkName": "pages/rent/create",
-    "_name": "_0accd0d7"
+    "chunkName": "pages/rent/create"
   },
   {
     "name": "topic-create",
     "path": "/topic/create",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topic/create.vue",
-    "chunkName": "pages/topic/create",
-    "_name": "_70581967"
+    "chunkName": "pages/topic/create"
   },
   {
     "name": "user-favorites",
     "path": "/user/favorites",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/favorites.vue",
-    "chunkName": "pages/user/favorites",
-    "_name": "_3e767c5e"
+    "chunkName": "pages/user/favorites"
   },
   {
     "name": "user-forget",
     "path": "/user/forget",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/forget.vue",
-    "chunkName": "pages/user/forget",
-    "_name": "_e8c01d14"
+    "chunkName": "pages/user/forget"
   },
   {
     "name": "user-messages",
     "path": "/user/messages",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/messages.vue",
-    "chunkName": "pages/user/messages",
-    "_name": "_7e2f3115"
+    "chunkName": "pages/user/messages"
   },
   {
     "name": "user-profile",
     "path": "/user/profile",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/profile.vue",
-    "chunkName": "pages/user/profile",
-    "_name": "_3a539270"
+    "chunkName": "pages/user/profile"
   },
   {
     "name": "user-resign",
     "path": "/user/resign",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/resign.vue",
-    "chunkName": "pages/user/resign",
-    "_name": "_0927b079"
+    "chunkName": "pages/user/resign"
   },
   {
     "name": "user-scores",
     "path": "/user/scores",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/scores.vue",
-    "chunkName": "pages/user/scores",
-    "_name": "_0e5869aa"
+    "chunkName": "pages/user/scores"
   },
   {
     "name": "user-settings",
     "path": "/user/settings",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/settings.vue",
-    "chunkName": "pages/user/settings",
-    "_name": "_2cb4af28"
+    "chunkName": "pages/user/settings"
   },
   {
     "name": "user-signin",
     "path": "/user/signin",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/signin.vue",
-    "chunkName": "pages/user/signin",
-    "_name": "_7bdd9cab"
+    "chunkName": "pages/user/signin"
   },
   {
     "name": "user-signup",
     "path": "/user/signup",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/signup.vue",
-    "chunkName": "pages/user/signup",
-    "_name": "_df1819be"
+    "chunkName": "pages/user/signup"
   },
   {
     "name": "admin-components-UserInfo",
     "path": "/admin/components/UserInfo",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/components/UserInfo.vue",
-    "chunkName": "pages/admin/components/UserInfo",
-    "_name": "_411ddcd7"
+    "chunkName": "pages/admin/components/UserInfo"
   },
   {
     "name": "admin-topics-nodes",
     "path": "/admin/topics/nodes",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/topics/nodes.vue",
-    "chunkName": "pages/admin/topics/nodes",
-    "_name": "_4058e5de"
+    "chunkName": "pages/admin/topics/nodes"
   },
   {
     "name": "admin-users-score",
     "path": "/admin/users/score",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/users/score.vue",
-    "chunkName": "pages/admin/users/score",
-    "_name": "_43717f10"
+    "chunkName": "pages/admin/users/score"
   },
   {
     "name": "admin-users-score-log",
     "path": "/admin/users/score-log",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/admin/users/score-log.vue",
-    "chunkName": "pages/admin/users/score-log",
-    "_name": "_c2dc70f2"
+    "chunkName": "pages/admin/users/score-log"
   },
   {
     "name": "rents-node-newest",
     "path": "/rents/node/newest",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/node/newest.vue",
-    "chunkName": "pages/rents/node/newest",
-    "_name": "_0a334ae3"
+    "chunkName": "pages/rents/node/newest"
   },
   {
     "name": "rents-node-recommend",
     "path": "/rents/node/recommend",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/node/recommend.vue",
-    "chunkName": "pages/rents/node/recommend",
-    "_name": "_afeae062"
+    "chunkName": "pages/rents/node/recommend"
   },
   {
     "name": "topics-node-newest",
     "path": "/topics/node/newest",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/node/newest.vue",
-    "chunkName": "pages/topics/node/newest",
-    "_name": "_5da9e773"
+    "chunkName": "pages/topics/node/newest"
   },
   {
     "name": "topics-node-recommend",
     "path": "/topics/node/recommend",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/node/recommend.vue",
-    "chunkName": "pages/topics/node/recommend",
-    "_name": "_5fffe93f"
+    "chunkName": "pages/topics/node/recommend"
   },
   {
     "name": "user-email-reset",
     "path": "/user/email/reset",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/email/reset.vue",
-    "chunkName": "pages/user/email/reset",
-    "_name": "_577f30e3"
+    "chunkName": "pages/user/email/reset"
   },
   {
     "name": "user-email-verify",
     "path": "/user/email/verify",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/email/verify.vue",
-    "chunkName": "pages/user/email/verify",
-    "_name": "_7d3e74d6"
+    "chunkName": "pages/user/email/verify"
   },
   {
     "name": "user-github-callback",
     "path": "/user/github/callback",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/github/callback.vue",
-    "chunkName": "pages/user/github/callback",
-    "_name": "_8ce5ca90"
+    "chunkName": "pages/user/github/callback"
   },
   {
     "name": "user-qq-callback",
     "path": "/user/qq/callback",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/qq/callback.vue",
-    "chunkName": "pages/user/qq/callback",
-    "_name": "_9858b9ca"
+    "chunkName": "pages/user/qq/callback"
   },
   {
     "name": "article-edit-id",
     "path": "/article/edit/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/article/edit/_id.vue",
-    "chunkName": "pages/article/edit/_id",
-    "_name": "_77950e39"
+    "chunkName": "pages/article/edit/_id"
   },
   {
     "name": "article-redirect-id",
     "path": "/article/redirect/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/article/redirect/_id.vue",
-    "chunkName": "pages/article/redirect/_id",
-    "_name": "_30f7d00b"
+    "chunkName": "pages/article/redirect/_id"
   },
   {
     "name": "love-edit-id",
     "path": "/love/edit/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/love/edit/_id.vue",
-    "chunkName": "pages/love/edit/_id",
-    "_name": "_25f57192"
+    "chunkName": "pages/love/edit/_id"
   },
   {
     "name": "rent-edit-id",
     "path": "/rent/edit/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rent/edit/_id.vue",
-    "chunkName": "pages/rent/edit/_id",
-    "_name": "_6e714ed0"
+    "chunkName": "pages/rent/edit/_id"
   },
   {
     "name": "rents-node-nodeId",
     "path": "/rents/node/:nodeId?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/node/_nodeId.vue",
-    "chunkName": "pages/rents/node/_nodeId",
-    "_name": "_377ee4a2"
+    "chunkName": "pages/rents/node/_nodeId"
   },
   {
     "name": "rents-tag-tagId",
     "path": "/rents/tag/:tagId?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rents/tag/_tagId.vue",
-    "chunkName": "pages/rents/tag/_tagId",
-    "_name": "_30b79a4b"
+    "chunkName": "pages/rents/tag/_tagId"
   },
   {
     "name": "topic-edit-id",
     "path": "/topic/edit/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topic/edit/_id.vue",
-    "chunkName": "pages/topic/edit/_id",
-    "_name": "_c3669940"
+    "chunkName": "pages/topic/edit/_id"
   },
   {
     "name": "topics-node-nodeId",
     "path": "/topics/node/:nodeId?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/node/_nodeId.vue",
-    "chunkName": "pages/topics/node/_nodeId",
-    "_name": "_00c4f9c2"
+    "chunkName": "pages/topics/node/_nodeId"
   },
   {
     "name": "topics-tag-tagId",
     "path": "/topics/tag/:tagId?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/tag/_tagId.vue",
-    "chunkName": "pages/topics/tag/_tagId",
-    "_name": "_5cb32bbb"
+    "chunkName": "pages/topics/tag/_tagId"
   },
   {
     "name": "article-id",
     "path": "/article/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/article/_id.vue",
-    "chunkName": "pages/article/_id",
-    "_name": "_95434434"
+    "chunkName": "pages/article/_id"
   },
   {
     "name": "articles-tagId",
     "path": "/articles/:tagId",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/articles/_tagId.vue",
-    "chunkName": "pages/articles/_tagId",
-    "_name": "_2899c02d"
+    "chunkName": "pages/articles/_tagId"
   },
   {
     "name": "link-id",
     "path": "/link/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/link/_id.vue",
-    "chunkName": "pages/link/_id",
-    "_name": "_bc7642a0"
+    "chunkName": "pages/link/_id"
   },
   {
     "name": "links-page",
     "path": "/links/:page?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/links/_page.vue",
-    "chunkName": "pages/links/_page",
-    "_name": "_7f1edadd"
+    "chunkName": "pages/links/_page"
   },
   {
     "name": "love-id",
     "path": "/love/:id",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/love/_id.vue",
-    "chunkName": "pages/love/_id",
-    "_name": "_47d1fe28"
+    "chunkName": "pages/love/_id"
   },
   {
     "name": "project-id",
     "path": "/project/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/project/_id.vue",
-    "chunkName": "pages/project/_id",
-    "_name": "_c8d9edee"
+    "chunkName": "pages/project/_id"
   },
   {
     "name": "projects-page",
     "path": "/projects/:page?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/projects/_page.vue",
-    "chunkName": "pages/projects/_page",
-    "_name": "_c45e3438"
+    "chunkName": "pages/projects/_page"
   },
   {
     "name": "rent-id",
     "path": "/rent/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/rent/_id.vue",
-    "chunkName": "pages/rent/_id",
-    "_name": "_9a784a22"
+    "chunkName": "pages/rent/_id"
   },
   {
     "name": "tags-page",
     "path": "/tags/:page?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tags/_page.vue",
-    "chunkName": "pages/tags/_page",
-    "_name": "_2e5b4f7a"
+    "chunkName": "pages/tags/_page"
   },
   {
     "name": "topic-id",
     "path": "/topic/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topic/_id.vue",
-    "chunkName": "pages/topic/_id",
-    "_name": "_185fdc5f"
+    "chunkName": "pages/topic/_id"
   },
   {
     "name": "tweet-id",
     "path": "/tweet/:id?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tweet/_id.vue",
-    "chunkName": "pages/tweet/_id",
-    "_name": "_110218be"
+    "chunkName": "pages/tweet/_id"
   },
   {
     "name": "user-userId",
     "path": "/user/:userId",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/_userId/index.vue",
-    "chunkName": "pages/user/_userId/index",
-    "_name": "_05cf2baf"
+    "chunkName": "pages/user/_userId/index"
   },
   {
     "name": "user-userId-articles-page",
     "path": "/user/:userId?/articles/:page?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/_userId/articles/_page.vue",
-    "chunkName": "pages/user/_userId/articles/_page",
-    "_name": "_46eeaa0f"
+    "chunkName": "pages/user/_userId/articles/_page"
   },
   {
     "name": "user-userId-topics-page",
     "path": "/user/:userId?/topics/:page?",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/user/_userId/topics/_page.vue",
-    "chunkName": "pages/user/_userId/topics/_page",
-    "_name": "_0d7dd6f6"
+    "chunkName": "pages/user/_userId/topics/_page"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_7932dad7"
+    "chunkName": "pages/index"
   }
 ]

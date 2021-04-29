@@ -15,10 +15,10 @@ module.exports = {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_7fe4a744_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(116);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_7fe4a744_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_7fe4a744_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_7fe4a744_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_7fe4a744_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_7fe4a744_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_9782a05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(116);
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_9782a05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_9782a05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_9782a05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_9782a05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_profile_vue_vue_type_style_index_0_id_9782a05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -29,110 +29,17 @@ __webpack_require__.r(__webpack_exports__);
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/profile.vue?vue&type=template&id=7fe4a744&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container is-white left-main\" data-v-7fe4a744>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-7fe4a744><div class=\"widget\" data-v-7fe4a744><div class=\"widget-header\" data-v-7fe4a744><nav class=\"breadcrumb\" data-v-7fe4a744><ul data-v-7fe4a744><li data-v-7fe4a744><a href=\"/\" data-v-7fe4a744>首页</a></li> <li data-v-7fe4a744><a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id))+" data-v-7fe4a744>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</a></li> <li class=\"is-active\" data-v-7fe4a744><a href=\"#\" aria-current=\"page\" data-v-7fe4a744>账号等级</a></li></ul></nav></div> <div class=\"widget-content\" data-v-7fe4a744><div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744>账号段位：</label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744>"+((_vm.user.username)?("<label data-v-7fe4a744>"+_vm._ssrEscape(_vm._s(_vm.user.username))+"</label>"):("<a data-v-7fe4a744>点击设置</a>"))+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744>推荐人：</label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744>"+((_vm.user.username)?("<label data-v-7fe4a744>"+_vm._ssrEscape(_vm._s(_vm.user.username))+"</label>"):("<a data-v-7fe4a744>点击设置</a>"))+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744>推荐人列表：</label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744>"+((_vm.user.username)?("<label data-v-7fe4a744>"+_vm._ssrEscape(_vm._s(_vm.user.username))+"</label>"):("<a data-v-7fe4a744>点击设置</a>"))+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744>邮箱：</label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744>"+((_vm.user.email)?("<label data-v-7fe4a744>"+_vm._ssrEscape(_vm._s(_vm.user.email))+"</label> "+((_vm.user.emailVerified)?("<span class=\"has-text-success\" data-v-7fe4a744>已验证</span>"):("<a class=\"has-text-danger\" data-v-7fe4a744>点击验证&gt;&gt;</a>"))):("<a data-v-7fe4a744>点击设置</a>"))+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744>密码：</label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744>"+((_vm.user.passwordSet)?("<label data-v-7fe4a744>密码已设置 </label> <a data-v-7fe4a744>点击修改</a>"):("<a data-v-7fe4a744>点击设置</a>"))+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744><span style=\"color:red;\" data-v-7fe4a744>* </span>头像：\n              </label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control\" data-v-7fe4a744><img"+(_vm._ssrAttr("src",_vm.user.avatar))+" style=\"width: 150px;height:150px;\" data-v-7fe4a744> <div class=\"file\" data-v-7fe4a744><label class=\"file-label\" data-v-7fe4a744><input type=\"file\" class=\"file-input\" data-v-7fe4a744> <span class=\"file-cta\" data-v-7fe4a744><span class=\"file-icon\" data-v-7fe4a744><i class=\"iconfont icon-upload\" data-v-7fe4a744></i></span> <span class=\"file-label\" data-v-7fe4a744>选择头像</span></span></label></div> <span style=\"font-weight: bold; color:red;\" data-v-7fe4a744>*图像必须为正方形，大小不要超过1M。</span></div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744><span style=\"color:red;\" data-v-7fe4a744>* </span>昵称：\n              </label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"text\" autocomplete=\"off\" placeholder=\"请输入昵称\""+(_vm._ssrAttr("value",(_vm.form.nickname)))+" class=\"input\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-username\" data-v-7fe4a744></i></span></div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744>简介：</label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control\" data-v-7fe4a744><textarea rows=\"2\" placeholder=\"一句话介绍你自己\" class=\"textarea\" data-v-7fe4a744>"+_vm._ssrEscape(_vm._s(_vm.form.description))+"</textarea></div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744><label class=\"label\" data-v-7fe4a744>个人主页：</label></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"text\" autocomplete=\"off\" placeholder=\"请输入个人主页\""+(_vm._ssrAttr("value",(_vm.form.homePage)))+" class=\"input\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-net\" data-v-7fe4a744></i></span></div></div></div></div> <div class=\"field is-horizontal\" data-v-7fe4a744><div class=\"field-label is-normal\" data-v-7fe4a744></div> <div class=\"field-body\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control\" data-v-7fe4a744><a class=\"button is-success\" data-v-7fe4a744>提交修改</a></div></div></div></div></div></div></div> "),_c('user-center-sidebar',{attrs:{"user":_vm.user}})],2),_vm._ssrNode(" <div"+(_vm._ssrClass("modal",{ 'is-active': _vm.showSetUsername }))+" data-v-7fe4a744><div class=\"modal-background\" data-v-7fe4a744></div> <div class=\"modal-card\" data-v-7fe4a744><div class=\"widget\" data-v-7fe4a744><div class=\"widget-header\" data-v-7fe4a744>\n          设置用户名\n          <button aria-label=\"close\" class=\"delete\" data-v-7fe4a744></button></div> <div class=\"widget-content\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"text\" placeholder=\"请输入用户名\""+(_vm._ssrAttr("value",(_vm.form.username)))+" class=\"input is-success\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-username\" data-v-7fe4a744></i></span></div></div></div> <div class=\"widget-footer is-right\" data-v-7fe4a744><a class=\"button is-success\" data-v-7fe4a744>确定</a> <a class=\"button\" data-v-7fe4a744>取消</a></div></div></div></div> <div"+(_vm._ssrClass("modal",{ 'is-active': _vm.showSetEmail }))+" data-v-7fe4a744><div class=\"modal-background\" data-v-7fe4a744></div> <div class=\"modal-card\" data-v-7fe4a744><div class=\"widget\" data-v-7fe4a744><div class=\"widget-header\" data-v-7fe4a744>\n          设置邮箱\n          <button aria-label=\"close\" class=\"delete\" data-v-7fe4a744></button></div> <div class=\"widget-content\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"text\" placeholder=\"请输入邮箱\""+(_vm._ssrAttr("value",(_vm.form.email)))+" class=\"input is-success\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-email\" data-v-7fe4a744></i></span></div></div></div> <div class=\"widget-footer is-right\" data-v-7fe4a744><a class=\"button is-success\" data-v-7fe4a744>确定</a> <a class=\"button\" data-v-7fe4a744>取消</a></div></div></div></div> <div"+(_vm._ssrClass("modal",{ 'is-active': _vm.showSetPassword }))+" data-v-7fe4a744><div class=\"modal-background\" data-v-7fe4a744></div> <div class=\"modal-card\" data-v-7fe4a744><div class=\"widget\" data-v-7fe4a744><div class=\"widget-header\" data-v-7fe4a744>\n          设置密码\n          <button aria-label=\"close\" class=\"delete\" data-v-7fe4a744></button></div> <div class=\"widget-content\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"password\" placeholder=\"请输入密码\""+(_vm._ssrAttr("value",(_vm.form.password)))+" class=\"input is-success\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-password\" data-v-7fe4a744></i></span></div></div> <div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"password\" placeholder=\"请再次确认密码\""+(_vm._ssrAttr("value",(_vm.form.rePassword)))+" class=\"input is-success\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-password\" data-v-7fe4a744></i></span></div></div></div> <div class=\"widget-footer is-right\" data-v-7fe4a744><a class=\"button is-success\" data-v-7fe4a744>确定</a> <a class=\"button\" data-v-7fe4a744>取消</a></div></div></div></div> <div"+(_vm._ssrClass("modal",{ 'is-active': _vm.showUpdatePassword }))+" data-v-7fe4a744><div class=\"modal-background\" data-v-7fe4a744></div> <div class=\"modal-card\" data-v-7fe4a744><div class=\"widget\" data-v-7fe4a744><div class=\"widget-header\" data-v-7fe4a744>\n          修改密码\n          <button aria-label=\"close\" class=\"delete\" data-v-7fe4a744></button></div> <div class=\"widget-content\" data-v-7fe4a744><div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"password\" placeholder=\"请输入当前密码\""+(_vm._ssrAttr("value",(_vm.form.oldPassword)))+" class=\"input is-success\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-password\" data-v-7fe4a744></i></span></div></div> <div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"password\" placeholder=\"请输入密码\""+(_vm._ssrAttr("value",(_vm.form.password)))+" class=\"input is-success\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-password\" data-v-7fe4a744></i></span></div></div> <div class=\"field\" data-v-7fe4a744><div class=\"control has-icons-left\" data-v-7fe4a744><input type=\"password\" placeholder=\"请再次确认密码\""+(_vm._ssrAttr("value",(_vm.form.rePassword)))+" class=\"input is-success\" data-v-7fe4a744> <span class=\"icon is-small is-left\" data-v-7fe4a744><i class=\"iconfont icon-password\" data-v-7fe4a744></i></span></div></div></div> <div class=\"widget-footer is-right\" data-v-7fe4a744><a class=\"button is-success\" data-v-7fe4a744>确定</a> <a class=\"button\" data-v-7fe4a744>取消</a></div></div></div></div>")],2)}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/profile.vue?vue&type=template&id=9782a05c&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"main"},[_vm._ssrNode("<div class=\"container main-container is-white left-main\" data-v-9782a05c>","</div>",[_vm._ssrNode("<div class=\"left-container\" data-v-9782a05c><div class=\"widget\" data-v-9782a05c><div class=\"widget-header\" data-v-9782a05c><nav class=\"breadcrumb\" data-v-9782a05c><ul data-v-9782a05c><li data-v-9782a05c><a href=\"/\" data-v-9782a05c>首页</a></li> <li data-v-9782a05c><a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id))+" data-v-9782a05c>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</a></li> <li class=\"is-active\" data-v-9782a05c><a href=\"#\" aria-current=\"page\" data-v-9782a05c>账号认证</a></li></ul></nav></div> <div class=\"widget-content\" data-v-9782a05c><div class=\"field is-horizontal\" data-v-9782a05c><div class=\"field-label is-normal\" data-v-9782a05c><label class=\"label\" data-v-9782a05c>账号段位：</label></div> <div class=\"field-body\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c>"+((_vm.user.username)?("<label data-v-9782a05c>"+_vm._ssrEscape(_vm._s(_vm.user.username))+"</label>"):("<a data-v-9782a05c>点击设置</a>"))+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-9782a05c><div class=\"field-label is-normal\" data-v-9782a05c><label class=\"label\" data-v-9782a05c>推荐人：</label></div> <div class=\"field-body\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c>"+((_vm.user.username)?("<label data-v-9782a05c>"+_vm._ssrEscape(_vm._s(_vm.user.username))+"</label>"):("<a data-v-9782a05c>点击设置</a>"))+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-9782a05c><div class=\"field-label is-normal\" data-v-9782a05c><label class=\"label\" data-v-9782a05c>推荐人列表：</label></div> <div class=\"field-body\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c>"+((_vm.user.username)?("<label data-v-9782a05c>"+_vm._ssrEscape(_vm._s(_vm.user.username))+"</label>"):("<a data-v-9782a05c>点击设置</a>"))+"</div></div></div></div> "+((_vm.verifyCode === 0)?("<div class=\"field is-horizontal\" data-v-9782a05c><div class=\"field-label is-normal\" data-v-9782a05c><label class=\"label\" data-v-9782a05c> 邀请码：</label></div> <div class=\"field-body\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c>"+((_vm.user.username)?("<label data-v-9782a05c>"+_vm._ssrEscape(_vm._s(_vm.userCode))+"</label>"):("<a data-v-9782a05c>点击设置</a>"))+"</div></div></div></div>"):"<!---->")+" <div class=\"field is-horizontal\" data-v-9782a05c><div class=\"field-label is-normal\" data-v-9782a05c><label class=\"label\" data-v-9782a05c>用户认证：</label></div> <div class=\"field-body\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c>"+((_vm.user)?(((_vm.verifyCode === 0)?("<span class=\"has-text-success\" data-v-9782a05c>已验证</span>"):("<a class=\"has-text-danger\" data-v-9782a05c>点击验证&gt;&gt;</a>"))):"<!---->")+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-9782a05c><div class=\"field-label is-normal\" data-v-9782a05c><label class=\"label\" data-v-9782a05c> 是否认证：</label></div> <div class=\"field-body\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c>"+((_vm.user)?("<label data-v-9782a05c>"+_vm._ssrEscape(_vm._s(_vm.verifyCode === 0 ? '是' : '否'))+"</label>"):("<a data-v-9782a05c>点击设置</a>"))+"</div></div></div></div> <div class=\"field is-horizontal\" data-v-9782a05c><div class=\"field-label is-normal\" data-v-9782a05c></div> <div class=\"field-body\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control\" data-v-9782a05c><a class=\"button is-success\" data-v-9782a05c>提交修改</a></div></div></div></div></div></div></div> "),_c('user-center-sidebar',{attrs:{"user":_vm.user}})],2),_vm._ssrNode(" <div"+(_vm._ssrClass("modal",{ 'is-active': _vm.showSetUsername }))+" data-v-9782a05c><div class=\"modal-background\" data-v-9782a05c></div> <div class=\"modal-card\" data-v-9782a05c><div class=\"widget\" data-v-9782a05c><div class=\"widget-header\" data-v-9782a05c>\n          设置用户名\n          <button aria-label=\"close\" class=\"delete\" data-v-9782a05c></button></div> <div class=\"widget-content\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c><input type=\"text\" placeholder=\"请输入用户名\""+(_vm._ssrAttr("value",(_vm.form.username)))+" class=\"input is-success\" data-v-9782a05c> <span class=\"icon is-small is-left\" data-v-9782a05c><i class=\"iconfont icon-username\" data-v-9782a05c></i></span></div></div></div> <div class=\"widget-footer is-right\" data-v-9782a05c><a class=\"button is-success\" data-v-9782a05c>确定</a> <a class=\"button\" data-v-9782a05c>取消</a></div></div></div></div> <div"+(_vm._ssrClass("modal",{ 'is-active': _vm.showSetEmail }))+" data-v-9782a05c><div class=\"modal-background\" data-v-9782a05c></div> <div class=\"modal-card\" data-v-9782a05c><div class=\"widget\" data-v-9782a05c><div class=\"widget-header\" data-v-9782a05c>\n          申请用户认证\n          <button aria-label=\"close\" class=\"delete\" data-v-9782a05c></button></div> <div class=\"widget-content\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c><input type=\"text\" placeholder=\"请输入邀请码\""+(_vm._ssrAttr("value",(_vm.form.hostUserCode)))+" class=\"input is-success\" data-v-9782a05c> <span class=\"icon is-small is-left\" data-v-9782a05c><i class=\"iconfont icon-email\" data-v-9782a05c></i></span></div></div></div> <div class=\"widget-footer is-right\" data-v-9782a05c><a class=\"button is-success\" data-v-9782a05c>确定</a> <a class=\"button\" data-v-9782a05c>取消</a></div></div></div></div> <div"+(_vm._ssrClass("modal",{ 'is-active': _vm.showSetPassword }))+" data-v-9782a05c><div class=\"modal-background\" data-v-9782a05c></div> <div class=\"modal-card\" data-v-9782a05c><div class=\"widget\" data-v-9782a05c><div class=\"widget-header\" data-v-9782a05c>\n          设置密码\n          <button aria-label=\"close\" class=\"delete\" data-v-9782a05c></button></div> <div class=\"widget-content\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c><input type=\"password\" placeholder=\"请输入密码\""+(_vm._ssrAttr("value",(_vm.form.password)))+" class=\"input is-success\" data-v-9782a05c> <span class=\"icon is-small is-left\" data-v-9782a05c><i class=\"iconfont icon-password\" data-v-9782a05c></i></span></div></div> <div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c><input type=\"password\" placeholder=\"请再次确认密码\""+(_vm._ssrAttr("value",(_vm.form.rePassword)))+" class=\"input is-success\" data-v-9782a05c> <span class=\"icon is-small is-left\" data-v-9782a05c><i class=\"iconfont icon-password\" data-v-9782a05c></i></span></div></div></div> <div class=\"widget-footer is-right\" data-v-9782a05c><a class=\"button is-success\" data-v-9782a05c>确定</a> <a class=\"button\" data-v-9782a05c>取消</a></div></div></div></div> <div"+(_vm._ssrClass("modal",{ 'is-active': _vm.showUpdatePassword }))+" data-v-9782a05c><div class=\"modal-background\" data-v-9782a05c></div> <div class=\"modal-card\" data-v-9782a05c><div class=\"widget\" data-v-9782a05c><div class=\"widget-header\" data-v-9782a05c>\n          修改密码\n          <button aria-label=\"close\" class=\"delete\" data-v-9782a05c></button></div> <div class=\"widget-content\" data-v-9782a05c><div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c><input type=\"password\" placeholder=\"请输入当前密码\""+(_vm._ssrAttr("value",(_vm.form.oldPassword)))+" class=\"input is-success\" data-v-9782a05c> <span class=\"icon is-small is-left\" data-v-9782a05c><i class=\"iconfont icon-password\" data-v-9782a05c></i></span></div></div> <div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c><input type=\"password\" placeholder=\"请输入密码\""+(_vm._ssrAttr("value",(_vm.form.password)))+" class=\"input is-success\" data-v-9782a05c> <span class=\"icon is-small is-left\" data-v-9782a05c><i class=\"iconfont icon-password\" data-v-9782a05c></i></span></div></div> <div class=\"field\" data-v-9782a05c><div class=\"control has-icons-left\" data-v-9782a05c><input type=\"password\" placeholder=\"请再次确认密码\""+(_vm._ssrAttr("value",(_vm.form.rePassword)))+" class=\"input is-success\" data-v-9782a05c> <span class=\"icon is-small is-left\" data-v-9782a05c><i class=\"iconfont icon-password\" data-v-9782a05c></i></span></div></div></div> <div class=\"widget-footer is-right\" data-v-9782a05c><a class=\"button is-success\" data-v-9782a05c>确定</a> <a class=\"button\" data-v-9782a05c>取消</a></div></div></div></div>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/user/profile.vue?vue&type=template&id=7fe4a744&scoped=true&
+// CONCATENATED MODULE: ./pages/user/profile.vue?vue&type=template&id=9782a05c&scoped=true&
 
 // EXTERNAL MODULE: ./components/UserCenterSidebar.vue + 9 modules
 var UserCenterSidebar = __webpack_require__(72);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./pages/user/profile.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -473,17 +380,42 @@ var UserCenterSidebar = __webpack_require__(72);
     params
   }) {
     const user = await $axios.get('/api/user/current');
+    let userCode = '';
+    let verifyCode = -1;
+
+    if (user) {
+      const verifyStateObj = await $axios.get('/api/user/verify/state');
+
+      if (verifyStateObj) {
+        verifyCode = verifyStateObj.verify_code;
+      } // 认证用户下 才去请求
+
+
+      if (verifyCode === 0) {
+        const userCodeObj = await $axios.get('/api/user/usercode');
+
+        if (userCodeObj) {
+          userCode = userCodeObj.userCode.code;
+        }
+      }
+
+      console.log('verifyStateObj:' + JSON.stringify(verifyStateObj));
+    }
+
     const form = { ...user
     };
     return {
       user,
-      form
+      form,
+      userCode,
+      verifyCode
     };
   },
 
   data() {
     return {
       form: {
+        hostUserCode: '',
         username: '',
         email: '',
         nickname: '',
@@ -494,6 +426,9 @@ var UserCenterSidebar = __webpack_require__(72);
         rePassword: '',
         oldPassword: ''
       },
+      userCode: '',
+      verifyCode: -1,
+      // 是否属于认证用户，0：认证成功
       showSetUsername: false,
       // username: '',
       showSetEmail: false,
@@ -571,14 +506,14 @@ var UserCenterSidebar = __webpack_require__(72);
     async setEmail() {
       try {
         const me = this;
-        await this.$axios.post('/api/user/set/email', {
-          email: me.form.email
+        await this.$axios.post('/api/user/love/certify', {
+          user_code: me.form.hostUserCode
         });
         await this.reload();
-        this.$toast.success('邮箱设置成功');
+        this.$toast.success('用户认证成功');
         this.showSetEmail = false;
       } catch (err) {
-        this.$toast.error('邮箱设置失败：' + (err.message || err));
+        this.$toast.error('用户认证失败：' + (err.message || err));
       }
     },
 
@@ -665,7 +600,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "7fe4a744",
+  "9782a05c",
   "6bd66bd4"
   
 )
