@@ -29,7 +29,6 @@ const _70581967 = () => interopDefault(import('../pages/topic/create.vue' /* web
 const _3e767c5e = () => interopDefault(import('../pages/user/favorites.vue' /* webpackChunkName: "pages/user/favorites" */))
 const _e8c01d14 = () => interopDefault(import('../pages/user/forget.vue' /* webpackChunkName: "pages/user/forget" */))
 const _7e2f3115 = () => interopDefault(import('../pages/user/messages.vue' /* webpackChunkName: "pages/user/messages" */))
-const _3a539270 = () => interopDefault(import('../pages/user/profile.vue' /* webpackChunkName: "pages/user/profile" */))
 const _0927b079 = () => interopDefault(import('../pages/user/resign.vue' /* webpackChunkName: "pages/user/resign" */))
 const _0e5869aa = () => interopDefault(import('../pages/user/scores.vue' /* webpackChunkName: "pages/user/scores" */))
 const _2cb4af28 = () => interopDefault(import('../pages/user/settings.vue' /* webpackChunkName: "pages/user/settings" */))
@@ -192,10 +191,6 @@ export const routerOptions = {
     path: "/user/messages",
     component: _7e2f3115,
     name: "user-messages"
-  }, {
-    path: "/user/profile",
-    component: _3a539270,
-    name: "user-profile"
   }, {
     path: "/user/resign",
     component: _0927b079,
