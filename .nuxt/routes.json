@@ -56,6 +56,13 @@
     "_name": "_c9abee64"
   },
   {
+    "name": "tiaojis",
+    "path": "/tiaojis",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tiaojis/index.vue",
+    "chunkName": "pages/tiaojis/index",
+    "_name": "_488dfc19"
+  },
+  {
     "name": "topics",
     "path": "/topics",
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/topics/index.vue",
@@ -425,6 +432,13 @@
     "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tags/_page.vue",
     "chunkName": "pages/tags/_page",
     "_name": "_2e5b4f7a"
+  },
+  {
+    "name": "tiaoji-id",
+    "path": "/tiaoji/:id?",
+    "component": "/Users/chao.wei/dev/GitHome/work/new-bbs/site/pages/tiaoji/_id.vue",
+    "chunkName": "pages/tiaoji/_id",
+    "_name": "_2c2a07d8"
   },
   {
     "name": "topic-id",

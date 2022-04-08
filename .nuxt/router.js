@@ -11,6 +11,7 @@ const _37162693 = () => interopDefault(import('../pages/playfun/index.vue' /* we
 const _2ced30e7 = () => interopDefault(import('../pages/redirect.vue' /* webpackChunkName: "pages/redirect" */))
 const _216c84bc = () => interopDefault(import('../pages/rents/index.vue' /* webpackChunkName: "pages/rents/index" */))
 const _c9abee64 = () => interopDefault(import('../pages/resou/index.vue' /* webpackChunkName: "pages/resou/index" */))
+const _488dfc19 = () => interopDefault(import('../pages/tiaojis/index.vue' /* webpackChunkName: "pages/tiaojis/index" */))
 const _54d50632 = () => interopDefault(import('../pages/topics/index.vue' /* webpackChunkName: "pages/topics/index" */))
 const _37e88fb0 = () => interopDefault(import('../pages/tweets/index.vue' /* webpackChunkName: "pages/tweets/index" */))
 const _49a2706a = () => interopDefault(import('../pages/admin/articles/index.vue' /* webpackChunkName: "pages/admin/articles/index" */))
@@ -64,6 +65,7 @@ const _c8d9edee = () => interopDefault(import('../pages/project/_id.vue' /* webp
 const _c45e3438 = () => interopDefault(import('../pages/projects/_page.vue' /* webpackChunkName: "pages/projects/_page" */))
 const _9a784a22 = () => interopDefault(import('../pages/rent/_id.vue' /* webpackChunkName: "pages/rent/_id" */))
 const _2e5b4f7a = () => interopDefault(import('../pages/tags/_page.vue' /* webpackChunkName: "pages/tags/_page" */))
+const _2c2a07d8 = () => interopDefault(import('../pages/tiaoji/_id.vue' /* webpackChunkName: "pages/tiaoji/_id" */))
 const _185fdc5f = () => interopDefault(import('../pages/topic/_id.vue' /* webpackChunkName: "pages/topic/_id" */))
 const _110218be = () => interopDefault(import('../pages/tweet/_id.vue' /* webpackChunkName: "pages/tweet/_id" */))
 const _05cf2baf = () => interopDefault(import('../pages/user/_userId/index.vue' /* webpackChunkName: "pages/user/_userId/index" */))
@@ -119,6 +121,10 @@ export const routerOptions = {
     path: "/resou",
     component: _c9abee64,
     name: "resou"
+  }, {
+    path: "/tiaojis",
+    component: _488dfc19,
+    name: "tiaojis"
   }, {
     path: "/topics",
     component: _54d50632,
@@ -331,6 +337,10 @@ export const routerOptions = {
     path: "/tags/:page?",
     component: _2e5b4f7a,
     name: "tags-page"
+  }, {
+    path: "/tiaoji/:id?",
+    component: _2c2a07d8,
+    name: "tiaoji-id"
   }, {
     path: "/topic/:id?",
     component: _185fdc5f,

@@ -1,7 +1,7 @@
 exports.ids = [4];
 exports.modules = {
 
-/***/ 131:
+/***/ 136:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13,37 +13,33 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 132:
+/***/ 137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_85895af4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(86);
-/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_85895af4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_85895af4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_85895af4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_85895af4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_85895af4_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_8cd231ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(86);
+/* harmony import */ var _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_8cd231ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_8cd231ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_8cd231ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_8cd231ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_15_9_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_vue_loader_15_9_3_vue_loader_lib_index_js_vue_loader_options_MyNav_vue_vue_type_style_index_0_id_8cd231ca_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ 134:
+/***/ 140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/MyNav.vue?vue&type=template&id=85895af4&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"parent-container"},[_vm._ssrNode("<div class=\"navBarWrap\" data-v-85895af4>","</div>",[_vm._ssrNode("<nav role=\"navigation\" aria-label=\"main navigation\" class=\"navbar has-shadow\" data-v-85895af4>","</nav>",[_vm._ssrNode("<div class=\"container\" data-v-85895af4>","</div>",[_vm._ssrNode("<div class=\"navbar-brand navbar-full\" data-v-85895af4>","</div>",[_vm._ssrNode("<div class=\"navbar-between\" data-v-85895af4>","</div>",[_vm._ssrNode("<div class=\"navbar-title\" data-v-85895af4><a href=\"/\" class=\"navbar-item\" data-v-85895af4><img alt=\"90社区\""+(_vm._ssrAttr("src",__webpack_require__(17)))+" data-v-85895af4></a> <a"+(_vm._ssrClass(null,_vm.activiePath === '/tweets' || _vm.activiePath === '/tweet'
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/MyNav.vue?vue&type=template&id=8cd231ca&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"parent-container"},[_vm._ssrNode("<div class=\"navBarWrap\" data-v-8cd231ca>","</div>",[_vm._ssrNode("<nav role=\"navigation\" aria-label=\"main navigation\" class=\"navbar has-shadow\" data-v-8cd231ca>","</nav>",[_vm._ssrNode("<div class=\"container\" data-v-8cd231ca>","</div>",[_vm._ssrNode("<div class=\"navbar-brand navbar-full\" data-v-8cd231ca>","</div>",[_vm._ssrNode("<div class=\"navbar-between\" data-v-8cd231ca>","</div>",[_vm._ssrNode("<div class=\"navbar-title\" data-v-8cd231ca><a href=\"/\" class=\"navbar-item\" data-v-8cd231ca><img alt=\"90社区\""+(_vm._ssrAttr("src",__webpack_require__(17)))+" data-v-8cd231ca></a> <a"+(_vm._ssrClass(null,_vm.activiePath === '/tweets' || _vm.activiePath === '/tweet'
                     ? 'navbar-item navbar-active'
-                    : 'navbar-item'))+" data-v-85895af4>动态</a> <a"+(_vm._ssrClass(null,_vm.activiePath === '/rents'
+                    : 'navbar-item'))+" data-v-8cd231ca>动态</a> <a"+(_vm._ssrClass(null,_vm.activiePath === '/tiaojis'
                     ? 'navbar-item navbar-active'
-                    : 'navbar-item'))+" data-v-85895af4>租房</a> <a"+(_vm._ssrClass(null,_vm.activiePath === '/resou'
-                    ? 'navbar-item navbar-active'
-                    : 'navbar-item'))+" data-v-85895af4>热点</a> <a"+(_vm._ssrClass(null,_vm.activiePath === '/love'
-                    ? 'navbar-item navbar-active'
-                    : 'navbar-item'))+" data-v-85895af4>交友</a></div> "),_vm._ssrNode("<div class=\"navbar-control\" data-v-85895af4>","</div>",[(_vm.showCityComponent)?_vm._ssrNode("<div class=\"navbar-item \" data-v-85895af4>","</div>",[_vm._ssrNode("<div class=\"select is-small \" data-v-85895af4>","</div>",[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.selectedCity),expression:"selectedCity"}],on:{"change":[function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.selectedCity=$event.target.multiple ? $$selectedVal : $$selectedVal[0]},_vm.selectCity]}},_vm._l((_vm.city_list),function(cn){return _c('option',{key:cn,domProps:{"value":cn}},[_vm._v(_vm._s(cn))])}),0)])]):_vm._e(),_vm._ssrNode(" "),(_vm.user)?_c('msg-notice'):_vm._e(),_vm._ssrNode(" "),(!_vm.navbarActive)?_vm._ssrNode("<div"+(_vm._ssrClass("navbar-menu",{ 'is-active': _vm.navbarActive }))+" data-v-85895af4>","</div>",[_vm._ssrNode("<div class=\"navbar-start\" data-v-85895af4>","</div>",[(_vm.user)?_vm._ssrNode("<div class=\"navbar-item has-dropdown is-hoverable\" data-v-85895af4>","</div>",[_vm._ssrNode("<a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id))+" class=\"navbar-link\" data-v-85895af4><strong data-v-85895af4>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</strong></a> <div class=\"navbar-dropdown\" data-v-85895af4><a href=\"/love/create\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-topic\" data-v-85895af4></i> 发表交友贴\n                      </a> <a href=\"/rent/create\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-publish\" data-v-85895af4></i> 发表租房贴\n                      </a> <a href=\"/user/favorites\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-favorites\" data-v-85895af4></i> 我的收藏\n                      </a> <a href=\"/user/settings\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-username\" data-v-85895af4></i> 编辑资料\n                      </a> "+((_vm.isOwnerOrAdmin)?("<a href=\"/admin\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-dashboard\" data-v-85895af4></i> 后台管理\n                      </a>"):"<!---->")+" <a class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-log-out\" data-v-85895af4></i> 退出登录\n                      </a></div>")],2):_vm._ssrNode("<div class=\"navbar-item\" data-v-85895af4>","</div>",[_c('nuxt-link',{staticClass:"button is-success",attrs:{"to":"/user/signin"}},[_vm._v("\n                      登录\n                    ")])],1)])]):_vm._e()],2)],2),_vm._ssrNode(" <a data-target=\"navbarBasic\""+(_vm._ssrClass("navbar-burger burger",{ 'is-active': _vm.navbarActive }))+" data-v-85895af4><span aria-hidden=\"true\" data-v-85895af4></span> <span aria-hidden=\"true\" data-v-85895af4></span> <span aria-hidden=\"true\" data-v-85895af4></span></a>")],2),_vm._ssrNode(" "),(_vm.navbarActive)?_vm._ssrNode("<div"+(_vm._ssrClass("navbar-menu",{ 'is-active': _vm.navbarActive }))+" data-v-85895af4>","</div>",[_vm._ssrNode("<div class=\"navbar-start\" data-v-85895af4>","</div>",[(_vm.user)?_vm._ssrNode("<div class=\"navbar-item has-dropdown is-hoverable\" data-v-85895af4>","</div>",[_vm._ssrNode("<a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id))+" class=\"navbar-link\" data-v-85895af4><strong data-v-85895af4>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</strong></a> <div class=\"navbar-dropdown\" data-v-85895af4><a href=\"/love/create\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-topic\" data-v-85895af4></i> 发表交友贴\n                </a> <a href=\"/rent/create\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-publish\" data-v-85895af4></i> 发表租房贴\n                </a> <a href=\"/user/favorites\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-favorites\" data-v-85895af4></i> 我的收藏\n                </a> <a href=\"/user/settings\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-username\" data-v-85895af4></i> 编辑资料\n                </a> "+((_vm.isOwnerOrAdmin)?("<a href=\"/admin\" class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-dashboard\" data-v-85895af4></i> 后台管理\n                </a>"):"<!---->")+" <a class=\"navbar-item\" data-v-85895af4><i class=\"iconfont icon-log-out\" data-v-85895af4></i> 退出登录\n                </a></div>")],2):_vm._ssrNode("<div class=\"navbar-item\" data-v-85895af4>","</div>",[_c('nuxt-link',{staticClass:"button is-success",attrs:{"to":"/user/signin"}},[_vm._v("\n                登录\n              ")])],1)])]):_vm._e()],2)])])])}
+                    : 'navbar-item'))+" data-v-8cd231ca>考研调剂</a></div> "),_vm._ssrNode("<div class=\"navbar-control\" data-v-8cd231ca>","</div>",[(_vm.showCityComponent)?_vm._ssrNode("<div class=\"navbar-item \" data-v-8cd231ca>","</div>",[_vm._ssrNode("<div class=\"select is-small \" data-v-8cd231ca>","</div>",[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.selectedCity),expression:"selectedCity"}],on:{"change":[function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.selectedCity=$event.target.multiple ? $$selectedVal : $$selectedVal[0]},_vm.selectCity]}},_vm._l((_vm.city_list),function(cn){return _c('option',{key:cn,domProps:{"value":cn}},[_vm._v(_vm._s(cn))])}),0)])]):_vm._e(),_vm._ssrNode(" "),(_vm.user)?_c('msg-notice'):_vm._e(),_vm._ssrNode(" "),(!_vm.navbarActive)?_vm._ssrNode("<div"+(_vm._ssrClass("navbar-menu",{ 'is-active': _vm.navbarActive }))+" data-v-8cd231ca>","</div>",[_vm._ssrNode("<div class=\"navbar-start\" data-v-8cd231ca>","</div>",[(_vm.user)?_vm._ssrNode("<div class=\"navbar-item has-dropdown is-hoverable\" data-v-8cd231ca>","</div>",[_vm._ssrNode("<a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id))+" class=\"navbar-link\" data-v-8cd231ca><strong data-v-8cd231ca>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</strong></a> <div class=\"navbar-dropdown\" data-v-8cd231ca><a href=\"/user/favorites\" class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-favorites\" data-v-8cd231ca></i> 我的收藏\n                      </a> <a href=\"/user/settings\" class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-username\" data-v-8cd231ca></i> 编辑资料\n                      </a> "+((_vm.isOwnerOrAdmin)?("<a href=\"/admin\" class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-dashboard\" data-v-8cd231ca></i> 后台管理\n                      </a>"):"<!---->")+" <a class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-log-out\" data-v-8cd231ca></i> 退出登录\n                      </a></div>")],2):_vm._ssrNode("<div class=\"navbar-item\" data-v-8cd231ca>","</div>",[_c('nuxt-link',{staticClass:"button is-success",attrs:{"to":"/user/signin"}},[_vm._v("\n                      登录\n                    ")])],1)])]):_vm._e()],2)],2),_vm._ssrNode(" <a data-target=\"navbarBasic\""+(_vm._ssrClass("navbar-burger burger",{ 'is-active': _vm.navbarActive }))+" data-v-8cd231ca><span aria-hidden=\"true\" data-v-8cd231ca></span> <span aria-hidden=\"true\" data-v-8cd231ca></span> <span aria-hidden=\"true\" data-v-8cd231ca></span></a>")],2),_vm._ssrNode(" "),(_vm.navbarActive)?_vm._ssrNode("<div"+(_vm._ssrClass("navbar-menu",{ 'is-active': _vm.navbarActive }))+" data-v-8cd231ca>","</div>",[_vm._ssrNode("<div class=\"navbar-start\" data-v-8cd231ca>","</div>",[(_vm.user)?_vm._ssrNode("<div class=\"navbar-item has-dropdown is-hoverable\" data-v-8cd231ca>","</div>",[_vm._ssrNode("<a"+(_vm._ssrAttr("href",'/user/' + _vm.user.id))+" class=\"navbar-link\" data-v-8cd231ca><strong data-v-8cd231ca>"+_vm._ssrEscape(_vm._s(_vm.user.nickname))+"</strong></a> <div class=\"navbar-dropdown\" data-v-8cd231ca><a href=\"/love/create\" class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-topic\" data-v-8cd231ca></i> 发表交友贴\n                </a> <a href=\"/rent/create\" class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-publish\" data-v-8cd231ca></i> 发表租房贴\n                </a> <a href=\"/user/favorites\" class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-favorites\" data-v-8cd231ca></i> 我的收藏\n                </a> <a href=\"/user/settings\" class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-username\" data-v-8cd231ca></i> 编辑资料\n                </a> "+((_vm.isOwnerOrAdmin)?("<a href=\"/admin\" class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-dashboard\" data-v-8cd231ca></i> 后台管理\n                </a>"):"<!---->")+" <a class=\"navbar-item\" data-v-8cd231ca><i class=\"iconfont icon-log-out\" data-v-8cd231ca></i> 退出登录\n                </a></div>")],2):_vm._ssrNode("<div class=\"navbar-item\" data-v-8cd231ca>","</div>",[_c('nuxt-link',{staticClass:"button is-success",attrs:{"to":"/user/signin"}},[_vm._v("\n                登录\n              ")])],1)])]):_vm._e()],2)])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/MyNav.vue?vue&type=template&id=85895af4&scoped=true&
+// CONCATENATED MODULE: ./components/MyNav.vue?vue&type=template&id=8cd231ca&scoped=true&
 
 // EXTERNAL MODULE: external "js-cookie"
 var external_js_cookie_ = __webpack_require__(29);
@@ -134,7 +130,7 @@ var componentNormalizer = __webpack_require__(4);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(131)
+  var style0 = __webpack_require__(136)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -154,6 +150,15 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /* harmony default export */ var MsgNotice = (component.exports);
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./components/MyNav.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -425,10 +430,10 @@ var component = Object(componentNormalizer["a" /* default */])(
       if (path) {
         const activePath = this.getActivePath(path); // console.log('activePath:' + activePath)
 
-        if (activePath === '/tweets' || activePath === '/tweet') {
-          this.showCityComponent = false;
-        } else {
+        if (activePath === '/rents') {
           this.showCityComponent = true;
+        } else {
+          this.showCityComponent = false;
         }
 
         this.activiePath = activePath;
@@ -455,7 +460,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 function MyNav_injectStyles (context) {
   
-  var style0 = __webpack_require__(132)
+  var style0 = __webpack_require__(137)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -468,7 +473,7 @@ var MyNav_component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   MyNav_injectStyles,
-  "85895af4",
+  "8cd231ca",
   "c59c08fc"
   
 )
@@ -477,7 +482,7 @@ var MyNav_component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 242:
+/***/ 253:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -492,7 +497,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./layouts/no-footer.vue?vue&type=template&id=a4eb84ec&
 
 // EXTERNAL MODULE: ./components/MyNav.vue + 9 modules
-var MyNav = __webpack_require__(134);
+var MyNav = __webpack_require__(140);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.1.0@babel-loader/lib??ref--2-0!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options!./layouts/no-footer.vue?vue&type=script&lang=js&
 //
@@ -642,6 +647,52 @@ class Utils {
     }
 
     return '';
+  }
+
+  formatDate(timestamp, fmt) {
+    fmt = fmt || 'yyyy-MM-dd HH:mm:ss';
+    const date = new Date(timestamp);
+    const o = {
+      'M+': date.getMonth() + 1,
+      'd+': date.getDate(),
+      'h+': date.getHours() % 12,
+      'H+': date.getHours(),
+      'm+': date.getMinutes(),
+      's+': date.getSeconds(),
+      'q+': Math.floor((date.getMonth() + 3) / 3),
+      S: date.getMilliseconds()
+    };
+
+    if (/(y+)/.test(fmt)) {
+      fmt = fmt.replace(RegExp.$1, (date.getFullYear() + '').substr(4 - RegExp.$1.length));
+    }
+
+    for (const k in o) {
+      if (new RegExp('(' + k + ')').test(fmt)) {
+        fmt = fmt.replace(RegExp.$1, RegExp.$1.length === 1 ? o[k] : ('00' + o[k]).substr(('' + o[k]).length));
+      }
+    }
+
+    return fmt;
+  }
+
+  prettyDate(timestamp) {
+    const minute = 1000 * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+    const diffValue = new Date().getTime() - timestamp;
+
+    if (diffValue / minute < 1) {
+      return '刚刚';
+    } else if (diffValue / minute < 60) {
+      return parseInt(diffValue / minute) + '分钟前';
+    } else if (diffValue / hour <= 24) {
+      return parseInt(diffValue / hour) + '小时前';
+    } else if (diffValue / day <= 30) {
+      return parseInt(diffValue / day) + '天前';
+    }
+
+    return Utils.formatDate(timestamp, 'yyyy-MM-dd HH:mm:ss');
   }
 
 }
