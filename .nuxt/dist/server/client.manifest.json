@@ -21,11 +21,11 @@
     "img/net.1e01d6d.png",
     "layouts/admin.32809c2.css",
     "layouts/admin.a85ef4d.js",
-    "layouts/default.0cc435f.js",
-    "layouts/default.841f801.css",
+    "layouts/default.71502eb.js",
+    "layouts/default.afb9af2.css",
     "layouts/empty.6b3d116.js",
-    "layouts/no-footer.e17851e.js",
-    "layouts/no-footer.f6fd1d1.css",
+    "layouts/no-footer.0ca59ca.css",
+    "layouts/no-footer.a10978d.js",
     "pages/about.df48acd.js",
     "pages/admin/articles/index.25b0029.js",
     "pages/admin/articles/index.326d06e.css",
@@ -131,8 +131,8 @@
     "pages/user/email/reset.c493e52.js",
     "pages/user/email/verify.4c3baf1.css",
     "pages/user/email/verify.51201a6.js",
-    "pages/user/favorites.7499338.css",
-    "pages/user/favorites.ae55432.js",
+    "pages/user/favorites.32a99e4.js",
+    "pages/user/favorites.9773359.css",
     "pages/user/forget.3d616de.js",
     "pages/user/github/callback.7f2399b.css",
     "pages/user/github/callback.df19a98.js",
@@ -147,12 +147,12 @@
     "pages/user/settings.973d9a5.css",
     "pages/user/signin.3f09fe9.js",
     "pages/user/signup.df1f51b.js",
-    "runtime.726ade4.js",
+    "runtime.256b1f6.js",
     "vendors/2d0e2819.4ca68ce.js",
     "vendors/6a826292.533a3c7.js"
   ],
   "initial": [
-    "runtime.726ade4.js",
+    "runtime.256b1f6.js",
     "app.f0f6105.css",
     "app.4ebe09e.js"
   ],
@@ -167,11 +167,11 @@
     "commons/8303c976.df36147.js",
     "layouts/admin.32809c2.css",
     "layouts/admin.a85ef4d.js",
-    "layouts/default.0cc435f.js",
-    "layouts/default.841f801.css",
+    "layouts/default.71502eb.js",
+    "layouts/default.afb9af2.css",
     "layouts/empty.6b3d116.js",
-    "layouts/no-footer.e17851e.js",
-    "layouts/no-footer.f6fd1d1.css",
+    "layouts/no-footer.0ca59ca.css",
+    "layouts/no-footer.a10978d.js",
     "pages/about.df48acd.js",
     "pages/admin/articles/index.25b0029.js",
     "pages/admin/articles/index.326d06e.css",
@@ -277,8 +277,8 @@
     "pages/user/email/reset.c493e52.js",
     "pages/user/email/verify.4c3baf1.css",
     "pages/user/email/verify.51201a6.js",
-    "pages/user/favorites.7499338.css",
-    "pages/user/favorites.ae55432.js",
+    "pages/user/favorites.32a99e4.js",
+    "pages/user/favorites.9773359.css",
     "pages/user/forget.3d616de.js",
     "pages/user/github/callback.7f2399b.css",
     "pages/user/github/callback.df19a98.js",
@@ -2228,9 +2228,9 @@
       6,
       5
     ],
-    "2403a436": [
-      130,
-      131
+    "43fe0f8f": [
+      131,
+      130
     ],
     "6070bcea": [
       136,
@@ -2691,9 +2691,9 @@
       6,
       5
     ],
-    "a0de78fc": [
-      130,
-      131
+    "60e9a24a": [
+      131,
+      130
     ],
     "fc992e82": [
       136,
@@ -3944,24 +3944,24 @@
       8
     ],
     "1aa88cc2": [
-      130,
-      131
+      131,
+      130
     ],
-    "92efa6a6": [
-      130,
-      131
+    "fd917974": [
+      131,
+      130
     ],
     "8cf7459e": [
-      130,
-      131
+      131,
+      130
     ],
-    "6d48030b": [
-      130,
-      131
+    "37f719a4": [
+      131,
+      130
     ],
     "c19ae4d2": [
-      130,
-      131
+      131,
+      130
     ],
     "536a5b92": [
       132
@@ -4996,24 +4996,24 @@
       22
     ],
     "cd32db66": [
-      24,
-      23
+      23,
+      24
     ],
     "14633c4f": [
-      24,
-      23
+      23,
+      24
     ],
     "c233602c": [
-      24,
-      23
+      23,
+      24
     ],
     "45a935b1": [
-      24,
-      23
+      23,
+      24
     ],
     "35be6944": [
-      24,
-      23
+      23,
+      24
     ],
     "696b6914": [
       118,
@@ -5187,9 +5187,9 @@
       17,
       14
     ],
-    "e4f8192e": [
-      130,
-      131
+    "a503427c": [
+      131,
+      130
     ],
     "65a7bd89": [
       133,
@@ -5297,13 +5297,13 @@
       "layouts/admin.a85ef4d.js"
     ],
     "0fc22e05": [
-      "layouts/default.0cc435f.js"
+      "layouts/default.71502eb.js"
     ],
     "1debfe11": [
       "layouts/empty.6b3d116.js"
     ],
     "4258bdeb": [
-      "layouts/no-footer.e17851e.js"
+      "layouts/no-footer.a10978d.js"
     ],
     "2aff1868": [
       "pages/about.df48acd.js"
@@ -5480,7 +5480,7 @@
       "pages/user/email/verify.51201a6.js"
     ],
     "87e8c098": [
-      "pages/user/favorites.ae55432.js"
+      "pages/user/favorites.32a99e4.js"
     ],
     "2d541ca0": [
       "pages/user/forget.3d616de.js"
@@ -5510,7 +5510,7 @@
       "pages/user/signup.df1f51b.js"
     ],
     "6fca0322": [
-      "runtime.726ade4.js"
+      "runtime.256b1f6.js"
     ],
     "0ecbc622": [
       "vendors/2d0e2819.4ca68ce.js"
